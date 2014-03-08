@@ -7,13 +7,15 @@ import time
 import cgi
 from StringIO import StringIO
 import jinja2
+from wsgiref.validate import validator
 from app import make_app
+from sys import stderr
 
 def main():
     s = socket.socket()
     host = socket.gethostname() # Get local machine name
     port = random.randint(8000,9000)
-    s.bind((host, 9999))
+    s.bind((host, 9998))
 
     print 'http://%s:%d/' % (host, port)
     s.listen(5)
@@ -22,9 +24,9 @@ def main():
     while True:
         c, (client_host, client_port) = s.accept()
         print 'Got connection from', client_host, client_port
-        handle_connection(c)
+        handle_connection(c, client_port)
 
-def handle_connection(conn):
+def handle_connection(conn, port):
 
     headers_string = ''
     while headers_string[-4:] != '\r\n\r\n':
@@ -50,7 +52,16 @@ def handle_connection(conn):
     env['PATH_INFO'] = path
     env['QUERY_STRING'] = query
     env['CONTENT_TYPE'] = 'text/html'
-    env['CONTENT_LENGTH'] = 0
+    env['CONTENT_LENGTH'] = str(0)
+    env['SCRIPT_NAME'] = ''
+    env['SERVER_NAME'] = socket.gethostname()
+    env['SERVER_PORT'] = str(port)
+    env['wsgi.version'] = (1, 0)
+    env['wsgi.errors'] = stderr
+    env['wsgi.multithread']  = False
+    env['wsgi.multiprocess'] = False
+    env['wsgi.run_once']     = False
+    env['wsgi.url_scheme'] = 'http'
 
     def start_response(status, headers_response):
         conn.send('HTTP/1.0 ')
@@ -73,13 +84,14 @@ def handle_connection(conn):
     env['wsgi.input'] = StringIO(content)
 
     wsgi = make_app()
+    wsgi = validator(wsgi)
     result = wsgi(env, start_response)
+    wsgi.close()
 
     for data in result:
         conn.send(data)
 
     conn.close()
-
 
 if __name__ == '__main__':
     main()
