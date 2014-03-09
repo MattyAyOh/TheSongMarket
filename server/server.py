@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import random
+
 import socket
 from urlparse import urlparse, parse_qs
 import time
@@ -8,14 +9,28 @@ import cgi
 from StringIO import StringIO
 import jinja2
 from wsgiref.validate import validator
-from app import make_app
 from sys import stderr
+
+from app import make_app
+import quixote
+import imageapp
+
+
+# from quixote.demo import create_publisher
+# from quixote.demo.mini_demo import create_publisher
+from quixote.demo.altdemo import create_publisher
+p = create_publisher()
+
+# imageapp.setup()
+# p = imageapp.create_publisher()
+
 
 def main():
     s = socket.socket()
     host = socket.gethostname() # Get local machine name
-    port = random.randint(8000,9000)
-    s.bind((host, 9998))
+    # port = random.randint(8000,9000)
+    port = 9999
+    s.bind((host, port))
 
     print 'http://%s:%d/' % (host, port)
     s.listen(5)
@@ -24,7 +39,7 @@ def main():
     while True:
         c, (client_host, client_port) = s.accept()
         print 'Got connection from', client_host, client_port
-        handle_connection(c, client_port)
+        handle_connection(c, port)
 
 def handle_connection(conn, port):
 
@@ -62,6 +77,7 @@ def handle_connection(conn, port):
     env['wsgi.multiprocess'] = False
     env['wsgi.run_once']     = False
     env['wsgi.url_scheme'] = 'http'
+    env['HTTP_COOKIE'] = headers['cookie'] if 'cookie' in headers.keys() else ''
 
     def start_response(status, headers_response):
         conn.send('HTTP/1.0 ')
@@ -83,10 +99,11 @@ def handle_connection(conn, port):
 
     env['wsgi.input'] = StringIO(content)
 
-    wsgi = make_app()
+    wsgi = quixote.get_wsgi_app()
+    # wsgi = make_app()
     wsgi = validator(wsgi)
     result = wsgi(env, start_response)
-    wsgi.close()
+
 
     for data in result:
         conn.send(data)
