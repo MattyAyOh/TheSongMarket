@@ -39,7 +39,7 @@ for song in songsList:
     spotifyURL = getSpotifySearchURL()
     youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
 
-    print searchURL
+    print spotifyURL
     print youtubeSURL
     reqYT = urllib2.Request(youtubeSURL)
     responseYT = urllib2.urlopen(reqYT)
@@ -59,7 +59,7 @@ for song in songsList:
     print numraters
     print viewcount
 
-    req2 = urllib2.Request(searchURL)
+    req2 = urllib2.Request(spotifyURL)
     response2 = urllib2.urlopen(req2)
     spotify_page = response2.read(1400)
 
