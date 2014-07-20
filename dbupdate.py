@@ -5,12 +5,19 @@
 # July 19th, 2014
 #################################################
 
-import urllib, urllib2
+import urllib2
 import requests
 import json
 import HTMLParser
-import TSMConstants
 import TSMSpotify
+
+email = 'mattyayoh@gmail.com'
+token = 'PQBTwrEmyRJrR8GMs6ij'
+
+apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
+apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
+apiPUTURL = 'http://api.thesongmarket.com/v1/songs'
+
 
 # Helper Functions:
 

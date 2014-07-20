@@ -1,3 +1,6 @@
+import json
+import urllib2
+
 spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 
 def getSongsListFromSpotifyData():
