@@ -1,53 +1,51 @@
-import unicodedata
+#################################################
+# Property of The Song Market
+#
+# Created by: Matt Ao
+# July 19th, 2014
+#################################################
 
 import urllib, urllib2
 import requests
 import json
 import HTMLParser
+import TSMConstants
 
-email = 'mattyayoh@gmail.com'
-token = 'PQBTwrEmyRJrR8GMs6ij'
+# Helper Functions:
 
-apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
-apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
-apiPUTURL = 'http://api.thesongmarket.com/v1/songs'
+def getSongsListFromSpotifyData():
+    currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
+    spotifyRequest = urllib2.Request(spotifyAPIURL)
+    spotifyResponse = urllib2.urlopen(spotifyRequest)
+    spotifyData = spotifyResponse.read()
+    return spotifyData.split('<track ')[1:]
 
-currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
+def getTitleFromSpotifyData(songData):
+    return songData.split('<name>')[1].split('</name>')[0].split(" - ")[0].split(" (From")[0].split(" [")[0].split(" (")[0].replace("'", "")
 
-#################################################
-# Grab a list of songs&artists from a website
-#################################################
+def getArtistFromSpotifyData(songData):
+    return songData.split('<name>')[2].split('</name>')[0].split(" Featuring")[0]
 
-# req = urllib2.Request('http://www.billboard.com/rss/charts/hot-100')
-# response = urllib2.urlopen(req)
-# the_page = response.read()
+def cleanString(dirtyStr):
+    return str(HTMLParser.HTMLParser().unescape(dirtyStr))
 
-req = urllib2.Request('http://ws.spotify.com/search/1/track?q=genre:pop')
-response = urllib2.urlopen(req)
-the_page = response.read()
+def createSearchableString(oldStr):
+    return oldStr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
 
-#################################################
-# Parse web data for the song/artist name
-#################################################
-# listofSongs =the_page.split('<item>')[1:30]
-listofSongs =the_page.split('<track ')[1:]
-for song in listofSongs:
-    # title = song.split(' ', 3)[3].split('</title>')[0].replace("&#039;", "")
-    title = song.split('<name>')[1].split('</name>')[0].split(" - ")[0].split(" (From")[0].split(" [")[0].split(" (")[0].replace("'", "")
-    print title
-    title = str(HTMLParser.HTMLParser().unescape(title))
-    print title
-    title = title.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
-    print title
 
-    # artist = song.split('<artist>')[1].split('</artist>')[0].split(" Featuring")[0].split(" &amp;")[0]
-    artist = song.split('<name>')[2].split('</name>')[0].split(" Featuring")[0]
-    artist = HTMLParser.HTMLParser().unescape(artist)
-    artist = artist.translate(None, '!@#$%^&*()<>?:;{}[]-_+=\|')
+# Main Script:
 
-    #################################################
-    # Search spotify for popularity and album
-    #################################################
+songsList = getSongsListFromSpotifyData()
+for song in songsList:
+
+    rawTitle = getTitleFromSpotifyData()
+    cleanTitle = cleanString(rawTitle)
+    searchableTitle = createSearchableString(cleanTitle)
+
+    rawArtist = getArtistFromSpotifyData()
+    cleanArtist = cleanString(rawArtist)
+    searchableArtist = createSearchableString(cleanTitle)
+
 
     queryURL = title.replace(" ", "%20") + "%20" + artist.replace(" ", "%20")
     searchURL = "http://ws.spotify.com/search/1/track?q="+ queryURL
@@ -122,4 +120,4 @@ for song in listofSongs:
         p = requests.post(apiPOSTURL, data=body)
         print p.status_code
         print p.text
-
+    break
