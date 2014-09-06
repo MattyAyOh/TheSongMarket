@@ -6,7 +6,6 @@
 #################################################
 
 import urllib2
-import requests
 import json
 import HTMLParser
 import TSMSpotify
@@ -14,10 +13,19 @@ import TSMSpotify
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
 
+spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 apiPUTURL = 'http://api.thesongmarket.com/v1/songs'
 
+currentListOfDictOfSongs = []
+
+def getsongslistfromspotifydata():
+    currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
+    spotifyRequest = urllib2.Request(spotifyAPIURL)
+    spotifyResponse = urllib2.urlopen(spotifyRequest)
+    spotifyData = spotifyResponse.read()
+    return spotifyData.split('<track ')[1:]
 
 # Helper Functions:
 
@@ -30,14 +38,14 @@ def createSearchableString(oldStr):
 
 # Main Script:
 
-songsList = getSongsListFromSpotifyData()
+songsList = getsongslistfromspotifydata()
 for song in songsList:
 
-    rawTitle = getTitleFromSpotifyData()
+    rawTitle = getTitleFromSpotifyData(song)
     cleanTitle = cleanString(rawTitle)
     searchableTitle = createSearchableString(cleanTitle)
 
-    rawArtist = getArtistFromSpotifyData()
+    rawArtist = getArtistFromSpotifyData(song)
     cleanArtist = cleanString(rawArtist)
     searchableArtist = createSearchableString(cleanTitle)
 
@@ -47,6 +55,10 @@ for song in songsList:
     youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
 
     print spotifyURL
+    queryURL = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
+    searchURL = "http://ws.spotify.com/search/1/track?q="+ queryURL
+    youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + queryURL + "&orderby=viewCount&max-results=1"
+    print searchURL
     print youtubeSURL
     reqYT = urllib2.Request(youtubeSURL)
     responseYT = urllib2.urlopen(reqYT)
@@ -92,7 +104,7 @@ for song in songsList:
     oldPrice = 0
     songID = 0
     for result in currentListOfDictOfSongs:
-        if result['name']==title and result['artist_name']==artist:
+        if result['name']==rawTitle and result['artist_name']==rawArtist:
             print 'FOUND IT!'
             oldPrice = result['price']
             foundFlag = True;
@@ -104,7 +116,7 @@ for song in songsList:
     # Populate database
     #################################################
     change = 0
-    body = { 'user_email':email, 'user_token':token, 'song[name]':title, 'song[artist_name':artist, 'song[price]':price, 'song[change]':change }
+    body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
 
     if (foundFlag):
         change = price - oldPrice
@@ -116,4 +128,3 @@ for song in songsList:
         p = requests.post(apiPOSTURL, data=body)
         print p.status_code
         print p.text
-    break
