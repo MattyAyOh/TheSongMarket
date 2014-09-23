@@ -5,10 +5,12 @@
 # July 19th, 2014
 #################################################
 
-import urllib2
-import json
 import HTMLParser
-import TSMSpotify
+import json
+import urllib2
+import requests
+from TSMSpotify import *
+import csv
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -18,10 +20,7 @@ apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 apiPUTURL = 'http://api.thesongmarket.com/v1/songs'
 
-currentListOfDictOfSongs = []
-
 def getsongslistfromspotifydata():
-    currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
     spotifyRequest = urllib2.Request(spotifyAPIURL)
     spotifyResponse = urllib2.urlopen(spotifyRequest)
     spotifyData = spotifyResponse.read()
@@ -29,35 +28,51 @@ def getsongslistfromspotifydata():
 
 # Helper Functions:
 
-def cleanString(dirtyStr):
-    return str(HTMLParser.HTMLParser().unescape(dirtyStr))
+def cleanstring(dirtystr):
+    return str(HTMLParser.HTMLParser().unescape(dirtystr))
 
-def createSearchableString(oldStr):
-    return oldStr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
 
+def createsearchablestring(oldstr):
+    return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
+
+def getAveragePrice():
+    totalPrice = 0
+    songCount = 0
+    for songDict in currentListOfDictOfSongs:
+        totalPrice += int(songDict['price'])
+        songCount += 1
+    return totalPrice/songCount
+
+def getAverageDictionary():
+    tempDict = {}
+    for key, val in csv.reader(open("averages.csv")):
+        tempDict[key] = val
+    return tempDict
 
 # Main Script:
 
+currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 songsList = getsongslistfromspotifydata()
+averagePrice = getAveragePrice()
+averageDictionary = getAverageDictionary()
+
+print averagePrice
 for song in songsList:
 
     rawTitle = getTitleFromSpotifyData(song)
-    cleanTitle = cleanString(rawTitle)
-    searchableTitle = createSearchableString(cleanTitle)
+    cleanTitle = cleanstring(rawTitle)
+    searchableTitle = createsearchablestring(cleanTitle)
 
     rawArtist = getArtistFromSpotifyData(song)
-    cleanArtist = cleanString(rawArtist)
-    searchableArtist = createSearchableString(cleanTitle)
+    cleanArtist = cleanstring(rawArtist)
+    searchableArtist = createsearchablestring(cleanArtist)
 
-    searchableQuery = searchableTitle + searchableArtist
+    searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
 
-    spotifyURL = getSpotifySearchURL()
+    spotifyURL = getSpotifySearchURL(searchableQuery)
+    searchURL = "http://ws.spotify.com/search/1/track?q="+ searchableQuery
     youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
 
-    print spotifyURL
-    queryURL = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
-    searchURL = "http://ws.spotify.com/search/1/track?q="+ queryURL
-    youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + queryURL + "&orderby=viewCount&max-results=1"
     print searchURL
     print youtubeSURL
     reqYT = urllib2.Request(youtubeSURL)
@@ -78,14 +93,15 @@ for song in songsList:
     print numraters
     print viewcount
 
-    req2 = urllib2.Request(spotifyURL)
+    req2 = urllib2.Request(searchURL)
     response2 = urllib2.urlopen(req2)
     spotify_page = response2.read(1400)
+    track = ""
+    album = ""
 
     try:
         track = spotify_page.split('<album', 2)[1]
         album = track.split('<name>',1)[1].split('</name>',1)[0].split(" [")[0].replace("'", "''")
-        print album
     except IndexError:
         pass
 
@@ -104,8 +120,12 @@ for song in songsList:
     oldPrice = 0
     songID = 0
     for result in currentListOfDictOfSongs:
+        print result
         if result['name']==rawTitle and result['artist_name']==rawArtist:
             print 'FOUND IT!'
+            resultAvgPrice = int(averageDictionary[cleanstring(result['artist_name'])])
+            if price < resultAvgPrice:
+                price = (resultAvgPrice+price)/2
             oldPrice = result['price']
             foundFlag = True;
             songID = result['id']
@@ -116,7 +136,7 @@ for song in songsList:
     # Populate database
     #################################################
     change = 0
-    body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
+    body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name]':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
 
     if (foundFlag):
         change = price - oldPrice
