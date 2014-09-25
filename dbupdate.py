@@ -18,9 +18,9 @@ token = 'PQBTwrEmyRJrR8GMs6ij'
 spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
-apiPUTURL = 'http://api.thesongmarket.com/v1/songs'
+apiCREATEURL = 'http://api.thesongmarket.com/v1/songs'
 
-def getsongslistfromspotifydata():
+def     getsongslistfromspotifydata():
     spotifyRequest = urllib2.Request(spotifyAPIURL)
     spotifyResponse = urllib2.urlopen(spotifyRequest)
     spotifyData = spotifyResponse.read()
@@ -66,6 +66,8 @@ for song in songsList:
     rawArtist = getArtistFromSpotifyData(song)
     cleanArtist = cleanstring(rawArtist)
     searchableArtist = createsearchablestring(cleanArtist)
+
+    spotifyURI = getSpotifyURIFromSpotifyData(song)
 
     searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
 
@@ -120,8 +122,7 @@ for song in songsList:
     oldPrice = 0
     songID = 0
     for result in currentListOfDictOfSongs:
-        print result
-        if result['name']==rawTitle and result['artist_name']==rawArtist:
+        if result['spotify_uri'] == spotifyURI:
             print 'FOUND IT!'
             resultAvgPrice = int(averageDictionary[cleanstring(result['artist_name'])])
             if price < resultAvgPrice:
@@ -131,7 +132,6 @@ for song in songsList:
             songID = result['id']
             break
 
-
     #################################################
     # Populate database
     #################################################
@@ -140,11 +140,12 @@ for song in songsList:
 
     if (foundFlag):
         change = price - oldPrice
-        apiPUTURL += '/' + str(songID)
-        p = requests.put(apiPUTURL, data=body)
+        apiCREATEURL += '/' + str(songID)
+        p = requests.put(apiCREATEURL, data=body)
         print "PUT!"
 
     else:
-        p = requests.post(apiPOSTURL, data=body)
-        print p.status_code
-        print p.text
+        # p = requests.post(apiPOSTURL, data=body)
+        # print p.status_code
+        # print p.text
+        continue
