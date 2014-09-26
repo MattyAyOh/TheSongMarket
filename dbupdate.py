@@ -20,7 +20,7 @@ apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 apiCREATEURL = 'http://api.thesongmarket.com/v1/songs'
 
-def     getsongslistfromspotifydata():
+def getsongslistfromspotifydata():
     spotifyRequest = urllib2.Request(spotifyAPIURL)
     spotifyResponse = urllib2.urlopen(spotifyRequest)
     spotifyData = spotifyResponse.read()
@@ -95,20 +95,16 @@ for song in songsList:
     print numraters
     print viewcount
 
-    req2 = urllib2.Request(searchURL)
-    response2 = urllib2.urlopen(req2)
-    spotify_page = response2.read(1400)
-    track = ""
-    album = ""
+    spotifyRequest = urllib2.Request(searchURL)
+    spotifyResponse = urllib2.urlopen(spotifyRequest).read(1400)
 
-    try:
-        track = spotify_page.split('<album', 2)[1]
-        album = track.split('<name>',1)[1].split('</name>',1)[0].split(" [")[0].replace("'", "''")
-    except IndexError:
-        pass
+    album = spotifyResponse.split('<album',1)[1].split('<name>',1)[1].split('</name>',1)[0]
 
+    popularity = float(spotifyResponse.split('<popularity>',1)[1].split('</popularity>',1)[0])
+    scaledpopularity = (popularity-.70)/.30
+    if(scaledpopularity < 0):
+        scaledpopularity = 0
 
-    price = float(track.split('<popularity>',1)[1].split('</popularity>',1)[0])*100
     print price
 
     market = "Mainstream"
