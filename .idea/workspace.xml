@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd52c818-5852-44ba-9faa-9377e2ec8e05" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ytvcUpdate.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Examples" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/createsong.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/post.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbupdate.py" afterPath="$PROJECT_DIR$/dbupdate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheSongMarket.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +34,8 @@
       <file leaf-file-name="dbupdate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dbupdate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44074568" vertical-offset="1289" max-vertical-offset="2295">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5925433" vertical-offset="1280" max-vertical-offset="2370">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="e#173#190#0" expanded="true" />
               </folding>
@@ -50,9 +56,23 @@
       <file leaf-file-name="avgUpdate.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avgUpdate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="46" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+              <folding>
+                <element signature="e#173#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ytvcUpdate.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="e#173#190#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +93,7 @@
         <option value="$PROJECT_DIR$/TSMConstants.py" />
         <option value="$PROJECT_DIR$/avgUpdate.py" />
         <option value="$PROJECT_DIR$/TSMSpotify.py" />
+        <option value="$PROJECT_DIR$/ytvcUpdate.py" />
         <option value="$PROJECT_DIR$/dbupdate.py" />
       </list>
     </option>
@@ -361,7 +382,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="840">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#173#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,9 +464,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avgUpdate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding>
+            <element signature="e#173#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,10 +480,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#173#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dbupdate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44074568" vertical-offset="1289" max-vertical-offset="2295">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5925433" vertical-offset="1280" max-vertical-offset="2370">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="e#173#190#0" expanded="true" />
           </folding>

@@ -49,14 +49,20 @@ def getAverageDictionary():
         tempDict[key] = val
     return tempDict
 
+def getLastPricesDictionary():
+    tempDict = {}
+    for key, val in csv.reader(open("lastPrices.csv")):
+        tempDict[key] = val
+    return tempDict
+
 # Main Script:
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 songsList = getsongslistfromspotifydata()
 averagePrice = getAveragePrice()
 averageDictionary = getAverageDictionary()
+lastPricesDictionary = getLastPricesDictionary()
 
-print averagePrice
 for song in songsList:
 
     rawTitle = getTitleFromSpotifyData(song)
@@ -87,12 +93,10 @@ for song in songsList:
     responseDYT = urllib2.urlopen(reqYT)
     resultsDYT = responseDYT.read().split("rating average='")[1]
 
-    rating = resultsDYT.split("'", 1)[0]
+    rating = int(resultsDYT.split("'", 1)[0])/5
     numraters = resultsDYT.split("numRaters='")[1].split("'",1)[0]
     viewcount = resultsDYT.split("viewCount='")[1].split("'",1)[0]
 
-    print rating
-    print numraters
     print viewcount
 
     spotifyRequest = urllib2.Request(searchURL)
@@ -104,6 +108,7 @@ for song in songsList:
     scaledpopularity = (popularity-.70)/.30
     if(scaledpopularity < 0):
         scaledpopularity = 0
+        price = 10
 
     print price
 
