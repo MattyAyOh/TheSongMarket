@@ -1,3 +1,4 @@
 aws/*
 reference/*
 data/*
+*.pyc
