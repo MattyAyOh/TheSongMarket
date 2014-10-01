@@ -7,54 +7,35 @@
 
 from TSMSpotify import *
 from TSMCommon import *
-import urllib2
 import requests
 
 averageDictionary = getAverageDictionary()
 totalAveragePrice = getTotalAveragePrice(averageDictionary)
 lastPricesDictionary = getLastPricesDictionary()
 
-def createIPO(song):
-    rawTitle = getTitleFromSpotifyData(song)
+def createIPO(songURI):
+    songData = requestResponse(getSpotifyLookupURL(songURI))
+
+    rawTitle = getTitleFromSpotifyData(songData)
     cleanTitle = cleanstring(rawTitle)
     searchableTitle = createsearchablestring(cleanTitle)
 
-    rawArtist = getArtistFromSpotifyData(song)
+    rawArtist = getArtistFromSpotifyData(songData)
     cleanArtist = cleanstring(rawArtist)
     searchableArtist = createsearchablestring(cleanArtist)
 
-    spotifyURI = getSpotifyURIFromSpotifyData(song)
-
     searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
 
-    spotifyURL = getSpotifySearchURL(searchableQuery)
-    searchURL = "http://ws.spotify.com/search/1/track?q="+ searchableQuery
     youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
+    youtubeData = requestResponse(youtubeSURL)
 
-    print searchURL
-    print youtubeSURL
-    reqYT = urllib2.Request(youtubeSURL)
-    responseYT = urllib2.urlopen(reqYT)
-    results = responseYT.read()
+    youtubeRating = float(youtubeData.split("rating average='")[1].split("'", 1)[0])/5
 
-    youtubeDURL = results.split('<entry><id>')[1].split('</id>')[0]
-    print youtubeDURL
-    reqDYT = urllib2.Request(youtubeDURL)
-    responseDYT = urllib2.urlopen(reqYT)
-    resultsDYT = responseDYT.read().split("rating average='")[1]
+    numraters = youtubeData.split("numRaters='")[1].split("'",1)[0]
+    viewcount = youtubeData.split("viewCount='")[1].split("'",1)[0]
 
-    rating = int(resultsDYT.split("'", 1)[0])/5
-    numraters = resultsDYT.split("numRaters='")[1].split("'",1)[0]
-    viewcount = resultsDYT.split("viewCount='")[1].split("'",1)[0]
-
-    print viewcount
-
-    spotifyRequest = urllib2.Request(searchURL)
-    spotifyResponse = urllib2.urlopen(spotifyRequest).read(1400)
-
-    album = spotifyResponse.split('<album',1)[1].split('<name>',1)[1].split('</name>',1)[0]
-
-    popularity = float(spotifyResponse.split('<popularity>',1)[1].split('</popularity>',1)[0])
+    album = getAlbumFromSpotifyData(songData)
+    popularity = getPopularityFromSpotifyData(songData)
     scaledpopularity = (popularity-.70)/.30
     if(scaledpopularity < 0):
         scaledpopularity = 0

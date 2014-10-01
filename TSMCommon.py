@@ -7,12 +7,21 @@
 
 import HTMLParser
 import csv
+import urllib2
 
 def cleanstring(dirtystr):
     return str(HTMLParser.HTMLParser().unescape(dirtystr))
 
 def createsearchablestring(oldstr):
     return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
+
+def requestResponse(url, length=0):
+    request = urllib2.Request(url)
+    response = urllib2.urlopen(request)
+    if(length == 0):
+        return response.read()
+    else:
+        return response.read(length)
 
 def getTotalAveragePrice(avgDict):
     totalPrice = 0
