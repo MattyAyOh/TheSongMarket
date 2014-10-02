@@ -5,15 +5,13 @@
 # July 19th, 2014
 #################################################
 
-import HTMLParser
 import json
-import urllib2
 import requests
 from TSMSpotify import *
+from TSMCommon import *
 import csv
 
-email = 'mattyayoh@gmail.com'
-token = 'PQBTwrEmyRJrR8GMs6ij'
+
 
 spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
