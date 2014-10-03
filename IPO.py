@@ -14,7 +14,6 @@ email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
 rawTitle = ""
 rawArtist = ""
-apiCREATEURL = 'http://api.thesongmarket.com/v1/songs'
 
 def generateIPO(songURI):
     songData = requestResponse(getSpotifyLookupURL(songURI))
@@ -66,13 +65,13 @@ def generateIPO(songURI):
     finalIPOPrice = price*overallPerformance
     return finalIPOPrice
 
-def publishIPO(songURI, ipo):
+def publishIPO(songID, ipo):
     # market = "Mainstream"
-    body = {'user_email': email, 'user_token': token, 'song[name]': rawTitle, 'song[artist_name]': rawArtist,
-            'song[price]': ipo, 'song[ipo_value]': ipo, 'song[change]': 0}
+    body = {'user_email': email, 'user_token': token, 'song[price]': ipo}
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
-    p = requests.post(apiCREATEURL, data=body, headers=headers)
+    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
+    p = requests.put(apiUPDATEURL, data=body, headers=headers)
     print p.status_code
     print p.text
 
@@ -80,7 +79,7 @@ def publishIPO(songURI, ipo):
 def createIPO(songURI, TSMTrackID=-1):
     if(not(checkTrackIDExists(TSMTrackID))):
         finalIPOPrice = generateIPO(songURI)
-        publishIPO(songURI, finalIPOPrice)
+        publishIPO(TSMTrackID, finalIPOPrice)
 
 listofArgs = sys.argv[1:]
 for arg in listofArgs:
