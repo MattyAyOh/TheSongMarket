@@ -8,6 +8,7 @@
 from TSMSpotify import *
 from TSMCommon import *
 import requests
+import sys
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -81,3 +82,9 @@ def createIPO(songURI, TSMTrackID=-1):
         finalIPOPrice = generateIPO(songURI)
         publishIPO(songURI, finalIPOPrice)
 
+listofArgs = sys.argv[1:]
+for arg in listofArgs:
+    argsSplit = arg.split(",")
+    uri = argsSplit[0]
+    id = argsSplit[1]
+    createIPO(uri, id)
