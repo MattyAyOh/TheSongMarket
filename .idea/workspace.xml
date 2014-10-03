@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd52c818-5852-44ba-9faa-9377e2ec8e05" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbupdate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allUpdate.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IPO.py" afterPath="$PROJECT_DIR$/IPO.py" />
     </list>
     <ignored path="TheSongMarket.iws" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="IPO.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IPO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7876448" vertical-offset="633" max-vertical-offset="1410">
-              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+            <state vertical-scroll-proportion="1.4671814" vertical-offset="0" max-vertical-offset="1455">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="e#173#197#0" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file leaf-file-name="TSMCommon.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TSMCommon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="945">
+            <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="945">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="e#173#190#0" expanded="true" />
@@ -197,7 +197,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dbupdate.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/allUpdate.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -455,11 +455,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
+    <entry file="file://$PROJECT_DIR$/IPOIndividual.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.5405405" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#175#199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,20 +475,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPOIndividual.py">
+    <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5405405" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#175#199#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IPO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7876448" vertical-offset="633" max-vertical-offset="1410">
-          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+        <state vertical-scroll-proportion="1.4671814" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="e#173#197#0" expanded="true" />
           </folding>

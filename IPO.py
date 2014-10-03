@@ -75,9 +75,8 @@ def publishIPO(songID, ipo):
     print p.status_code
     print p.text
 
-
 def createIPO(songURI, TSMTrackID=-1):
-    if(not(checkTrackIDExists(TSMTrackID))):
+    if(checkTrackIDExists(TSMTrackID)):
         finalIPOPrice = generateIPO(songURI)
         publishIPO(TSMTrackID, finalIPOPrice)
 
@@ -85,5 +84,9 @@ listofArgs = sys.argv[1:]
 for arg in listofArgs:
     argsSplit = arg.split(",")
     uri = argsSplit[0]
-    id = argsSplit[1]
+    id = 0
+    try:
+        id = int(argsSplit[1])
+    except ValueError:
+        id = -1
     createIPO(uri, id)
