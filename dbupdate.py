@@ -6,12 +6,8 @@
 #################################################
 
 import json
-import requests
-from TSMSpotify import *
-from TSMCommon import *
+from IPO import *
 import csv
-
-
 
 spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
@@ -25,7 +21,6 @@ def getsongslistfromspotifydata():
     return spotifyData.split('<track ')[1:]
 
 # Helper Functions:
-
 def cleanstring(dirtystr):
     return str(HTMLParser.HTMLParser().unescape(dirtystr))
 
@@ -100,12 +95,10 @@ for song in songsList:
     spotifyRequest = urllib2.Request(searchURL)
     spotifyResponse = urllib2.urlopen(spotifyRequest).read(1400)
 
-    album = spotifyResponse.split('<album',1)[1].split('<name>',1)[1].split('</name>',1)[0]
-
-    popularity = float(spotifyResponse.split('<popularity>',1)[1].split('</popularity>',1)[0])
-    scaledpopularity = (popularity-.70)/.30
-    if(scaledpopularity < 0):
-        scaledpopularity = 0
+    album = getAlbumFromSpotifyData(song)
+    popularity = getPopularityFromSpotifyData(song)
+    if(popularity < 0):
+        popularity = 0
         price = 10
 
     print price
@@ -144,7 +137,5 @@ for song in songsList:
         print "PUT!"
 
     else:
-        # p = requests.post(apiPOSTURL, data=body)
-        # print p.status_code
-        # print p.text
+        createIPO(spotifyURI)
         continue

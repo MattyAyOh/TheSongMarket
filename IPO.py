@@ -57,12 +57,11 @@ def generateIPO(songURI):
         price = (((totalYTPoints-100000000.0)/900000000.0)*5000)+5000
 
     popularity = getPopularityFromSpotifyData(songData)
-    scaledpopularity = (popularity-.70)/.30
-    if(scaledpopularity < 0):
-        scaledpopularity = 0
+    if(popularity < 0):
+        popularity = 0
         price = 10
 
-    overallPerformance = (scaledpopularity + youtubeRating)/2
+    overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
     return finalIPOPrice
 
@@ -81,3 +80,4 @@ def createIPO(songURI, TSMTrackID=-1):
     if(not(checkTrackIDExists(TSMTrackID))):
         finalIPOPrice = generateIPO(songURI)
         publishIPO(songURI, finalIPOPrice)
+
