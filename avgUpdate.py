@@ -1,6 +1,8 @@
 #################################################
 # Property of The Song Market
 #
+# Update csv of average price for an artist
+#
 # Created by: Matt Ao
 # Sept 19th, 2014
 #################################################
@@ -8,7 +10,6 @@
 import HTMLParser
 import json
 import urllib2
-import requests
 import csv
 
 email = 'mattyayoh@gmail.com'

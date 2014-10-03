@@ -7,52 +7,17 @@
 
 import json
 from IPO import *
-import csv
 
-spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
-apiCREATEURL = 'http://api.thesongmarket.com/v1/songs'
 
-def getsongslistfromspotifydata():
-    spotifyRequest = urllib2.Request(spotifyAPIURL)
-    spotifyResponse = urllib2.urlopen(spotifyRequest)
-    spotifyData = spotifyResponse.read()
-    return spotifyData.split('<track ')[1:]
-
-# Helper Functions:
-def cleanstring(dirtystr):
-    return str(HTMLParser.HTMLParser().unescape(dirtystr))
-
-
-def createsearchablestring(oldstr):
-    return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
-
-def getAveragePrice():
-    totalPrice = 0
-    songCount = 0
-    for songDict in currentListOfDictOfSongs:
-        totalPrice += int(songDict['price'])
-        songCount += 1
-    return totalPrice/songCount
-
-def getAverageDictionary():
-    tempDict = {}
-    for key, val in csv.reader(open("averages.csv")):
-        tempDict[key] = val
-    return tempDict
-
-def getLastPricesDictionary():
-    tempDict = {}
-    for key, val in csv.reader(open("lastPrices.csv")):
-        tempDict[key] = val
-    return tempDict
-
-# Main Script:
+#################################################
+# Main Script
+#################################################
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-songsList = getsongslistfromspotifydata()
-averagePrice = getAveragePrice()
+songsList = getListofSongsFromSpotifyData()
+averagePrice = getTotalAveragePrice()
 averageDictionary = getAverageDictionary()
 lastPricesDictionary = getLastPricesDictionary()
 
@@ -130,10 +95,12 @@ for song in songsList:
     change = 0
     body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name]':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
 
+    apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
+
     if (foundFlag):
         change = price - oldPrice
         apiCREATEURL += '/' + str(songID)
-        p = requests.put(apiCREATEURL, data=body)
+        p = requests.post(apiCREATEURL, data=body)
         print "PUT!"
 
     else:

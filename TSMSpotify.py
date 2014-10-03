@@ -1,5 +1,20 @@
+#################################################
+# Property of The Song Market
+#
+# Spotify Methods
+#
+# Created by: Matt Ao
+# July 19th, 2014
+#################################################
 
+import urllib2
+spotifyAPIURL = 'http://ws.spotify.com/search/1/track?q=genre:pop'
 
+def getListofSongsFromSpotifyData():
+    spotifyRequest = urllib2.Request(spotifyAPIURL)
+    spotifyResponse = urllib2.urlopen(spotifyRequest)
+    spotifyData = spotifyResponse.read()
+    return spotifyData.split('<track ')[1:]
 
 def getTitleFromSpotifyData(songData):
     return songData.split('<name>')[1].split('</name>')[0].split(" - ")[0].split(" (From")[0].split(" [")[0].split(" (")[0].replace("'", "")

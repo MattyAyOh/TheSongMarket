@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd52c818-5852-44ba-9faa-9377e2ec8e05" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IPO.py" afterPath="$PROJECT_DIR$/IPO.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IPOService.py" afterPath="$PROJECT_DIR$/IPOService.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TSMCommon.py" afterPath="$PROJECT_DIR$/TSMCommon.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TSMSpotify.py" afterPath="$PROJECT_DIR$/TSMSpotify.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avgUpdate.py" afterPath="$PROJECT_DIR$/avgUpdate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbupdate.py" afterPath="$PROJECT_DIR$/dbupdate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ytvcUpdate.py" afterPath="$PROJECT_DIR$/ytvcUpdate.py" />
     </list>
     <ignored path="TheSongMarket.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="dbupdate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dbupdate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7403462" vertical-offset="1454" max-vertical-offset="2205">
-              <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.3088803" vertical-offset="0" max-vertical-offset="1710">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#173#184#0" expanded="true" />
               </folding>
@@ -44,8 +45,8 @@
       <file leaf-file-name="IPO.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IPO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.76923" vertical-offset="375" max-vertical-offset="1335">
-              <caret line="61" column="18" selection-start-line="58" selection-start-column="4" selection-end-line="61" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+              <caret line="53" column="80" selection-start-line="53" selection-start-column="80" selection-end-line="53" selection-end-column="80" />
               <folding>
                 <element signature="e#173#197#0" expanded="true" />
               </folding>
@@ -56,8 +57,8 @@
       <file leaf-file-name="TSMCommon.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TSMCommon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="930">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="945">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="e#173#190#0" expanded="true" />
               </folding>
@@ -68,8 +69,8 @@
       <file leaf-file-name="TSMSpotify.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -78,10 +79,10 @@
       <file leaf-file-name="avgUpdate.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avgUpdate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
-                <element signature="e#173#190#0" expanded="true" />
+                <element signature="e#219#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,9 +92,9 @@
         <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="49" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
               <folding>
-                <element signature="e#173#190#0" expanded="true" />
+                <element signature="e#220#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,10 +103,10 @@
       <file leaf-file-name="IPOService.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IPOService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#271#303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,12 +126,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/TSMConstants.py" />
-        <option value="$PROJECT_DIR$/avgUpdate.py" />
+        <option value="$PROJECT_DIR$/IPO.py" />
         <option value="$PROJECT_DIR$/ytvcUpdate.py" />
+        <option value="$PROJECT_DIR$/avgUpdate.py" />
         <option value="$PROJECT_DIR$/TSMCommon.py" />
         <option value="$PROJECT_DIR$/IPOService.py" />
         <option value="$PROJECT_DIR$/TSMSpotify.py" />
-        <option value="$PROJECT_DIR$/IPO.py" />
         <option value="$PROJECT_DIR$/dbupdate.py" />
       </list>
     </option>
@@ -420,7 +421,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="840">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
-            <element signature="e#173#190#0" expanded="true" />
+            <element signature="e#219#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -499,50 +500,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IPOService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#271#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="49" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
           <folding>
-            <element signature="e#173#190#0" expanded="true" />
+            <element signature="e#220#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avgUpdate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <element signature="e#173#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPOService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSMCommon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#173#190#0" expanded="true" />
+            <element signature="e#219#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IPO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.76923" vertical-offset="375" max-vertical-offset="1335">
-          <caret line="61" column="18" selection-start-line="58" selection-start-column="4" selection-end-line="61" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+          <caret line="53" column="80" selection-start-line="53" selection-start-column="80" selection-end-line="53" selection-end-column="80" />
           <folding>
             <element signature="e#173#197#0" expanded="true" />
           </folding>
@@ -551,16 +542,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TSMCommon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="945">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#173#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dbupdate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7403462" vertical-offset="1454" max-vertical-offset="2205">
-          <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.3088803" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#173#184#0" expanded="true" />
           </folding>

@@ -1,14 +1,14 @@
 #################################################
 # Property of The Song Market
 #
+# Update csv of Last Prices.  Run this daily
+#
 # Created by: Matt Ao
 # Sept 25th, 2014
 #################################################
 
-import HTMLParser
 import json
 import urllib2
-import requests
 import csv
 
 email = 'mattyayoh@gmail.com'

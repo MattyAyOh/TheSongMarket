@@ -36,9 +36,10 @@ def requestResponse(url, length=0):
     else:
         return response.read(length)
 
-def getTotalAveragePrice(avgDict):
+def getTotalAveragePrice():
     totalPrice = 0
     songCount = 0
+    avgDict = getAverageDictionary()
     for avgKey, avgValue in avgDict.iteritems():
         totalPrice += int(avgValue)
         songCount += 1
