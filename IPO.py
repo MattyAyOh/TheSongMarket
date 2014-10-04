@@ -63,6 +63,12 @@ def generateIPO(songURI):
 
     overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
+
+    averageDictionary = getAverageDictionary()
+    artistAvgPrice = int(averageDictionary[cleanArtist])
+    if finalIPOPrice < artistAvgPrice:
+        finalIPOPrice = (artistAvgPrice+finalIPOPrice)/2
+
     return finalIPOPrice
 
 def publishIPO(songID, ipo):
@@ -76,6 +82,7 @@ def publishIPO(songID, ipo):
     print p.text
 
 def createIPO(songURI, TSMTrackID=-1):
+    #TODO: Check if song is 3 days old on youtube
     if(checkTrackIDExists(TSMTrackID)):
         finalIPOPrice = generateIPO(songURI)
         publishIPO(TSMTrackID, finalIPOPrice)

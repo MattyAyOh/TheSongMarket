@@ -16,12 +16,12 @@ apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_tok
 #################################################
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-songsList = getListofSongsFromSpotifyData()
+spotifyTopSongsList = getListofSongsFromSpotifyData()
 averagePrice = getTotalAveragePrice()
 averageDictionary = getAverageDictionary()
 lastPricesDictionary = getLastPricesDictionary()
 
-for song in songsList:
+for song in spotifyTopSongsList:
 
     rawTitle = getTitleFromSpotifyData(song)
     cleanTitle = cleanstring(rawTitle)
@@ -81,13 +81,7 @@ for song in songsList:
     for result in currentListOfDictOfSongs:
         if result['spotify_uri'] == spotifyURI:
             print 'FOUND IT!'
-            resultAvgPrice = int(averageDictionary[cleanstring(result['artist_name'])])
-            if price < resultAvgPrice:
-                price = (resultAvgPrice+price)/2
-            oldPrice = result['price']
-            foundFlag = True;
-            songID = result['id']
-            break
+
 
     #################################################
     # Populate database

@@ -25,9 +25,6 @@ averagePrice = 0
 def cleanstring(dirtystr):
     return str(HTMLParser.HTMLParser().unescape(dirtystr).encode('utf8'))
 
-def createsearchablestring(oldstr):
-    return oldstr.translate(None, '!@#%^&*()<>?:;{}[]-_+=\|')
-
 dictionaryTotals = {}
 dictionaryCounts = {}
 dictionaryAverages = {}
