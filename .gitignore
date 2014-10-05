@@ -3,3 +3,4 @@ reference/*
 data/*
 *.pyc
 averages.csv
+*.csv

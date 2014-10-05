@@ -31,12 +31,12 @@ dictionaryPrices = {}
 dictionaryVC = {}
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-print unidecode(u"\u5317\u4EB0")
+
 
 for song in currentListOfDictOfSongs:
     print song['name']
     print song['artist_name']
-    searchableQuery = (song['name'] + " " + song['artist_name']).replace(" ", "%20")
+    searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
     print searchableQuery
     youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
 
