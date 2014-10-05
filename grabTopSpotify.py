@@ -49,16 +49,32 @@ for song in spotifyTopSongsList:
     print youtubeDURL
     reqDYT = urllib2.Request(youtubeDURL)
     responseDYT = urllib2.urlopen(reqYT)
-    resultsDYT = responseDYT.read().split("rating average='")[1]
+
+    resultsYT = responseDYT.read()
+
+    publishedDate = getDateUtilFromString(results.YT.split("<published>")[1].split("</published>")[0])
+    currentDate = datetime.datetime.now()
+    differenceInDate = (currentDate - publishedDate).days
+
+    expectedPercent = .01
+    if( differenceInDate > 90 ):
+        daysExpired = differenceInDate - 90
+        monthsExpired = int(daysExpired/30)
+        if monthsExpired >= 45:
+            expectedPercent = .001
+        else:
+            expectedPercent -= (monthsExpired*.0002)
+
+    lastPrice = lastPricesDictionary[spotifyURI]
+
+
+    resultsDYT = resultsYT.split("rating average='")[1]
 
     rating = int(resultsDYT.split("'", 1)[0])/5
     numraters = resultsDYT.split("numRaters='")[1].split("'",1)[0]
     viewcount = resultsDYT.split("viewCount='")[1].split("'",1)[0]
 
     print viewcount
-
-    spotifyRequest = urllib2.Request(searchURL)
-    spotifyResponse = urllib2.urlopen(spotifyRequest).read(1400)
 
     album = getAlbumFromSpotifyData(song)
     popularity = getPopularityFromSpotifyData(song)

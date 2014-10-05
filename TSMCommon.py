@@ -8,6 +8,8 @@
 import HTMLParser
 import csv
 import urllib2
+import datetime
+
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -18,6 +20,10 @@ def cleanstring(dirtystr):
 
 def createsearchablestring(oldstr):
     return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
+
+def getDateUtilFromString(dateString):
+    dateUtil = datetime.datetime.strptime( dateString, "%Y-%m-%dT%H:%M:%SZ" )
+    return dateUtil
 
 def checkTrackIDExists(TSMTrackID):
     apiCHECKURL = "http://api.thesongmarket.com/v1/songs/"+str(TSMTrackID)+"?user_email="+email+"&user_token="+token

@@ -9,11 +9,18 @@ from TSMSpotify import *
 from TSMCommon import *
 import requests
 import sys
+import os.path
+from avgUpdate import *
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
 rawTitle = ""
 rawArtist = ""
+
+if(not(os.path.isfile('averages.csv'))):
+    print "Hello"
+    createAverages()
+print "wait"
 
 def generateIPO(songURI):
     songData = requestResponse(getSpotifyLookupURL(songURI))
@@ -57,6 +64,7 @@ def generateIPO(songURI):
         price = (((totalYTPoints-100000000.0)/900000000.0)*5000)+5000
 
     popularity = getPopularityFromSpotifyData(songData)
+
     if(popularity < 0):
         popularity = 0
         price = 10
@@ -83,6 +91,8 @@ def publishIPO(songID, ipo):
 
 def createIPO(songURI, TSMTrackID=-1):
     #TODO: Check if song is 3 days old on youtube
+    print songURI
+    print TSMTrackID
     if(checkTrackIDExists(TSMTrackID)):
         finalIPOPrice = generateIPO(songURI)
         publishIPO(TSMTrackID, finalIPOPrice)
