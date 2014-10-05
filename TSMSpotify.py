@@ -29,7 +29,7 @@ def getSpotifyURIFromSpotifyData(songData):
     return songData.split('<track href="', 1)[1].split('">',1)[0]
 
 def getPopularityFromSpotifyData(songData):
-    return (float(songData.split('<popularity>')[1].split('</popularity>')[0])-.60)/.40
+    return float(songData.split('<popularity>')[1].split('</popularity>')[0])
 
 def getSpotifySearchURL(query):
     return "http://ws.spotify.com/search/1/track?q="+query

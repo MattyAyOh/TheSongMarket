@@ -2,3 +2,4 @@ aws/*
 reference/*
 data/*
 *.pyc
+averages.csv

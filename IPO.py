@@ -18,9 +18,7 @@ rawTitle = ""
 rawArtist = ""
 
 if(not(os.path.isfile('averages.csv'))):
-    print "Hello"
     createAverages()
-print "wait"
 
 def generateIPO(songURI):
     songData = requestResponse(getSpotifyLookupURL(songURI))
@@ -65,10 +63,6 @@ def generateIPO(songURI):
 
     popularity = getPopularityFromSpotifyData(songData)
 
-    if(popularity < 0):
-        popularity = 0
-        price = 10
-
     overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
 
@@ -77,6 +71,8 @@ def generateIPO(songURI):
     if finalIPOPrice < artistAvgPrice:
         finalIPOPrice = (artistAvgPrice+finalIPOPrice)/2
 
+    if finalIPOPrice < 10:
+        finalIPOPrice = 10
     return finalIPOPrice
 
 def publishIPO(songID, ipo):

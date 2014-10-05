@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd52c818-5852-44ba-9faa-9377e2ec8e05" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IPO.py" afterPath="$PROJECT_DIR$/IPO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TSMCommon.py" afterPath="$PROJECT_DIR$/TSMCommon.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TSMSpotify.py" afterPath="$PROJECT_DIR$/TSMSpotify.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avgUpdate.py" afterPath="$PROJECT_DIR$/avgUpdate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grabTopSpotify.py" afterPath="$PROJECT_DIR$/grabTopSpotify.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ytvcUpdate.py" afterPath="$PROJECT_DIR$/ytvcUpdate.py" />
     </list>
     <ignored path="TheSongMarket.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +39,8 @@
       <file leaf-file-name="IPO.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IPO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63320464" vertical-offset="933" max-vertical-offset="1710">
-              <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.57915056" vertical-offset="510" max-vertical-offset="1650">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#173#197#0" expanded="true" />
               </folding>
@@ -68,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -504,14 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TSMCommon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1035">
@@ -522,10 +510,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IPO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63320464" vertical-offset="933" max-vertical-offset="1710">
-          <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.57915056" vertical-offset="510" max-vertical-offset="1650">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="e#173#197#0" expanded="true" />
           </folding>
