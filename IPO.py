@@ -77,7 +77,7 @@ def generateIPO(songURI):
 
 def publishIPO(songID, ipo):
     # market = "Mainstream"
-    body = {'user_email': email, 'user_token': token, 'song[price]': ipo}
+    body = {'user_email': email, 'user_token': token, 'song[ipo_value]': ipo}
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
     apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
