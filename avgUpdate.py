@@ -53,4 +53,4 @@ def createAverages():
     for key, val in dictionaryAverages.items():
         w.writerow([key, val])
 
-createAverages()
+# createAverages()

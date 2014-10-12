@@ -20,16 +20,14 @@ token = 'PQBTwrEmyRJrR8GMs6ij'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 
 def cleanstring(dirtystr):
-    try:
-        return str(HTMLParser.HTMLParser().unescape(dirtystr))
-    except:
-        return "FAIL"
+    return str(HTMLParser.HTMLParser().unescape(dirtystr))
 
 def createsearchablestring(oldstr):
     return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
 
 
 def createVCPriceDict():
+    dictionaryPrices = {}
     dictionaryVC = {}
 
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
@@ -44,24 +42,31 @@ def createVCPriceDict():
         reqYT = urllib2.Request(youtubeSURL)
         responseYT = urllib2.urlopen(reqYT)
         results = responseYT.read()
-        try:
-            viewcount = int(results.split("viewCount='")[1].split("'",1)[0])
-            numraters = int(results.split("numRaters='")[1].split("'",1)[0])
-        except IndexError:
-            continue
 
-        totalVC = viewcount + numraters
+        viewcount = int(results.split("viewCount='")[1].split("'",1)[0])
 
         spotifyURI = song['spotify_uri']
+        if spotifyURI in dictionaryPrices:
+            continue
+        else:
+            try:
+                dictionaryPrices[spotifyURI] = int(song['price'])
+            except TypeError:
+                dictionaryPrices[spotifyURI] = 10
 
         if spotifyURI in dictionaryVC:
             continue
         else:
-            dictionaryVC[spotifyURI] = (song['id'],totalVC)
+            dictionaryVC[spotifyURI] = viewcount
+
+    w = csv.writer(open("lastPrices.csv", "w+"))
+
+    for key, val in dictionaryPrices.items():
+        w.writerow([key, val])
 
     w2 = csv.writer(open("lastVC.csv", "w+"))
 
     for key, val in dictionaryVC.items():
         w2.writerow([key, val])
 
-# createVCPriceDict()
+createVCPriceDict()

@@ -22,7 +22,7 @@ def createsearchablestring(oldstr):
     return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
 
 def getDateUtilFromString(dateString):
-    dateUtil = datetime.datetime.strptime( dateString, "%Y-%m-%dT%H:%M:%SZ" )
+    dateUtil = datetime.datetime.strptime( dateString[:-5], "%Y-%m-%dT%H:%M:%S" )
     return dateUtil
 
 def checkTrackIDExists(TSMTrackID):
@@ -61,4 +61,23 @@ def getLastPricesDictionary():
     tempDict = {}
     for key, val in csv.reader(open("lastPrices.csv")):
         tempDict[key] = val
+    return tempDict
+
+def getLastVCDictionary():
+    tempDict = {}
+    for key, val in csv.reader(open("lastVC.csv")):
+        vallist = val.replace('(', '').replace(')','').split(',')
+        valtuple = tuple(vallist)
+        tempDict[key] = valtuple
+    return tempDict
+
+def getTempVCDictionary():
+    tempDict = {}
+    try:
+        for key, val in csv.reader(open("tempVC.csv")):
+            vallist = val.replace('(', '').replace(')','').split(',')
+            valtuple = tuple(vallist)
+            tempDict[key] = valtuple
+    except IOError:
+        tempDict = {}
     return tempDict

@@ -7,6 +7,7 @@
 
 import json
 from IPO import *
+from ytvcUpdate import *
 
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
@@ -14,6 +15,9 @@ apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_tok
 #################################################
 # Main Script
 #################################################
+
+if(not(os.path.isfile('lastPrices.csv')) or not(os.path.isfile('lastVC.csv'))):
+    createVCPriceDict()
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 spotifyTopSongsList = getListofSongsFromSpotifyData()
@@ -107,12 +111,7 @@ for song in spotifyTopSongsList:
 
     apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
 
-    if (foundFlag):
-        change = price - oldPrice
-        apiCREATEURL += '/' + str(songID)
-        p = requests.post(apiCREATEURL, data=body)
-        print "PUT!"
-
-    else:
+    if (not(foundFlag)):
         createIPO(spotifyURI)
+    else:
         continue
