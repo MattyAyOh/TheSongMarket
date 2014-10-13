@@ -102,7 +102,7 @@ for song in currentListOfDictOfSongs:
     w.writerow([spotifyURI, (songID, currentTotalVC)])
 
     differenceVC = currentTotalVC - lastVC
-    performancePercent = float(differenceVC/currentTotalVC)
+    performancePercent = (float(differenceVC)/float(currentTotalVC))
 
     #TODO: WHEN 1% away above or below, calculate accordingly
     print "Expected: %f" % (expectedPercent)
