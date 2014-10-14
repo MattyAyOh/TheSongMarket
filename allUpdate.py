@@ -34,39 +34,55 @@ for song in currentListOfDictOfSongs:
         # print "No IPO Yet!"
         continue
 
+    try:
+        lastVC = int(lastVCDictionary[spotifyURI][2].replace(']','').replace(' ',''))
+        youtubeURI = lastVCDictionary[spotifyURI][1][-12:-1]
+    except KeyError:
+        print "Song not found in last VC CSV!"
+        continue
+
     songID = song['id']
+    print "SONG ID: %s" % songID
+    print "YOUTUBE URI: %s" % youtubeURI
 
-    rawTitle = song['name']
-    cleanTitle = cleanstring(rawTitle)
-    if cleanTitle == "FAIL":
-        print "Dirty Title"
-        print rawTitle
-        continue
-    searchableTitle = createsearchablestring(cleanTitle)
+    # rawTitle = song['name']
+    # cleanTitle = cleanstring(rawTitle)
+    # if cleanTitle == "FAIL":
+    #     print "Dirty Title"
+    #     print rawTitle
+    #     continue
+    # searchableTitle = createsearchablestring(cleanTitle)
+    #
+    # rawArtist = song['artist_name']
+    # cleanArtist = cleanstring(rawArtist)
+    # if cleanArtist == "FAIL":
+    #     print "Dirty Artist"
+    #     print rawArtist
+    #     continue
+    # searchableArtist = createsearchablestring(cleanArtist)
+    #
+    #
+    # searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
+    # deprecated
+    # youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
+    youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + youtubeURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
+    #
+    # print youtubeSURL
+    # reqYT = urllib2.Request(youtubeSURL)
+    # responseYT = urllib2.urlopen(reqYT)
+    # results = responseYT.read()
 
-    rawArtist = song['artist_name']
-    cleanArtist = cleanstring(rawArtist)
-    if cleanArtist == "FAIL":
-        print "Dirty Artist"
-        print rawArtist
-        continue
-    searchableArtist = createsearchablestring(cleanArtist)
-
-
-    searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
-    youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
-
-    print youtubeSURL
-    reqYT = urllib2.Request(youtubeSURL)
-    responseYT = urllib2.urlopen(reqYT)
-    results = responseYT.read()
-
+    youtubeJSON = json.load(urllib2.urlopen(youtubeSURL))
 
     try:
-        publishedDate = getDateUtilFromString(results.split("<published>")[1].split("</published>")[0])
+        published = youtubeJSON["items"][0]["snippet"]["publishedAt"]
+        publishedDate = getDateUtilFromString(published)
+        viewcount = youtubeJSON["items"][0]["statistics"]["viewCount"]
+        numraters = youtubeJSON["items"][0]["statistics"]["likeCount"]
     except IndexError:
         print "Failed to Find!"
         continue
+
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
 
@@ -78,21 +94,6 @@ for song in currentListOfDictOfSongs:
             expectedPercent = .001
         else:
             expectedPercent -= float(monthsExpired*.0002)
-
-
-    try:
-        lastVC = int(lastVCDictionary[spotifyURI][1])
-    except KeyError:
-        print "Song not found in last VC CSV!"
-        continue
-
-
-    try:
-        numraters = results.split("numRaters='")[1].split("'",1)[0]
-        viewcount = results.split("viewCount='")[1].split("'",1)[0]
-    except IndexError:
-        print "RATERS not found!"
-        continue
 
 
     currentTotalVC = int(numraters) + int(viewcount)

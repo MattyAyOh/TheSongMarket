@@ -58,11 +58,11 @@ def createVCPriceDict():
         if spotifyURI in dictionaryVC:
             continue
         else:
-            dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
+            dictionaryVC[spotifyURI] = [song['id'],ytURI,totalVC]
 
     w2 = csv.writer(open("lastVC.csv", "w+"))
 
     for key, val in dictionaryVC.items():
         w2.writerow([key, val])
 
-type=video&q=&
+createVCPriceDict()
