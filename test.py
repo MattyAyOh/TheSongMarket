@@ -1,11 +1,13 @@
 import json
 import urllib2
-ytAPI = "https://www.googleapis.com/youtube/v3/videos?id=oDuif301F-8&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
+# ytAPI = "https://www.googleapis.com/youtube/v3/search?q=sum 41 in too deep&key=&part=snippet,statistics"
+ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q=blink"
 youtubeJSON = json.load(urllib2.urlopen(ytAPI))
-published = youtubeJSON["items"][0]["snippet"]["publishedAt"]
-viewCount = youtubeJSON["items"][0]["statistics"]["viewCount"]
+print youtubeJSON["items"]
+published = youtubeJSON["items"][0]["id"]["videoId"]
+# viewCount = youtubeJSON["items"][0]["statistics"]["viewCount"]
 print published
-print viewCount
+# print viewCount
 # import requests
 # email = 'mattyayoh@gmail.com'
 # token = 'PQBTwrEmyRJrR8GMs6ij'

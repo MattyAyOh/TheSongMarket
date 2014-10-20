@@ -39,16 +39,17 @@ def createVCPriceDict():
         print song['artist_name']
         searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
         print searchableQuery
-        youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
+        ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
+        youtubeJSON = json.load(urllib2.urlopen(ytAPI))
+        ytURI = youtubeJSON["items"][0]["id"]["videoId"]
+        youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + ytURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
+        youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
 
-        reqYT = urllib2.Request(youtubeSURL)
-        responseYT = urllib2.urlopen(reqYT)
-        results = responseYT.read()
         try:
-            viewcount = int(results.split("viewCount='")[1].split("'",1)[0])
-            numraters = int(results.split("numRaters='")[1].split("'",1)[0])
-            ytURI = results.split("<id>")[2].split("</id>")[0]
+            viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
+            numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
         except IndexError:
+            print "Failed to Find!"
             continue
 
         totalVC = viewcount + numraters
@@ -65,4 +66,5 @@ def createVCPriceDict():
     for key, val in dictionaryVC.items():
         w2.writerow([key, val])
 
-type=video&q=&
+if __name__ == "__main__":
+    createVCPriceDict()

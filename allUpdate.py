@@ -21,12 +21,12 @@ if(not(os.path.isfile('lastVC.csv'))):
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 lastVCDictionary = getLastVCDictionary()
-tempVCDictionary = getTempVCDictionary()
+# tempVCDictionary = getTempVCDictionary()
 
 for song in currentListOfDictOfSongs:
     spotifyURI = song['spotify_uri']
-    if spotifyURI in tempVCDictionary:
-        continue
+    # if spotifyURI in tempVCDictionary:
+    #     continue
 
     try:
         currentPrice = int(song['price'])
