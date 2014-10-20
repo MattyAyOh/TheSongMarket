@@ -12,6 +12,7 @@ from ytvcUpdate import *
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 
+w = csv.writer(open("tempVC.csv", "aw+"))
 #################################################
 # Main Script
 #################################################
@@ -21,12 +22,12 @@ if(not(os.path.isfile('lastVC.csv'))):
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 lastVCDictionary = getLastVCDictionary()
-# tempVCDictionary = getTempVCDictionary()
+tempVCDictionary = getTempVCDictionary()
 
 for song in currentListOfDictOfSongs:
     spotifyURI = song['spotify_uri']
-    # if spotifyURI in tempVCDictionary:
-    #     continue
+    if spotifyURI in tempVCDictionary:
+        continue
 
     try:
         currentPrice = int(song['price'])
@@ -99,8 +100,7 @@ for song in currentListOfDictOfSongs:
     currentTotalVC = int(numraters) + int(viewcount)
     print "CurrentVC: %d" % (currentTotalVC)
     print "LastVC: %d" % (lastVC)
-    w = csv.writer(open("tempVC.csv", "aw+"))
-    w.writerow([spotifyURI, (songID, currentTotalVC)])
+
 
     differenceVC = currentTotalVC - lastVC
     performancePercent = (float(differenceVC)/float(currentTotalVC))
@@ -116,21 +116,24 @@ for song in currentListOfDictOfSongs:
 
 
 
-    print change
-    print currentPrice
+    # print change
+    # print currentPrice
 
-    newPrice = currentPrice + change
+    # newPrice = currentPrice + change
 
     #################################################
     # Populate database
     #################################################
     # body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name]':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
     # apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
-    body = {'user_email': email, 'user_token': token, 'song[price]': newPrice}
+    body = {'user_email': email, 'user_token': token, 'song_change[sond_id]':songID, 'song_change[changed_value]':change}
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
-    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
+    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/song_changes'
     p = requests.put(apiUPDATEURL, data=body, headers=headers)
 
-# os.remove('lastVC.csv')
-# os.rename('tempVC.csv', 'lastVC.csv')
+    w.writerow([spotifyURI, (songID, currentTotalVC)])
+
+
+os.remove('lastVC.csv')
+os.rename('tempVC.csv', 'lastVC.csv')
