@@ -37,7 +37,8 @@ for song in currentListOfDictOfSongs:
 
     try:
         lastVC = int(lastVCDictionary[spotifyURI][2].replace(']','').replace(' ',''))
-        youtubeURI = lastVCDictionary[spotifyURI][1][-12:-1]
+        ytURI = lastVCDictionary[spotifyURI][1]
+        youtubeURI = ytURI[-12:-1]
     except KeyError:
         print "Song not found in last VC CSV!"
         continue
@@ -116,8 +117,8 @@ for song in currentListOfDictOfSongs:
 
 
 
-    # print change
-    # print currentPrice
+    print change
+    print currentPrice
 
     # newPrice = currentPrice + change
 
@@ -132,7 +133,7 @@ for song in currentListOfDictOfSongs:
     apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/song_changes'
     p = requests.put(apiUPDATEURL, data=body, headers=headers)
 
-    w.writerow([spotifyURI, (songID, currentTotalVC)])
+    w.writerow([spotifyURI, (songID, ytURI, currentTotalVC)])
 
 
 os.remove('lastVC.csv')

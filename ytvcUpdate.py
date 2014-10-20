@@ -35,31 +35,37 @@ def createVCPriceDict():
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 
     for song in currentListOfDictOfSongs:
-        print song['name']
-        print song['artist_name']
-        searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
-        print searchableQuery
-        ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
-        youtubeJSON = json.load(urllib2.urlopen(ytAPI))
-        ytURI = youtubeJSON["items"][0]["id"]["videoId"]
-        youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + ytURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
-        youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
+        while True:
+            print song['name']
+            print song['artist_name']
+            searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
+            print searchableQuery
+            ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
 
-        try:
-            viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
-            numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
-        except IndexError:
-            print "Failed to Find!"
-            continue
+            try:
+                youtubeJSON = json.load(urllib2.urlopen(ytAPI))
+                ytURI = youtubeJSON["items"][0]["id"]["videoId"]
+                youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + ytURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
+                youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
+            except urllib2.HTTPError:
+                continue
 
-        totalVC = viewcount + numraters
+            try:
+                viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
+                numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
+            except IndexError:
+                print "Failed to Find!"
+                continue
 
-        spotifyURI = song['spotify_uri']
+            totalVC = viewcount + numraters
 
-        if spotifyURI in dictionaryVC:
-            continue
-        else:
-            dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
+            spotifyURI = song['spotify_uri']
+
+            if spotifyURI in dictionaryVC:
+                continue
+            else:
+                dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
+            break
 
     w2 = csv.writer(open("lastVC.csv", "w+"))
 
