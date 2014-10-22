@@ -35,37 +35,60 @@ def createVCPriceDict():
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 
     for song in currentListOfDictOfSongs:
-        while True:
-            print song['name']
-            print song['artist_name']
-            searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
-            print searchableQuery
-            ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
+        spotifyURI = song['spotify_uri']
 
+        if spotifyURI in dictionaryVC:
+            print "REPEAT!"
+            continue
+        if song['price']==None:
+            print "NOT IPO'd!"
+            continue
+        print "\nNEXT:"
+        print song['id']
+        print song['price']
+        print song['name']
+        print song['artist_name']
+        try:
+            searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
+        except IndexError:
+            print "TODO: WHAT?"
+            continue
+        print searchableQuery
+        ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
+        while True:
             try:
                 youtubeJSON = json.load(urllib2.urlopen(ytAPI))
-                ytURI = youtubeJSON["items"][0]["id"]["videoId"]
+            except urllib2.HTTPError:
+                print "search failed!"
+                continue
+            break
+        try:
+            ytURI = youtubeJSON["items"][0]["id"]["videoId"]
+        except IndexError:
+            print "Couldn't find song in YT!"
+            continue
+
+
+        while True:
+            try:
                 youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + ytURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
                 youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
             except urllib2.HTTPError:
+                print "request failed!"
                 continue
-
-            try:
-                viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
-                numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
-            except IndexError:
-                print "Failed to Find!"
-                continue
-
-            totalVC = viewcount + numraters
-
-            spotifyURI = song['spotify_uri']
-
-            if spotifyURI in dictionaryVC:
-                continue
-            else:
-                dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
             break
+        try:
+            viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
+            numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
+        except IndexError:
+            print "Failed to Find!"
+            continue
+
+        totalVC = viewcount + numraters
+
+        dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
+
+    print dictionaryVC
 
     w2 = csv.writer(open("lastVC.csv", "w+"))
 
