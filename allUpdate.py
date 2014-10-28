@@ -12,7 +12,7 @@ from ytvcUpdate import *
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 
-w = csv.writer(open("poop.csv", "aw+"))
+w = csv.writer(open("temp.csv", "aw+"))
 #################################################
 # Main Script
 #################################################
@@ -34,14 +34,13 @@ for song in currentListOfDictOfSongs:
     except TypeError:
         # print "No IPO Yet!"
         continue
-    if currentPrice == 0:
+    if currentPrice <= 0:
         print song['name'] + " - " + song['artist_name'] + " - Bankrupt!"
         continue
     try:
         lastVC = int(lastVCDictionary[spotifyURI][2].replace(']','').replace(' ',''))
         print "Last VC: %d" % lastVC
-        ytURI = lastVCDictionary[spotifyURI][1]
-        youtubeURI = ytURI[-12:-1]
+        youtubeURI = lastVCDictionary[spotifyURI][1][-12:-1]
     except KeyError:
         print "Song not found in last VC CSV!"
         continue
@@ -83,7 +82,7 @@ for song in currentListOfDictOfSongs:
             print "HTTP ERROR!"
             continue
         break
-    print youtubeJSON
+
     try:
         published = youtubeJSON["items"][0]["snippet"]["publishedAt"]
         publishedDate = getDateUtilFromString(published)
@@ -124,9 +123,13 @@ for song in currentListOfDictOfSongs:
         change = change*-1
 
 
-    intChange = int(round(change))
+    intChange = 2*int(round(change))
     print "Change: %d" % intChange
     print currentPrice
+
+    if((currentPrice + intChange)<= 0):
+        intChange = -(currentPrice-1)
+        print "GOING BANKRUPT!!!"
 
     # newPrice = currentPrice + change
 
@@ -137,10 +140,6 @@ for song in currentListOfDictOfSongs:
     # apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
     body = {'user_email': email, 'user_token': token, 'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
 
-    print "BODY!"
-    print body
-
-
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
     apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
@@ -148,8 +147,8 @@ for song in currentListOfDictOfSongs:
     print p.status_code
     print p.text
 
-    w.writerow([spotifyURI, (songID, ytURI, currentTotalVC)])
+    w.writerow([spotifyURI, (songID, youtubeURI, currentTotalVC)])
 
 
 os.rename('lastVC.csv', 'logVC.csv')
-# os.rename('tempVC.csv', 'lastVC.csv')
+os.rename('temp.csv', 'lastVC.csv')

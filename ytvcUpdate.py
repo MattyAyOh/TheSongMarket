@@ -38,10 +38,10 @@ def createVCPriceDict():
         spotifyURI = song['spotify_uri']
 
         if spotifyURI in dictionaryVC:
-            print "REPEAT!"
+            # print "REPEAT!"
             continue
         if song['price']==None:
-            print "NOT IPO'd!"
+            # print "NOT IPO'd!"
             continue
         print "\nNEXT:"
         print song['id']
@@ -87,8 +87,6 @@ def createVCPriceDict():
         totalVC = viewcount + numraters
 
         dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
-
-    print dictionaryVC
 
     w2 = csv.writer(open("lastVC.csv", "w+"))
 
