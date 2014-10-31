@@ -6,6 +6,7 @@
 #################################################
 
 import json
+import sqlite3
 from IPO import *
 from ytvcUpdate import *
 
@@ -16,6 +17,21 @@ w = csv.writer(open("temp.csv", "aw+"))
 #################################################
 # Main Script
 #################################################
+def create_database():
+    print 'creating database'
+    db = sqlite3.connect('viewcounts.sqlite')
+    db.execute('CREATE TABLE IF NOT EXISTS image_store (i INTEGER PRIMARY KEY, filename VARCHAR(255), \
+        owner VARCHAR(30), score INTEGER, image BLOB, \
+        FOREIGN KEY (owner) REFERENCES user(username))');
+    db.execute('CREATE TABLE IF NOT EXISTS image_comments (i INTEGER PRIMARY KEY, imageId INTEGER, \
+     comment TEXT, FOREIGN KEY (imageId) REFERENCES image_store(i))');
+    db.execute('CREATE TABLE IF NOT EXISTS user (username VARCHAR(30) PRIMARY KEY, \
+        password VARCHAR(30))');
+    db.commit()
+    db.close()
+
+if not os.path.exists('viewcounts.sqlite'):
+        create_database()
 
 if(not(os.path.isfile('lastVC.csv'))):
     createVCPriceDict()
@@ -125,6 +141,9 @@ for song in currentListOfDictOfSongs:
 
     intChange = 2*int(round(change))
     print "Change: %d" % intChange
+    if(intChange > 10):
+        intChange /= 10
+        print "Reducing Change!"
     print currentPrice
 
     if((currentPrice + intChange)<= 0):

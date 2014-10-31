@@ -64,6 +64,7 @@ def createVCPriceDict():
             break
         try:
             ytURI = youtubeJSON["items"][0]["id"]["videoId"]
+            ytURI = ytURI.encode('ascii','ignore')
         except IndexError:
             print "Couldn't find song in YT!"
             continue
