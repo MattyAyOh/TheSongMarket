@@ -32,6 +32,8 @@ def createsearchablestring(oldstr):
 def createVCPriceDict():
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 
+    w = open('vcLog.txt','w')
+
     db = sqlite3.connect('records.sqlite')
     c = db.cursor()
 
@@ -40,16 +42,16 @@ def createVCPriceDict():
         trackID = int(song['id'])
         artistID = int(song['artist_id'])
 
-        print "\nNEXT TRACK:"
-        print "Track Name/ID: {0}/{1}".format(unidecode(song['name']),trackID)
-        print "Artist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID)
+        w.write("\n\nNEXT TRACK:")
+        w.write("\nTrack Name/ID: {0}/{1}".format(unidecode(song['name']),trackID))
+        w.write("\nArtist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID))
 
-        c.execute('SELECT trackid FROM viewcount WHERE trackid=(?)', (trackID,))
+        c.execute('SELECT trackid FROM ytviewcount WHERE trackid=(?)', (trackID,))
         if(c.fetchone() != None):
-            print "Spotify URI Exists Already!"
+            w.write("\nA Row for the Track Exists Already!")
             continue
         if song['price']==None:
-            print "Not IPO'd Yet!"
+            w.write("\nNot IPO'd Yet!")
             continue
 
         print "Price: {0}".format(song['price'])
@@ -57,22 +59,25 @@ def createVCPriceDict():
         try:
             searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
         except IndexError:
-            print "TODO: WHAT?"
+            print "TODO: IndexError"
+            w.write("\nTODO: IndexError")
             continue
-        print searchableQuery
+        w.write("\nSearchable Query: {0}".format(searchableQuery))
         ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
         while True:
             try:
                 youtubeJSON = json.load(urllib2.urlopen(ytAPI))
             except urllib2.HTTPError:
-                print "search failed!"
+                print "Connection to YT Search API Failed!"
+                w.write("\nConnection to YT Search API Failed!")
                 continue
             break
         try:
             ytURI = youtubeJSON["items"][0]["id"]["videoId"]
             ytURI = ytURI.encode('ascii','ignore')
         except IndexError:
-            print "Couldn't find song in YT!"
+            print "YT Search API Failed to Find!"
+            w.write("\nYT Search API Failed to Find!")
             continue
 
 
@@ -81,25 +86,30 @@ def createVCPriceDict():
                 youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + ytURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
                 youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
             except urllib2.HTTPError:
-                print "request failed!"
+                print "Connection to YT Video API Failed!"
+                w.write("\nConnection to YT Video API Failed!")
                 continue
             break
         try:
             viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
             numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
         except IndexError:
-            print "Failed to Find!"
+            print "YT Video API Failed to Find!"
+            w.write("\nYT Video API Failed to Find!")
             continue
 
         totalVC = viewcount + numraters
 
         print "COMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC)
-        db.execute('INSERT INTO viewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
+        w.write("\nCOMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC))
+        db.execute('INSERT INTO ytviewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
         db.commit()
 
     db.close()
+    w.close()
 
 
 if __name__ == "__main__":
     createDB.check_database()
+    print "Initializing ytviewcount Database..."
     createVCPriceDict()

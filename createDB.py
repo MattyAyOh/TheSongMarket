@@ -2,9 +2,9 @@ import sqlite3
 import os
 
 def create_database():
-    print 'creating database'
+    print 'Creating Database...'
     db = sqlite3.connect('records.sqlite')
-    db.execute('CREATE TABLE IF NOT EXISTS `viewcount` ( \
+    db.execute('CREATE TABLE IF NOT EXISTS `ytviewcount` ( \
     `trackid`   INTEGER NOT NULL, \
     `artistid`  INTEGER NOT NULL, \
     `spotifyuri`    TEXT NOT NULL, \
@@ -19,5 +19,5 @@ def create_database():
     db.close()
 
 def check_database():
-    if not os.path.exists('records.sqlite'):
-        create_database()
+    # if not os.path.exists('records.sqlite'):
+    create_database()
