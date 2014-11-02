@@ -9,10 +9,10 @@
 
 import json
 import urllib2
-import csv
 import HTMLParser
 from unidecode import unidecode
-
+import sqlite3
+import os
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -28,26 +28,48 @@ def cleanstring(dirtystr):
 def createsearchablestring(oldstr):
     return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
 
+def create_database():
+    print 'creating database'
+    db = sqlite3.connect('viewcounts.sqlite')
+    db.execute('CREATE TABLE IF NOT EXISTS `viewcount` ( \
+    `trackid`   INTEGER NOT NULL, \
+    `artistid`  INTEGER NOT NULL, \
+    `spotifyuri`    TEXT NOT NULL, \
+    `youtubeuri`    TEXT NOT NULL, \
+    `viewcount` INTEGER NOT NULL, \
+    PRIMARY KEY(trackid))')
+    db.execute('CREATE TABLE IF NOT EXISTS `artistaverages` ( \
+    `artistid`  INTEGER NOT NULL, \
+    `average` INTEGER NOT NULL, \
+    PRIMARY KEY(artistid))')
+    db.commit()
+    db.close()
 
 def createVCPriceDict():
-    dictionaryVC = {}
-
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
+
+    db = sqlite3.connect('viewcounts.sqlite')
+    c = db.cursor()
 
     for song in currentListOfDictOfSongs:
         spotifyURI = song['spotify_uri']
+        trackID = int(song['id'])
+        artistID = int(song['artist_id'])
 
-        if spotifyURI in dictionaryVC:
-            # print "REPEAT!"
+        print "\nNEXT TRACK:"
+        print "Track Name/ID: {0}/{1}".format(unidecode(song['name']),trackID)
+        print "Artist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID)
+
+        c.execute('SELECT trackid FROM viewcount WHERE trackid=(?)', (trackID,))
+        if(c.fetchone() != None):
+            print "Spotify URI Exists Already!"
             continue
         if song['price']==None:
-            # print "NOT IPO'd!"
+            print "Not IPO'd Yet!"
             continue
-        print "\nNEXT:"
-        print song['id']
-        print song['price']
-        print song['name']
-        print song['artist_name']
+
+        print "Price: {0}".format(song['price'])
+
         try:
             searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
         except IndexError:
@@ -87,12 +109,14 @@ def createVCPriceDict():
 
         totalVC = viewcount + numraters
 
-        dictionaryVC[spotifyURI] = song['id'],ytURI,totalVC
+        print "COMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC)
+        db.execute('INSERT INTO viewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
+        db.commit()
 
-    w2 = csv.writer(open("lastVC.csv", "w+"))
+    db.close()
 
-    for key, val in dictionaryVC.items():
-        w2.writerow([key, val])
 
 if __name__ == "__main__":
+    if not os.path.exists('viewcounts.sqlite'):
+        create_database()
     createVCPriceDict()
