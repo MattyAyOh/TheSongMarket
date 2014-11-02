@@ -32,7 +32,7 @@ def createsearchablestring(oldstr):
 def createVCPriceDict():
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 
-    db = sqlite3.connect('viewcounts.sqlite')
+    db = sqlite3.connect('records.sqlite')
     c = db.cursor()
 
     for song in currentListOfDictOfSongs:

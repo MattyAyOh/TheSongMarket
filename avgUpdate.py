@@ -11,6 +11,8 @@ import HTMLParser
 import json
 import urllib2
 import csv
+import createDB
+import sqlite3
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -26,6 +28,9 @@ def cleanstring(dirtystr):
     return str(HTMLParser.HTMLParser().unescape(dirtystr).encode('utf8'))
 
 def createAverages():
+    db = sqlite3.connect('records.sqlite')
+    c = db.cursor()
+
     dictionaryTotals = {}
     dictionaryCounts = {}
     dictionaryAverages = {}
@@ -53,4 +58,6 @@ def createAverages():
     for key, val in dictionaryAverages.items():
         w.writerow([key, val])
 
-# createAverages()
+if __name__ == "__main__":
+    createDB.check_database()
+    createAverages()

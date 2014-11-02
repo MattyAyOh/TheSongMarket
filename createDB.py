@@ -3,7 +3,7 @@ import os
 
 def create_database():
     print 'creating database'
-    db = sqlite3.connect('vc.sqlite')
+    db = sqlite3.connect('records.sqlite')
     db.execute('CREATE TABLE IF NOT EXISTS `viewcount` ( \
     `trackid`   INTEGER NOT NULL, \
     `artistid`  INTEGER NOT NULL, \
@@ -19,5 +19,5 @@ def create_database():
     db.close()
 
 def check_database():
-    if not os.path.exists('viewcounts.sqlite'):
+    if not os.path.exists('records.sqlite'):
         create_database()
