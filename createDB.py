@@ -1,4 +1,5 @@
 import sqlite3
+import os
 
 def create_database():
     print 'creating database'
@@ -17,4 +18,6 @@ def create_database():
     db.commit()
     db.close()
 
-create_database()
+def check_database():
+    if not os.path.exists('viewcounts.sqlite'):
+        create_database()

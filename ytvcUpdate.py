@@ -12,7 +12,7 @@ import urllib2
 import HTMLParser
 from unidecode import unidecode
 import sqlite3
-import os
+import createDB
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -28,22 +28,6 @@ def cleanstring(dirtystr):
 def createsearchablestring(oldstr):
     return oldstr.translate(None, '@#%^&*()<>?:;{}[]-_+=\|')
 
-def create_database():
-    print 'creating database'
-    db = sqlite3.connect('viewcounts.sqlite')
-    db.execute('CREATE TABLE IF NOT EXISTS `viewcount` ( \
-    `trackid`   INTEGER NOT NULL, \
-    `artistid`  INTEGER NOT NULL, \
-    `spotifyuri`    TEXT NOT NULL, \
-    `youtubeuri`    TEXT NOT NULL, \
-    `viewcount` INTEGER NOT NULL, \
-    PRIMARY KEY(trackid))')
-    db.execute('CREATE TABLE IF NOT EXISTS `artistaverages` ( \
-    `artistid`  INTEGER NOT NULL, \
-    `average` INTEGER NOT NULL, \
-    PRIMARY KEY(artistid))')
-    db.commit()
-    db.close()
 
 def createVCPriceDict():
     currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
@@ -117,6 +101,5 @@ def createVCPriceDict():
 
 
 if __name__ == "__main__":
-    if not os.path.exists('viewcounts.sqlite'):
-        create_database()
+    createDB.check_database()
     createVCPriceDict()
