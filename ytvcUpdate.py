@@ -105,6 +105,9 @@ def createVCPriceDict():
         db.execute('INSERT INTO ytviewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
         db.commit()
 
+    print "\n\nSaving Artist Averages..."
+    db.execute('INSERT or REPLACE INTO artistaverages(artistid,average) SELECT artistid, AVG(viewcount) FROM ytviewcount GROUP BY artistid')
+    db.commit()
     db.close()
     w.close()
 
@@ -113,3 +116,4 @@ if __name__ == "__main__":
     createDB.check_database()
     print "Initializing ytviewcount Database..."
     createVCPriceDict()
+    print "Success!"
