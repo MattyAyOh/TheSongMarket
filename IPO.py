@@ -10,15 +10,11 @@ from TSMCommon import *
 import requests
 import sys
 import os.path
-from avgUpdate import *
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
 rawTitle = ""
 rawArtist = ""
-
-if(not(os.path.isfile('averages.csv'))):
-    createAverages()
 
 def generateIPO(songURI):
     songData = requestResponse(getSpotifyLookupURL(songURI))

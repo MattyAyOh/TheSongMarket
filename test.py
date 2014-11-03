@@ -1,92 +1,89 @@
+import sqlite3
 import json
 import urllib2
-# ytAPI = "https://www.googleapis.com/youtube/v3/search?q=sum 41 in too deep&key=&part=snippet,statistics"
-ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q=blink"
-youtubeJSON = json.load(urllib2.urlopen(ytAPI))
-print youtubeJSON["items"]
-published = youtubeJSON["items"][0]["id"]["videoId"]
-# viewCount = youtubeJSON["items"][0]["statistics"]["viewCount"]
-print published
-# print viewCount
-# import requests
-# email = 'mattyayoh@gmail.com'
-# token = 'PQBTwrEmyRJrR8GMs6ij'
-#
-# CurrentVC = 210794
-# LastVC = 205922
-# differenceVC = CurrentVC - LastVC
-# print differenceVC
-# print CurrentVC
-# performancePercent = float(float(differenceVC)/float(CurrentVC))
-#
-# print performancePercent
-#
-# expectedPercent= .01
-# change = float(pow(performancePercent,2)/pow(expectedPercent,2)*10)
-# print change
-#
-# body = {'user_email': email, 'user_token': token, 'song[price]': 110}
-# headers = {'content-type': 'application/x-www-form-urlencoded'}
-#
-# apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/2601'
-# p = requests.put(apiUPDATEURL, data=body, headers=headers)
+from IPO import *
+
+db = sqlite3.connect('records.sqlite')
+c = db.cursor()
+trackID = 2307
+c.execute('SELECT youtubeuri, viewcount FROM ytviewcount WHERE trackid=(?)',(trackID,))
+row = c.fetchone()
+print row[0]
+print type(row[0])
+lastVC = row[1]
+currentPrice = 272
+
+youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + row[0] + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
+
+print youtubeSURL
+
+while(True):
+    try:
+        youtubeJSON = json.load(urllib2.urlopen(youtubeSURL))
+    except urllib2.HTTPError:
+        print "HTTP ERROR!"
+        continue
+    break
+
+try:
+    published = youtubeJSON["items"][0]["snippet"]["publishedAt"]
+    publishedDate = getDateUtilFromString(published)
+    viewcount = youtubeJSON["items"][0]["statistics"]["viewCount"]
+    numraters = youtubeJSON["items"][0]["statistics"]["likeCount"]
+except IndexError:
+    print "Failed to Find!"
+
+currentDate = datetime.datetime.now()
+differenceInDate = (currentDate - publishedDate).days
+print differenceInDate
+expectedPercent = .01
+if( differenceInDate > 90 ):
+    daysExpired = differenceInDate - 90
+    monthsExpired = int(daysExpired/30)
+    print monthsExpired
+    if monthsExpired >= 45:
+        expectedPercent = .001
+    else:
+        expectedPercent -= float(monthsExpired*.0002)
 
 
-# from IPO import *
-# from ytvcUpdate import *
-#
-# apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
-# apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
-#
-# #################################################
-# # Main Script
-# #################################################
-#
-# if(not(os.path.isfile('lastVC.csv'))):
-#     createVCPriceDict()
-#
-# currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-# lastVCDictionary = getLastVCDictionary()
-#
-# for song in currentListOfDictOfSongs:
-#     spotifyURI = song['spotify_uri']
-#
-#     try:
-#         currentPrice = int(song['price'])
-#     except TypeError:
-#         # print "No IPO Yet!"
-#         continue
-#
-#     try:
-#         print lastVCDictionary[spotifyURI]
-#         lastVC = int(lastVCDictionary[spotifyURI][2].replace(']','').replace(' ',''))
-#         youtubeURI = lastVCDictionary[spotifyURI][1][-12:-1]
-#     except KeyError:
-#         print "Song not found in last VC CSV!"
-#         continue
-#
-#     songID = song['id']
-#
-#     rawTitle = song['name']
-#     cleanTitle = cleanstring(rawTitle)
-#     if cleanTitle == "FAIL":
-#         print "Dirty Title"
-#         print rawTitle
-#         continue
-#     searchableTitle = createsearchablestring(cleanTitle)
-#
-#     rawArtist = song['artist_name']
-#     cleanArtist = cleanstring(rawArtist)
-#     if cleanArtist == "FAIL":
-#         print "Dirty Artist"
-#         print rawArtist
-#         continue
-#     searchableArtist = createsearchablestring(cleanArtist)
-#
-#
-#     searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
-#     # deprecated
-#     # youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
-#     youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + youtubeURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
-#
-#     print youtubeSURL
+currentTotalVC = int(numraters) + int(viewcount)
+print "CurrentVC: %d" % (currentTotalVC)
+print "LastVC: %d" % (lastVC)
+
+
+differenceVC = currentTotalVC - lastVC
+performancePercent = (float(differenceVC)/float(currentTotalVC))
+
+#TODO: WHEN 1% away above or below, calculate accordingly
+print "Expected: %f" % (expectedPercent)
+print "Performance: %f" % (performancePercent)
+
+
+change = float(pow(performancePercent,2)/pow(expectedPercent,2)*10)
+
+if performancePercent < expectedPercent:
+    change = -(float(pow((.02-performancePercent),2)/pow(expectedPercent,2)*10))
+
+
+intChange = 2*int(round(change))
+print "Change: %d" % intChange
+if(intChange > 10 or intChange < -10):
+    intChange /= 10
+    print "Reducing Change!"
+print currentPrice
+
+if((currentPrice + intChange)<= 0):
+    intChange = -(currentPrice-1)
+    print "GOING BANKRUPT!!!"
+
+# newPrice = currentPrice + change
+
+#################################################
+# Populate database
+#################################################
+# body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name]':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
+# apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
+body = {'user_email': email, 'user_token': token, 'song_change[song_id]':trackID, 'song_change[changed_value]':intChange}
+
+print body

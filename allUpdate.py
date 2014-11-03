@@ -13,38 +13,23 @@ from ytvcUpdate import *
 apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
 apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 
-w = csv.writer(open("temp.csv", "aw+"))
 #################################################
 # Main Script
 #################################################
-def create_database():
-    print 'creating database'
-    db = sqlite3.connect('viewcounts.sqlite')
-    db.execute('CREATE TABLE IF NOT EXISTS image_store (i INTEGER PRIMARY KEY, filename VARCHAR(255), \
-        owner VARCHAR(30), score INTEGER, image BLOB, \
-        FOREIGN KEY (owner) REFERENCES user(username))');
-    db.execute('CREATE TABLE IF NOT EXISTS image_comments (i INTEGER PRIMARY KEY, imageId INTEGER, \
-     comment TEXT, FOREIGN KEY (imageId) REFERENCES image_store(i))');
-    db.execute('CREATE TABLE IF NOT EXISTS user (username VARCHAR(30) PRIMARY KEY, \
-        password VARCHAR(30))');
-    db.commit()
-    db.close()
-
-if not os.path.exists('viewcounts.sqlite'):
-        create_database()
-
-if(not(os.path.isfile('lastVC.csv'))):
-    createVCPriceDict()
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-lastVCDictionary = getLastVCDictionary()
-tempVCDictionary = getTempVCDictionary()
+
+db = sqlite3.connect('records.sqlite')
+c = db.cursor()
 
 for song in currentListOfDictOfSongs:
     spotifyURI = song['spotify_uri']
-    if spotifyURI in tempVCDictionary:
+    trackID = int(song['id'])
+    c.execute('youtubeuri, viewcount FROM ytviewcount WHERE trackid=(?)', (trackID,))
+    row = c.fetchone()
+    if(row == None):
+        #Couldn't find row from db
         continue
-
     try:
         currentPrice = int(song['price'])
     except TypeError:
@@ -54,9 +39,9 @@ for song in currentListOfDictOfSongs:
         print song['name'] + " - " + song['artist_name'] + " - Bankrupt!"
         continue
     try:
-        lastVC = int(lastVCDictionary[spotifyURI][2].replace(']','').replace(' ',''))
+        lastVC = int(row[1])
         print "Last VC: %d" % lastVC
-        youtubeURI = lastVCDictionary[spotifyURI][1][-12:-1]
+        youtubeURI = row[0]
     except KeyError:
         print "Song not found in last VC CSV!"
         continue
@@ -65,32 +50,8 @@ for song in currentListOfDictOfSongs:
     print "SONG ID: %s" % songID
     print "YOUTUBE URI: %s" % youtubeURI
 
-    # rawTitle = song['name']
-    # cleanTitle = cleanstring(rawTitle)
-    # if cleanTitle == "FAIL":
-    #     print "Dirty Title"
-    #     print rawTitle
-    #     continue
-    # searchableTitle = createsearchablestring(cleanTitle)
-    #
-    # rawArtist = song['artist_name']
-    # cleanArtist = cleanstring(rawArtist)
-    # if cleanArtist == "FAIL":
-    #     print "Dirty Artist"
-    #     print rawArtist
-    #     continue
-    # searchableArtist = createsearchablestring(cleanArtist)
-    #
-    #
-    # searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
-    # deprecated
-    # youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
     youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + youtubeURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
-    #
-    # print youtubeSURL
-    # reqYT = urllib2.Request(youtubeSURL)
-    # responseYT = urllib2.urlopen(reqYT)
-    # results = responseYT.read()
+
     while(True):
         try:
             youtubeJSON = json.load(urllib2.urlopen(youtubeSURL))
@@ -136,12 +97,12 @@ for song in currentListOfDictOfSongs:
     change = float(pow(performancePercent,2)/pow(expectedPercent,2)*10)
 
     if performancePercent < expectedPercent:
-        change = change*-1
+        change = -(float(pow((.02-performancePercent),2)/pow(expectedPercent,2)*10))
 
 
     intChange = 2*int(round(change))
     print "Change: %d" % intChange
-    if(intChange > 10):
+    if(intChange > 10 or intChange < -10):
         intChange /= 10
         print "Reducing Change!"
     print currentPrice
@@ -150,13 +111,9 @@ for song in currentListOfDictOfSongs:
         intChange = -(currentPrice-1)
         print "GOING BANKRUPT!!!"
 
-    # newPrice = currentPrice + change
-
     #################################################
     # Populate database
     #################################################
-    # body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name]':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
-    # apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
     body = {'user_email': email, 'user_token': token, 'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
 
     headers = {'content-type': 'application/x-www-form-urlencoded'}
@@ -166,8 +123,5 @@ for song in currentListOfDictOfSongs:
     print p.status_code
     print p.text
 
-    w.writerow([spotifyURI, (songID, youtubeURI, currentTotalVC)])
 
-
-os.rename('lastVC.csv', 'logVC.csv')
-os.rename('temp.csv', 'lastVC.csv')
+db.close()
