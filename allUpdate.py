@@ -25,7 +25,7 @@ c = db.cursor()
 for song in currentListOfDictOfSongs:
     spotifyURI = song['spotify_uri']
     trackID = int(song['id'])
-    c.execute('youtubeuri, viewcount FROM ytviewcount WHERE trackid=(?)', (trackID,))
+    c.execute('SELECT youtubeuri, viewcount FROM ytviewcount WHERE trackid=(?)',(trackID,))
     row = c.fetchone()
     if(row == None):
         #Couldn't find row from db
@@ -102,7 +102,17 @@ for song in currentListOfDictOfSongs:
 
     intChange = 2*int(round(change))
     print "Change: %d" % intChange
-    if(intChange > 10 or intChange < -10):
+
+    if(intChange > 10000 or intChange < -10000):
+        intChange /= 10000
+        intChange *= 4
+    elif(intChange > 1000 or intChange < -1000):
+        intChange /= 1000
+        intChange *= 3
+    elif(intChange > 100 or intChange < -100):
+        intChange /= 100
+        intChange *= 2
+    elif(intChange > 10 or intChange < -10):
         intChange /= 10
         print "Reducing Change!"
     print currentPrice

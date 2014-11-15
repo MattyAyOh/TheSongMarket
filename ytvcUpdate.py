@@ -47,9 +47,9 @@ def createVCPriceDict():
         w.write("\nArtist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID))
 
         c.execute('SELECT trackid FROM ytviewcount WHERE trackid=(?)', (trackID,))
-        if(c.fetchone() != None):
-            w.write("\nA Row for the Track Exists Already!")
-            continue
+        # if(c.fetchone() != None):
+        #     w.write("\nA Row for the Track Exists Already!")
+        #     continue
         if song['price']==None:
             w.write("\nNot IPO'd Yet!")
             continue
@@ -102,7 +102,7 @@ def createVCPriceDict():
 
         print "COMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC)
         w.write("\nCOMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC))
-        db.execute('INSERT INTO ytviewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
+        db.execute('INSERT OR REPLACE INTO ytviewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
         db.commit()
 
     print "\n\nSaving Artist Averages..."

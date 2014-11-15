@@ -34,12 +34,25 @@ def generateIPO(songURI):
     youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
     youtubeData = requestResponse(youtubeSURL)
 
+    published = youtubeData.split("<published>")[1].split("</published>")[0]
+    publishedDate = getDateUtilFromString(published)
+
+    currentDate = datetime.datetime.now()
+    differenceInDate = (currentDate - publishedDate).days
+
+    scale = 1
+
+    if(differenceInDate < 14):
+        scale += (5*((14-differenceInDate)/14))
+
     youtubeRating = float(youtubeData.split("rating average='")[1].split("'", 1)[0])/5
 
     numraters = int(youtubeData.split("numRaters='")[1].split("'",1)[0])
     viewcount = int(youtubeData.split("viewCount='")[1].split("'",1)[0])
 
     totalYTPoints = numraters + viewcount
+
+    totalYTPoints *= scale
 
     price = 0
     if totalYTPoints <= 1000: #1K Bracket
@@ -77,10 +90,11 @@ def publishIPO(songID, ipo):
     body = {'user_email': email, 'user_token': token, 'song[ipo_value]': ipo}
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
-    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
-    p = requests.put(apiUPDATEURL, data=body, headers=headers)
-    print p.status_code
-    print p.text
+    print body
+    # apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
+    # p = requests.put(apiUPDATEURL, data=body, headers=headers)
+    # print p.status_code
+    # print p.text
 
 def createIPO(songURI, TSMTrackID=-1):
     #TODO: Check if song is 3 days old on youtube
@@ -92,6 +106,7 @@ def createIPO(songURI, TSMTrackID=-1):
 
 listofArgs = sys.argv[1:]
 for arg in listofArgs:
+    print arg
     argsSplit = arg.split(",")
     uri = argsSplit[0]
     id = 0
