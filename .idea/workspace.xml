@@ -4,10 +4,7 @@
     <list default="true" id="dd52c818-5852-44ba-9faa-9377e2ec8e05" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/records.sqlite" afterPath="$PROJECT_DIR$/records.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IPO.py" afterPath="$PROJECT_DIR$/IPO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allUpdate.py" afterPath="$PROJECT_DIR$/allUpdate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/vcLog.txt" afterPath="$PROJECT_DIR$/logs/vcLog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ytvcUpdate.py" afterPath="$PROJECT_DIR$/ytvcUpdate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createDB.py" afterPath="$PROJECT_DIR$/createDB.py" />
     </list>
     <ignored path="TheSongMarket.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +52,8 @@
       <file leaf-file-name="createDB.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.181818" vertical-offset="0" max-vertical-offset="570">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -65,9 +62,11 @@
       <file leaf-file-name="IPO.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IPO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0" vertical-offset="799" max-vertical-offset="1770">
-              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.70119524" vertical-offset="837" max-vertical-offset="2010">
+              <caret line="88" column="136" selection-start-line="88" selection-start-column="136" selection-end-line="88" selection-end-column="136" />
+              <folding>
+                <element signature="e#173#197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +84,7 @@
       <file leaf-file-name="TSMSpotify.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="645">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding />
             </state>
@@ -95,8 +94,8 @@
       <file leaf-file-name="ytvcUpdate.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1785">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="51" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1009" max-vertical-offset="1785">
+              <caret line="103" column="110" selection-start-line="103" selection-start-column="110" selection-end-line="104" selection-end-column="124" />
               <folding />
             </state>
           </provider>
@@ -124,18 +123,19 @@
         <option value="$PROJECT_DIR$/lastPriceUpdate.py" />
         <option value="$PROJECT_DIR$/TSMCommon.py" />
         <option value="$PROJECT_DIR$/manualYTUpdate.py" />
-        <option value="$PROJECT_DIR$/createDB.py" />
         <option value="$PROJECT_DIR$/avgUpdate.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ytvcUpdate.py" />
         <option value="$PROJECT_DIR$/allUpdate.py" />
+        <option value="$PROJECT_DIR$/createDB.py" />
         <option value="$PROJECT_DIR$/IPO.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -353,7 +353,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="720" y="23" width="720" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -425,7 +425,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1605">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#173#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,7 +485,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1605">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#173#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,7 +560,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1665">
           <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="e#173#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -605,7 +611,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="1665">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#173#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,7 +662,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="1650">
           <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#173#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,34 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reference/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -792,11 +778,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TSMSpotify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ytvcUpdate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1009" max-vertical-offset="1785">
+          <caret line="103" column="110" selection-start-line="103" selection-start-column="110" selection-end-line="104" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.181818" vertical-offset="0" max-vertical-offset="570">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IPO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0" vertical-offset="799" max-vertical-offset="1770">
-          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.70119524" vertical-offset="837" max-vertical-offset="2010">
+          <caret line="88" column="136" selection-start-line="88" selection-start-column="136" selection-end-line="88" selection-end-column="136" />
+          <folding>
+            <element signature="e#173#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

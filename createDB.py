@@ -16,6 +16,16 @@ def create_database():
     `average` INTEGER NOT NULL, \
     PRIMARY KEY(artistid))')
     db.commit()
+    db.execute('CREATE TABLE IF NOT EXISTS `iporecords` ( \
+    `trackid`  INTEGER NOT NULL, \
+    `viewcount` INTEGER NOT NULL, \
+    `ytrating` INTEGER NOT NULL, \
+    `ytnumraters` INTEGER NOT NULL, \
+    `spotifyrating` INTEGER NOT NULL, \
+    `artistaverage` INTEGER NOT NULL, \
+    `ipoprice` INTEGER NOT NULL, \
+    PRIMARY KEY(trackid))')
+    db.commit()
     db.close()
 
 def check_database():

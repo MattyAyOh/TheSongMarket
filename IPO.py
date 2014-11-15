@@ -9,6 +9,7 @@ from TSMSpotify import *
 from TSMCommon import *
 import requests
 import sys
+import sqlite3
 import os.path
 
 email = 'mattyayoh@gmail.com'
@@ -16,7 +17,7 @@ token = 'PQBTwrEmyRJrR8GMs6ij'
 rawTitle = ""
 rawArtist = ""
 
-def generateIPO(songURI):
+def generateIPO(songURI, trackID):
     songData = requestResponse(getSpotifyLookupURL(songURI))
 
     global rawTitle
@@ -83,6 +84,12 @@ def generateIPO(songURI):
 
     if finalIPOPrice < 10:
         finalIPOPrice = 10
+
+    db = sqlite3.connect('records.sqlite')
+    db.execute('INSERT OR REPLACE INTO iporecords VALUES (?,?,?,?,?,?,?)', (trackID, viewcount, youtubeRating, numraters, popularity, artistAvgPrice,finalIPOPrice))
+    db.commit()
+    db.close()
+
     return finalIPOPrice
 
 def publishIPO(songID, ipo):
@@ -90,18 +97,20 @@ def publishIPO(songID, ipo):
     body = {'user_email': email, 'user_token': token, 'song[ipo_value]': ipo}
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
-    print body
-    # apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
-    # p = requests.put(apiUPDATEURL, data=body, headers=headers)
-    # print p.status_code
-    # print p.text
+    # print body
+    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
+    p = requests.put(apiUPDATEURL, data=body, headers=headers)
+    print p.status_code
+    print p.text
+
+
 
 def createIPO(songURI, TSMTrackID=-1):
     #TODO: Check if song is 3 days old on youtube
     print songURI
     print TSMTrackID
     if(checkTrackIDExists(TSMTrackID)):
-        finalIPOPrice = generateIPO(songURI)
+        finalIPOPrice = generateIPO(songURI,TSMTrackID)
         publishIPO(TSMTrackID, finalIPOPrice)
 
 listofArgs = sys.argv[1:]
