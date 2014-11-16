@@ -10,7 +10,6 @@ from TSMCommon import *
 import requests
 import sys
 import sqlite3
-import os.path
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
