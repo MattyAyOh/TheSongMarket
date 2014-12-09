@@ -16,7 +16,6 @@ token = 'PQBTwrEmyRJrR8GMs6ij'
 rawTitle = ""
 rawArtist = ""
 
-
 def generateIPO(songURI, trackID):
     songData = requestResponse(getSpotifyLookupURL(songURI))
 
@@ -77,29 +76,18 @@ def generateIPO(songURI, trackID):
     overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
 
-    apiGETSONGURL = "http://api.thesongmarket.com/v1/songs/"+str(trackID)+"?user_email="+email+"&user_token="+token
-    p = requests.get(apiGETSONGURL)
-    mydict = p.json()
-    artistID = mydict["results"]["artist_id"]
-
-    db = sqlite3.connect('records.sqlite')
-    c = db.cursor()
-
-    c.execute('SELECT average FROM artistaverages WHERE artistid=(?)', (artistID,))
-    row = c.fetchone()
-    artistAvgPrice = 0
-    if(row != None):
-        artistAvgPrice = row[0]
-
+    averageDictionary = getAverageDictionary()
+    artistAvgPrice = int(averageDictionary[cleanArtist])
     if finalIPOPrice < artistAvgPrice:
         finalIPOPrice = (artistAvgPrice+finalIPOPrice)/2
 
     if finalIPOPrice < 10:
         finalIPOPrice = 10
 
-    # db.execute('INSERT OR REPLACE INTO iporecords VALUES (?,?,?,?,?,?,?)', (trackID, viewcount, youtubeRating, numraters, popularity, artistAvgPrice,finalIPOPrice))
-    # db.commit()
-    # db.close()
+    db = sqlite3.connect('records.sqlite')
+    db.execute('INSERT OR REPLACE INTO iporecords VALUES (?,?,?,?,?,?,?)', (trackID, viewcount, youtubeRating, numraters, popularity, artistAvgPrice,finalIPOPrice))
+    db.commit()
+    db.close()
 
     return finalIPOPrice
 

@@ -16,10 +16,10 @@ Artist Name/ID: The Pretty Reckless/1701
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Heaven Knows/8380
-Artist Name/ID: The Pretty Reckless/1701
-Searchable Query: Heaven%20Knows%20The%20Pretty%20Reckless
-COMMITTING: 8380, 1701, spotify:track:0ifIudDeWelhhKzNqP12jm, rHBxJCq99jA, 12957237
+Track Name/ID: Shake It Off/8400
+Artist Name/ID: Taylor Swift/1713
+Searchable Query: Shake%20It%20Off%20Taylor%20Swift
+COMMITTING: 8400, 1713, spotify:track:7n9Q6bXSjm74uCtajkddPt, nfWlot6h_JM, 359103761
 
 NEXT TRACK:
 Track Name/ID: Just Tonight/8383
@@ -72,10 +72,10 @@ Artist Name/ID: DJ Madd/1703
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Shake It Off/8400
-Artist Name/ID: Taylor Swift/1713
-Searchable Query: Shake%20It%20Off%20Taylor%20Swift
-COMMITTING: 8400, 1713, spotify:track:7n9Q6bXSjm74uCtajkddPt, nfWlot6h_JM, 323472566
+Track Name/ID: Heaven Knows/8380
+Artist Name/ID: The Pretty Reckless/1701
+Searchable Query: Heaven%20Knows%20The%20Pretty%20Reckless
+COMMITTING: 8380, 1701, spotify:track:0ifIudDeWelhhKzNqP12jm, rHBxJCq99jA, 13270707
 
 NEXT TRACK:
 Track Name/ID: Voices In My Head/8442
@@ -293,10 +293,10 @@ Artist Name/ID: Celldweller/1737
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Trouble/8413
-Artist Name/ID: Coldplay/1717
-Searchable Query: Trouble%20Coldplay
-COMMITTING: 8413, 1717, spotify:track:0R8P9KfGJCDULmlEoBagcO, kcASPx3-HuI, 11644745
+Track Name/ID: Video Girl/8896
+Artist Name/ID: FKA twigs/1981
+Searchable Query: Video%20Girl%20FKA%20twigs
+COMMITTING: 8896, 1981, spotify:track:0x4ofkb0oUUA0sACJTkozV, 2jhTiLuGezI, 1490935
 
 NEXT TRACK:
 Track Name/ID: Voices in my Head/8458
@@ -314,10 +314,10 @@ Artist Name/ID: Celldweller/1737
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Video Girl/8896
-Artist Name/ID: FKA twigs/1981
-Searchable Query: Video%20Girl%20FKA%20twigs
-COMMITTING: 8896, 1981, spotify:track:0x4ofkb0oUUA0sACJTkozV, 2jhTiLuGezI, 1326057
+Track Name/ID: Trouble/8413
+Artist Name/ID: Coldplay/1717
+Searchable Query: Trouble%20Coldplay
+COMMITTING: 8413, 1717, spotify:track:0R8P9KfGJCDULmlEoBagcO, kcASPx3-HuI, 11844366
 
 NEXT TRACK:
 Track Name/ID: All This Could Be Yours/8462
@@ -415,15 +415,15 @@ Artist Name/ID: Eumetris/1748
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: All This Could Be Yours/8463
-Artist Name/ID: Cold War Kids/1741
-Searchable Query: All%20This%20Could%20Be%20Yours%20Cold%20War%20Kids
-COMMITTING: 8463, 1741, spotify:track:2bVZ9Mbq0roH4gJpGdioaH, EBvW3Mlcacw, 141592
-
-NEXT TRACK:
 Track Name/ID: (Intro) Bet My Life/8488
 Artist Name/ID: Zaze/1749
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All This Could Be Yours/8463
+Artist Name/ID: Cold War Kids/1741
+Searchable Query: All%20This%20Could%20Be%20Yours%20Cold%20War%20Kids
+COMMITTING: 8463, 1741, spotify:track:2bVZ9Mbq0roH4gJpGdioaH, EBvW3Mlcacw, 162415
 
 NEXT TRACK:
 Track Name/ID: I Bet My Life - Piano Version/9525
@@ -666,16 +666,16 @@ Artist Name/ID: Sander Van Doorn/2011
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Heroes (We Could Be)/6015
-Artist Name/ID: Alesso/782
-Searchable Query: Heroes%20(We%20Could%20Be)%20Alesso
-COMMITTING: 6015, 782, spotify:track:5vLOVP3M0Vg2FaYJnUcrvm, a7SouU3ECpU, 9018824
-
-NEXT TRACK:
 Track Name/ID: When We Were Young/4262
 Artist Name/ID: Dillon Francis/1004
 Searchable Query: When%20We%20Were%20Young%20Dillon%20Francis
-COMMITTING: 4262, 1004, spotify:track:5VXFXTHWEjB9mJLpenkN4J, 95-cScAf_40, 869522
+COMMITTING: 4262, 1004, spotify:track:5VXFXTHWEjB9mJLpenkN4J, 95-cScAf_40, 1034670
+
+NEXT TRACK:
+Track Name/ID: Heroes (We Could Be)/6015
+Artist Name/ID: Alesso/782
+Searchable Query: Heroes%20(We%20Could%20Be)%20Alesso
+COMMITTING: 6015, 782, spotify:track:5vLOVP3M0Vg2FaYJnUcrvm, a7SouU3ECpU, 11357981
 
 NEXT TRACK:
 Track Name/ID: Gold Skies/8978
@@ -686,7 +686,7 @@ NEXT TRACK:
 Track Name/ID: Bulletproof Picasso/2121
 Artist Name/ID: Train/541
 Searchable Query: Bulletproof%20Picasso%20Train
-COMMITTING: 2121, 541, spotify:track:6oVU2nHHoC98FtLMwMHug9, EZC8X5_NORI, 216454
+COMMITTING: 2121, 541, spotify:track:6oVU2nHHoC98FtLMwMHug9, EZC8X5_NORI, 224666
 
 NEXT TRACK:
 Track Name/ID: Gold Skies - Radio Edit/8979
@@ -1214,12 +1214,6 @@ Artist Name/ID: 2014 Platinum Disco/2007
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Under The Tide/8912
-Artist Name/ID: CHVRCHES/1987
-Searchable Query: Under%20The%20Tide%20CHVRCHES
-COMMITTING: 8912, 1987, spotify:track:5PUX4AJGEScOnoDIhJeXDZ, TTOuVP0iYQs, 255322
-
-NEXT TRACK:
 Track Name/ID: Fools Gold/8948
 Artist Name/ID: Fitz and The Tantrums/2008
 Not IPO'd Yet!
@@ -1258,6 +1252,12 @@ NEXT TRACK:
 Track Name/ID: Heads Will Roll - A-Trak Radio Edit/8991
 Artist Name/ID: Yeah Yeah Yeahs/1833
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Under The Tide/8912
+Artist Name/ID: CHVRCHES/1987
+Searchable Query: Under%20The%20Tide%20CHVRCHES
+COMMITTING: 8912, 1987, spotify:track:5PUX4AJGEScOnoDIhJeXDZ, TTOuVP0iYQs, 282230
 
 NEXT TRACK:
 Track Name/ID: Something For Nothing/11160
@@ -1615,10 +1615,10 @@ Artist Name/ID: Theory Of A Deadman/1813
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Steal My Girl/8924
-Artist Name/ID: One Direction/1988
-Searchable Query: Steal%20My%20Girl%20One%20Direction
-COMMITTING: 8924, 1988, spotify:track:3QEdkjBmbgwTnfvuZL9U97, UpsKGvPjAgw, 45470040
+Track Name/ID: Maps/8612
+Artist Name/ID: Maroon 5/1831
+Searchable Query: Maps%20Maroon%205
+COMMITTING: 8612, 1831, spotify:track:0DKT3yIip1M0W0J1HYS1ru, NmugSMBh_iI, 77710083
 
 NEXT TRACK:
 Track Name/ID: Drown/8593
@@ -1816,12 +1816,6 @@ Artist Name/ID: Shakira/1845
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Maps/8612
-Artist Name/ID: Maroon 5/1831
-Searchable Query: Maps%20Maroon%205
-COMMITTING: 8612, 1831, spotify:track:0DKT3yIip1M0W0J1HYS1ru, NmugSMBh_iI, 72715029
-
-NEXT TRACK:
 Track Name/ID: La La Love/8632
 Artist Name/ID: Ivi Adamou/1844
 Not IPO'd Yet!
@@ -1850,6 +1844,12 @@ NEXT TRACK:
 Track Name/ID: Tengo un Amor/8638
 Artist Name/ID: Toby Love/1849
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Steal My Girl/8924
+Artist Name/ID: One Direction/1988
+Searchable Query: Steal%20My%20Girl%20One%20Direction
+COMMITTING: 8924, 1988, spotify:track:3QEdkjBmbgwTnfvuZL9U97, UpsKGvPjAgw, 53937986
 
 NEXT TRACK:
 Track Name/ID: Eternal Flame (La Flama Enterna)/8639
@@ -1927,10 +1927,10 @@ Artist Name/ID: Bondax/2009
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Jealous/2393
-Artist Name/ID: Nick Jonas/613
-Searchable Query: Jealous%20Nick%20Jonas
-COMMITTING: 2393, 613, spotify:track:1HTvqpSZrJ27fKdhpnot3S, yw04QD1LaB0, 11913777
+Track Name/ID: All I See/8951
+Artist Name/ID: Bondax/2009
+Searchable Query: All%20I%20See%20Bondax
+COMMITTING: 8951, 2009, spotify:track:3Vr1FxMHtBLnQASeLl8YmG, LPTE9SxYUVE, 365518
 
 NEXT TRACK:
 Track Name/ID: Gold/8954
@@ -2013,10 +2013,10 @@ Artist Name/ID: Bondax/2009
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: All I See/8951
-Artist Name/ID: Bondax/2009
-Searchable Query: All%20I%20See%20Bondax
-COMMITTING: 8951, 2009, spotify:track:3Vr1FxMHtBLnQASeLl8YmG, LPTE9SxYUVE, 334637
+Track Name/ID: A Sky Full Of Stars/8491
+Artist Name/ID: Coldplay/1717
+Searchable Query: A%20Sky%20Full%20Of%20Stars%20Coldplay
+COMMITTING: 8491, 1717, spotify:track:6HFbq7cewJ7rPiffV0ciil, VPRjCeoBqrI, 55656090
 
 NEXT TRACK:
 Track Name/ID: Piss Test - Flosstradamus Remix/9022
@@ -2049,10 +2049,16 @@ Artist Name/ID: Flosstradamus & DJ Sliink/2037
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: A Sky Full Of Stars/8491
-Artist Name/ID: Coldplay/1717
-Searchable Query: A%20Sky%20Full%20Of%20Stars%20Coldplay
-COMMITTING: 8491, 1717, spotify:track:6HFbq7cewJ7rPiffV0ciil, VPRjCeoBqrI, 53208368
+Track Name/ID: All I See - Darius Remix/8957
+Artist Name/ID: Bondax/2009
+Searchable Query: All%20I%20See%20-%20Darius%20Remix%20Bondax
+COMMITTING: 8957, 2009, spotify:track:2d7Wkw0qgUFcOxOmShrjKG, LRjmPZUusE4, 1573
+
+NEXT TRACK:
+Track Name/ID: Jealous/2393
+Artist Name/ID: Nick Jonas/613
+Searchable Query: Jealous%20Nick%20Jonas
+COMMITTING: 2393, 613, spotify:track:1HTvqpSZrJ27fKdhpnot3S, yw04QD1LaB0, 15253704
 
 NEXT TRACK:
 Track Name/ID: Captain Blood/11162
@@ -2078,12 +2084,6 @@ NEXT TRACK:
 Track Name/ID: Move For Me/9225
 Artist Name/ID: Kaskade/2117
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: All I See - Darius Remix/8957
-Artist Name/ID: Bondax/2009
-Searchable Query: All%20I%20See%20-%20Darius%20Remix%20Bondax
-COMMITTING: 8957, 2009, spotify:track:2d7Wkw0qgUFcOxOmShrjKG, LRjmPZUusE4, 778
 
 NEXT TRACK:
 Track Name/ID: Run the World (Girls) - Kaskade Club Remix/9227
@@ -2344,7 +2344,7 @@ NEXT TRACK:
 Track Name/ID: Outside/4648
 Artist Name/ID: Calvin Harris/928
 Searchable Query: Outside%20Calvin%20Harris
-COMMITTING: 4648, 928, spotify:track:70CuZJtPDdCD3cphDDhjJq, J9NQFACZYEU, 11576771
+COMMITTING: 4648, 928, spotify:track:70CuZJtPDdCD3cphDDhjJq, J9NQFACZYEU, 17680416
 
 NEXT TRACK:
 Track Name/ID: Burnin' Up/8704
@@ -2435,13 +2435,13 @@ NEXT TRACK:
 Track Name/ID: Bang Bang/5862
 Artist Name/ID: Jessie J/1313
 Searchable Query: Bang%20Bang%20Jessie%20J
-COMMITTING: 5862, 1313, spotify:track:7zrYKlgYQv1ELz7LGyjTd1, 0HDdjwpPM3Y, 136457497
+COMMITTING: 5862, 1313, spotify:track:7zrYKlgYQv1ELz7LGyjTd1, 0HDdjwpPM3Y, 153100888
 
 NEXT TRACK:
 Track Name/ID: Burnin' Up/8703
 Artist Name/ID: Jessie J/1881
 Searchable Query: Burnin'%20Up%20Jessie%20J
-COMMITTING: 8703, 1881, spotify:track:4dYBLFeLoeZtClQsC6Tuwb, H7iLIAD27Pk, 9508711
+COMMITTING: 8703, 1881, spotify:track:4dYBLFeLoeZtClQsC6Tuwb, H7iLIAD27Pk, 11599521
 
 NEXT TRACK:
 Track Name/ID: Dynasty - Dada Life Remix/9229
@@ -2562,19 +2562,7 @@ NEXT TRACK:
 Track Name/ID: TTU (Too Turnt Up)/9011
 Artist Name/ID: Flosstradamus/1959
 Searchable Query: TTU%20(Too%20Turnt%20Up)%20Flosstradamus
-COMMITTING: 9011, 1959, spotify:track:4JLLnjcRyPn67pRcBJSu19, imHTgWXmR7g, 760758
-
-NEXT TRACK:
-Track Name/ID: Being Beige/9028
-Artist Name/ID: The Smashing Pumpkins/1821
-Searchable Query: Being%20Beige%20The%20Smashing%20Pumpkins
-COMMITTING: 9028, 1821, spotify:track:2b4X1y2Y9uz0MLNcWF7zBk, aKjPEnVVwRk, 82291
-
-NEXT TRACK:
-Track Name/ID: Gooey/9036
-Artist Name/ID: Glass Animals/2039
-Searchable Query: Gooey%20Glass%20Animals
-COMMITTING: 9036, 2039, spotify:track:1eKc2ysg5FhOU2jswOlvC2, IIA1XQnAv5s, 1663489
+COMMITTING: 9011, 1959, spotify:track:4JLLnjcRyPn67pRcBJSu19, imHTgWXmR7g, 805741
 
 NEXT TRACK:
 Track Name/ID: Being Beige/9029
@@ -2620,6 +2608,12 @@ NEXT TRACK:
 Track Name/ID: Baby Don't Lie (In the Style of Gwen Stefani) [Instrumental Version]/9065
 Artist Name/ID: Ya Boy Karaoke/1997
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Gooey/9036
+Artist Name/ID: Glass Animals/2039
+Searchable Query: Gooey%20Glass%20Animals
+COMMITTING: 9036, 2039, spotify:track:1eKc2ysg5FhOU2jswOlvC2, IIA1XQnAv5s, 1779781
 
 NEXT TRACK:
 Track Name/ID: Gooey/9034
@@ -2792,10 +2786,10 @@ Artist Name/ID: Dillon Francis/1893
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: The Devil In I/9066
-Artist Name/ID: Slipknot/2047
-Searchable Query: The%20Devil%20In%20I%20Slipknot
-COMMITTING: 9066, 2047, spotify:track:0ySO73b1euPJ5wse2F38DS, XEEasR7hVhA, 15299412
+Track Name/ID: Blame/4436
+Artist Name/ID: Calvin Harris/928
+Searchable Query: Blame%20Calvin%20Harris
+COMMITTING: 4436, 928, spotify:track:7EYWEwJyai7udNmqvRPsZM, 6ACl8s_tBzE, 54674059
 
 NEXT TRACK:
 Track Name/ID: Give Me Just A Little More Time/9250
@@ -2813,16 +2807,16 @@ Artist Name/ID: Southside Johnny And The Asbury Jukes/2149
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Blame/4436
-Artist Name/ID: Calvin Harris/928
-Searchable Query: Blame%20Calvin%20Harris
-COMMITTING: 4436, 928, spotify:track:7EYWEwJyai7udNmqvRPsZM, 6ACl8s_tBzE, 48734183
-
-NEXT TRACK:
 Track Name/ID: Waves/4491
 Artist Name/ID: Mr. Probz/1045
 Searchable Query: Waves%20Mr.%20Probz
-COMMITTING: 4491, 1045, spotify:track:5Sf3GyLEAzJXxZ5mbCPXTu, pUjE9H8QlA4, 90164048
+COMMITTING: 4491, 1045, spotify:track:5Sf3GyLEAzJXxZ5mbCPXTu, pUjE9H8QlA4, 93967177
+
+NEXT TRACK:
+Track Name/ID: Don't Tell 'Em/6092
+Artist Name/ID: Jeremih/592
+Searchable Query: Don't%20Tell%20'Em%20Jeremih
+COMMITTING: 6092, 592, spotify:track:5rph5sObvxskRcb1JLV70r, 9ycBvqm9LFQ, 18803159
 
 NEXT TRACK:
 Track Name/ID: Baby Don't You Tell Me No Lie/9283
@@ -3005,15 +2999,15 @@ Artist Name/ID: Kevin Anderson & The Stick Em Up Kids/2163
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Don't Tell 'Em/6092
-Artist Name/ID: Jeremih/592
-Searchable Query: Don't%20Tell%20'Em%20Jeremih
-COMMITTING: 6092, 592, spotify:track:5rph5sObvxskRcb1JLV70r, 9ycBvqm9LFQ, 16084117
-
-NEXT TRACK:
 Track Name/ID: Hideaway/9289
 Artist Name/ID: Kiesza/1796
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Devil In I/9066
+Artist Name/ID: Slipknot/2047
+Searchable Query: The%20Devil%20In%20I%20Slipknot
+COMMITTING: 9066, 2047, spotify:track:0ySO73b1euPJ5wse2F38DS, XEEasR7hVhA, 16812338
 
 NEXT TRACK:
 Track Name/ID: Always Like This/8724
@@ -3021,10 +3015,10 @@ Artist Name/ID: Bombay Bicycle Club/1894
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Holy Ghost/2606
-Artist Name/ID: Jeezy/690
-Searchable Query: Holy%20Ghost%20Jeezy
-COMMITTING: 2606, 690, spotify:track:3ACwUaYu0EUjDCvu5xaEtG, SJ1849qTQkM, 753116
+Track Name/ID: Coronus, the Terminator/6861
+Artist Name/ID: Flying Lotus/1482
+Searchable Query: Coronus,%20the%20Terminator%20Flying%20Lotus
+COMMITTING: 6861, 1482, spotify:track:0OPOIKHmhjHlVI10UsGLf4, Fi3afWk_c4E, 12138
 
 NEXT TRACK:
 Track Name/ID: Shuffle/8725
@@ -3132,82 +3126,70 @@ Artist Name/ID: Bombay Bicycle Club/1894
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: American Kids/2287
-Artist Name/ID: Kenny Chesney/573
-Searchable Query: American%20Kids%20Kenny%20Chesney
-COMMITTING: 2287, 573, spotify:track:61tRRrJoargpHwT0uAEpuY, de1aPKXBdAE, 8412895
-
-NEXT TRACK:
-Track Name/ID: A Little More - Original Mix/9226
-Artist Name/ID: Kaskade/2117
-Searchable Query: A%20Little%20More%20-%20Original%20Mix%20Kaskade
-COMMITTING: 9226, 2117, spotify:track:5g6QMEXgFeqJpVbhs4Z7Az, 03QwK1srOC4, 1888
-
-NEXT TRACK:
-Track Name/ID: Luna/8723
-Artist Name/ID: Bombay Bicycle Club/1894
-Searchable Query: Luna%20Bombay%20Bicycle%20Club
-COMMITTING: 8723, 1894, spotify:track:3B6mCjnpTthmtFPuTAH0Kz, JwlgC-jSPTk, 2799099
-
-NEXT TRACK:
-Track Name/ID: Zodiac Shit/6821
-Artist Name/ID: Flying Lotus/1482
-Searchable Query: Zodiac%20Shit%20Flying%20Lotus
-COMMITTING: 6821, 1482, spotify:track:4GtN7yHlsvQanJfp2Qzw1A, 0ScYz9sNaQk, 274008
-
-NEXT TRACK:
-Track Name/ID: L.A.LOVE (la la)/8683
-Artist Name/ID: Fergie/1877
-Searchable Query: L.A.LOVE%20(la%20la)%20Fergie
-COMMITTING: 8683, 1877, spotify:track:2y7JA3IuVLkO0U4wxsXWtZ, 5Y4uMkvET4o, 344186
-
-NEXT TRACK:
-Track Name/ID: Bad (feat. Vassy) - Radio Edit/8551
-Artist Name/ID: David Guetta/1791
-Searchable Query: Bad%20(feat.%20Vassy)%20-%20Radio%20Edit%20David%20Guetta
-COMMITTING: 8551, 1791, spotify:track:6PtXobrqImYfnpIxNsJApa, oC-GflRB0y4, 187648552
-
-NEXT TRACK:
-Track Name/ID: Shut Up and Dance/2583
-Artist Name/ID: Walk the Moon/680
-Searchable Query: Shut%20Up%20and%20Dance%20Walk%20the%20Moon
-COMMITTING: 2583, 680, spotify:track:1K66si1ZELsRZzg7m7mcps, 6JCLY0Rlx6Q, 674821
-
-NEXT TRACK:
-Track Name/ID: Never Catch Me (feat. Kendrick Lamar)/6815
-Artist Name/ID: Flying Lotus/1482
-Searchable Query: Never%20Catch%20Me%20(feat.%20Kendrick%20Lamar)%20Flying%20Lotus
-COMMITTING: 6815, 1482, spotify:track:5FCrCk5y0vRIRV5nlT2w8X, 2lXD0vv-ds8, 3358784
-
-NEXT TRACK:
-Track Name/ID: Coronus, the Terminator/6861
-Artist Name/ID: Flying Lotus/1482
-Searchable Query: Coronus,%20the%20Terminator%20Flying%20Lotus
-COMMITTING: 6861, 1482, spotify:track:0OPOIKHmhjHlVI10UsGLf4, isk2YifPMgI, 2297
-
-NEXT TRACK:
 Track Name/ID: Warriors/8511
 Artist Name/ID: Imagine Dragons/1747
 Searchable Query: Warriors%20Imagine%20Dragons
-COMMITTING: 8511, 1747, spotify:track:5MVkWRKMBO3r05oihuNbzM, VP9I8ZUwKpc, 3512534
-
-NEXT TRACK:
-Track Name/ID: Feel/8727
-Artist Name/ID: Bombay Bicycle Club/1894
-Searchable Query: Feel%20Bombay%20Bicycle%20Club
-COMMITTING: 8727, 1894, spotify:track:31Lo7KUgIs5k3ivISB4ECJ, etmFT1OQSnc, 1290450
+COMMITTING: 8511, 1747, spotify:track:5MVkWRKMBO3r05oihuNbzM, VP9I8ZUwKpc, 4154163
 
 NEXT TRACK:
 Track Name/ID: Fireball/2237
 Artist Name/ID: Pitbull/564
 Searchable Query: Fireball%20Pitbull
-COMMITTING: 2237, 564, spotify:track:49eplIHvgCLY8HAgcaWrUb, HMqgVXSvwGo, 27891737
+COMMITTING: 2237, 564, spotify:track:49eplIHvgCLY8HAgcaWrUb, HMqgVXSvwGo, 32190463
 
 NEXT TRACK:
 Track Name/ID: All This Could Be Yours/8461
 Artist Name/ID: Cold War Kids/1741
 Searchable Query: All%20This%20Could%20Be%20Yours%20Cold%20War%20Kids
-COMMITTING: 8461, 1741, spotify:track:0dPMGVjbur4DLgFJLI6Whp, EBvW3Mlcacw, 141592
+COMMITTING: 8461, 1741, spotify:track:0dPMGVjbur4DLgFJLI6Whp, EBvW3Mlcacw, 162415
+
+NEXT TRACK:
+Track Name/ID: Voices In My Head/8441
+Artist Name/ID: SBTRKT/1736
+Searchable Query: Voices%20In%20My%20Head%20SBTRKT
+COMMITTING: 8441, 1736, spotify:track:1rckFZYmLItzGQ4vBC2gVZ, Kh39wqXkits, 19522
+
+NEXT TRACK:
+Track Name/ID: Holy Ghost/2606
+Artist Name/ID: Jeezy/690
+Searchable Query: Holy%20Ghost%20Jeezy
+COMMITTING: 2606, 690, spotify:track:3ACwUaYu0EUjDCvu5xaEtG, SJ1849qTQkM, 885609
+
+NEXT TRACK:
+Track Name/ID: American Kids/2287
+Artist Name/ID: Kenny Chesney/573
+Searchable Query: American%20Kids%20Kenny%20Chesney
+COMMITTING: 2287, 573, spotify:track:61tRRrJoargpHwT0uAEpuY, de1aPKXBdAE, 8740152
+
+NEXT TRACK:
+Track Name/ID: A Little More - Original Mix/9226
+Artist Name/ID: Kaskade/2117
+Searchable Query: A%20Little%20More%20-%20Original%20Mix%20Kaskade
+COMMITTING: 9226, 2117, spotify:track:5g6QMEXgFeqJpVbhs4Z7Az, 03QwK1srOC4, 4521
+
+NEXT TRACK:
+Track Name/ID: Never Catch Me (feat. Kendrick Lamar)/6815
+Artist Name/ID: Flying Lotus/1482
+Searchable Query: Never%20Catch%20Me%20(feat.%20Kendrick%20Lamar)%20Flying%20Lotus
+COMMITTING: 6815, 1482, spotify:track:5FCrCk5y0vRIRV5nlT2w8X, 2lXD0vv-ds8, 3532561
+
+NEXT TRACK:
+Track Name/ID: L.A.LOVE (la la)/8683
+Artist Name/ID: Fergie/1877
+Searchable Query: L.A.LOVE%20(la%20la)%20Fergie
+COMMITTING: 8683, 1877, spotify:track:2y7JA3IuVLkO0U4wxsXWtZ, GLyP0B2Q-R4, 12517644
+
+NEXT TRACK:
+Track Name/ID: Bad (feat. Vassy) - Radio Edit/8551
+Artist Name/ID: David Guetta/1791
+Searchable Query: Bad%20(feat.%20Vassy)%20-%20Radio%20Edit%20David%20Guetta
+COMMITTING: 8551, 1791, spotify:track:6PtXobrqImYfnpIxNsJApa, oC-GflRB0y4, 196541319
+
+NEXT TRACK:
+Track Name/ID: Shut Up and Dance/2583
+Artist Name/ID: Walk the Moon/680
+Searchable Query: Shut%20Up%20and%20Dance%20Walk%20the%20Moon
+COMMITTING: 2583, 680, spotify:track:1K66si1ZELsRZzg7m7mcps, 6JCLY0Rlx6Q, 993713
 
 NEXT TRACK:
 Track Name/ID: I Bet My Life (Karaoke Version with Backing Vocals) - Originally Performed By Imagine Dragons/9529
@@ -3215,10 +3197,16 @@ Artist Name/ID: Karaoke Galaxy/2044
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Voices In My Head/8441
-Artist Name/ID: SBTRKT/1736
-Searchable Query: Voices%20In%20My%20Head%20SBTRKT
-COMMITTING: 8441, 1736, spotify:track:1rckFZYmLItzGQ4vBC2gVZ, Kh39wqXkits, 12308
+Track Name/ID: Feel/8727
+Artist Name/ID: Bombay Bicycle Club/1894
+Searchable Query: Feel%20Bombay%20Bicycle%20Club
+COMMITTING: 8727, 1894, spotify:track:31Lo7KUgIs5k3ivISB4ECJ, etmFT1OQSnc, 1321201
+
+NEXT TRACK:
+Track Name/ID: Zodiac Shit/6821
+Artist Name/ID: Flying Lotus/1482
+Searchable Query: Zodiac%20Shit%20Flying%20Lotus
+COMMITTING: 6821, 1482, spotify:track:4GtN7yHlsvQanJfp2Qzw1A, 0ScYz9sNaQk, 297379
 
 NEXT TRACK:
 Track Name/ID: HyperParadise - Flume Remix/9530
@@ -3249,6 +3237,12 @@ NEXT TRACK:
 Track Name/ID: All Of You/9536
 Artist Name/ID: Hermitude/2247
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Luna/8723
+Artist Name/ID: Bombay Bicycle Club/1894
+Searchable Query: Luna%20Bombay%20Bicycle%20Club
+COMMITTING: 8723, 1894, spotify:track:3B6mCjnpTthmtFPuTAH0Kz, JwlgC-jSPTk, 2867858
 
 NEXT TRACK:
 Track Name/ID: Heaven Knows/8743
@@ -3454,7 +3448,7 @@ NEXT TRACK:
 Track Name/ID: So Deep/4710
 Artist Name/ID: Kiesza/1085
 Searchable Query: So%20Deep%20Kiesza
-COMMITTING: 4710, 1085, spotify:track:1kdo5dmTd3cgtKi6dEbf97, Ph3T33aTBiI, 531522
+COMMITTING: 4710, 1085, spotify:track:1kdo5dmTd3cgtKi6dEbf97, Ph3T33aTBiI, 554578
 
 NEXT TRACK:
 Track Name/ID: Shake It Off - Acoustic Version/9080
@@ -3712,16 +3706,16 @@ Artist Name/ID: Will Morrison/1758
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: One Touch VIP (feat. AlunaGeorge)/8838
-Artist Name/ID: Baauer/1939
-Searchable Query: One%20Touch%20VIP%20(feat.%20AlunaGeorge)%20Baauer
-COMMITTING: 8838, 1939, spotify:track:6wByKIXthQSFq9n4CqK0Au, QNYNsTtkzTI, 62448
-
-NEXT TRACK:
 Track Name/ID: I Bet My Life/8486
 Artist Name/ID: Imagine Dragons/1747
 Searchable Query: I%20Bet%20My%20Life%20Imagine%20Dragons
-COMMITTING: 8486, 1747, spotify:track:7q2f7lhHTv7j7EFG0vplwA, -QlqqhzLVFo, 3681432
+COMMITTING: 8486, 1747, spotify:track:7q2f7lhHTv7j7EFG0vplwA, -QlqqhzLVFo, 4692145
+
+NEXT TRACK:
+Track Name/ID: One Touch VIP (feat. AlunaGeorge)/8838
+Artist Name/ID: Baauer/1939
+Searchable Query: One%20Touch%20VIP%20(feat.%20AlunaGeorge)%20Baauer
+COMMITTING: 8838, 1939, spotify:track:6wByKIXthQSFq9n4CqK0Au, Pzy5dD-eo8I, 16496
 
 NEXT TRACK:
 Track Name/ID: (Do You Get) Excited? - T&A Demo Aug 19, 1989/9112
@@ -3934,12 +3928,6 @@ Artist Name/ID: Places Of Power/2074
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Bet My Life/8485
-Artist Name/ID: Imagine Dragons/1747
-Searchable Query: I%20Bet%20My%20Life%20Imagine%20Dragons
-COMMITTING: 8485, 1747, spotify:track:2Ex5M7OjJhkH38JvCUzwXR, -QlqqhzLVFo, 3681432
-
-NEXT TRACK:
 Track Name/ID: Wildest Dream/9118
 Artist Name/ID: Jookay/2075
 Not IPO'd Yet!
@@ -3953,6 +3941,12 @@ NEXT TRACK:
 Track Name/ID: Wildest Dream - Original Mix/9119
 Artist Name/ID: Luca Lux/2076
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I Bet My Life/8485
+Artist Name/ID: Imagine Dragons/1747
+Searchable Query: I%20Bet%20My%20Life%20Imagine%20Dragons
+COMMITTING: 8485, 1747, spotify:track:2Ex5M7OjJhkH38JvCUzwXR, -QlqqhzLVFo, 4692145
 
 NEXT TRACK:
 Track Name/ID: Overload/8839
@@ -4510,10 +4504,10 @@ Artist Name/ID: Chunk! No, Captain Chunk!/2917
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Can't Stop Drinking About You/2889
-Artist Name/ID: Bebe Rexha/759
-Searchable Query: I%20Can't%20Stop%20Drinking%20About%20You%20Bebe%20Rexha
-COMMITTING: 2889, 759, spotify:track:4ZPdnqOaT0kkrsl9ppWc1V, EeBYIElpEPo, 2265155
+Track Name/ID: Centuries/2363
+Artist Name/ID: Fall Out Boy/603
+Searchable Query: Centuries%20Fall%20Out%20Boy
+COMMITTING: 2363, 603, spotify:track:3r0NMcEl7lxAHkSlDk8b7U, LBr7kECsjcQ, 8471742
 
 NEXT TRACK:
 Track Name/ID: Life/11176
@@ -4521,10 +4515,10 @@ Artist Name/ID: Chunk! No, Captain Chunk!/2917
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Everybody Wants To Rule The World - From "The Hunger Games: Catching Fire" / Soundtrack/4772
-Artist Name/ID: Lorde/857
-Searchable Query: Everybody%20Wants%20To%20Rule%20The%20World%20-%20From%20"The%20Hunger%20Games:%20Catching%20Fire"%20/%20Soundtrack%20Lorde
-COMMITTING: 4772, 857, spotify:track:6vH82EO79HolBobpt6eMS9, DaVA6sgOpws, 7767546
+Track Name/ID: aisatsana [102]/6781
+Artist Name/ID: Aphex Twin/1480
+Searchable Query: aisatsana%20[102]%20Aphex%20Twin
+COMMITTING: 6781, 1480, spotify:track:3ESsjKqrj3M79I8sSZieK3, kq5dHLSCGpI, 11111
 
 NEXT TRACK:
 Track Name/ID: The Hunt/9545
@@ -4552,16 +4546,16 @@ Artist Name/ID: Hermitude/2247
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Open Wide/8831
-Artist Name/ID: Calvin Harris/1934
-Searchable Query: Open%20Wide%20Calvin%20Harris
-COMMITTING: 8831, 1934, spotify:track:6r8SfNWnacob2wJQsFI2CL, zVzhpkFBFP8, 10098506
+Track Name/ID: i/8804
+Artist Name/ID: Kendrick Lamar/1923
+Searchable Query: i%20Kendrick%20Lamar
+COMMITTING: 8804, 1923, spotify:track:69x16JmnJxuLVP9ELBoY03, 8aShfolR6w8, 6935786
 
 NEXT TRACK:
-Track Name/ID: Centuries/2363
-Artist Name/ID: Fall Out Boy/603
-Searchable Query: Centuries%20Fall%20Out%20Boy
-COMMITTING: 2363, 603, spotify:track:3r0NMcEl7lxAHkSlDk8b7U, LBr7kECsjcQ, 6701491
+Track Name/ID: I Can't Stop Drinking About You/2889
+Artist Name/ID: Bebe Rexha/759
+Searchable Query: I%20Can't%20Stop%20Drinking%20About%20You%20Bebe%20Rexha
+COMMITTING: 2889, 759, spotify:track:4ZPdnqOaT0kkrsl9ppWc1V, EeBYIElpEPo, 2512811
 
 NEXT TRACK:
 Track Name/ID: Something From Nothing/11177
@@ -4574,16 +4568,16 @@ Artist Name/ID: Shpongle/2924
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: aisatsana [102]/6781
-Artist Name/ID: Aphex Twin/1480
-Searchable Query: aisatsana%20[102]%20Aphex%20Twin
-COMMITTING: 6781, 1480, spotify:track:3ESsjKqrj3M79I8sSZieK3, kq5dHLSCGpI, 9816
+Track Name/ID: Everybody Wants To Rule The World - From "The Hunger Games: Catching Fire" / Soundtrack/4772
+Artist Name/ID: Lorde/857
+Searchable Query: Everybody%20Wants%20To%20Rule%20The%20World%20-%20From%20"The%20Hunger%20Games:%20Catching%20Fire"%20/%20Soundtrack%20Lorde
+COMMITTING: 4772, 857, spotify:track:6vH82EO79HolBobpt6eMS9, DaVA6sgOpws, 8163083
 
 NEXT TRACK:
-Track Name/ID: i/8804
-Artist Name/ID: Kendrick Lamar/1923
-Searchable Query: i%20Kendrick%20Lamar
-COMMITTING: 8804, 1923, spotify:track:69x16JmnJxuLVP9ELBoY03, 8aShfolR6w8, 5401623
+Track Name/ID: Open Wide/8831
+Artist Name/ID: Calvin Harris/1934
+Searchable Query: Open%20Wide%20Calvin%20Harris
+COMMITTING: 8831, 1934, spotify:track:6r8SfNWnacob2wJQsFI2CL, zVzhpkFBFP8, 11897580
 
 NEXT TRACK:
 Track Name/ID: Positiv-O/11167
@@ -4706,10 +4700,10 @@ Artist Name/ID: Joe Moses/2925
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: GDFR (feat. Sage The Gemini and Lookas)/9308
-Artist Name/ID: Flo Rida/2171
-Searchable Query: GDFR%20(feat.%20Sage%20The%20Gemini%20and%20Lookas)%20Flo%20Rida
-COMMITTING: 9308, 2171, spotify:track:6N9ZOtguCnnrvwH7zD82WJ, l05tcAFLTRI, 1907205
+Track Name/ID: U Guessed It/2827
+Artist Name/ID: Og Maco/742
+Searchable Query: U%20Guessed%20It%20Og%20Maco
+COMMITTING: 2827, 742, spotify:track:5DTo64LZ1SmwbvMZfGF9lg, kT3OQwyvKmk, 14361007
 
 NEXT TRACK:
 Track Name/ID: (Wish I Could) Hideaway/9301
@@ -4772,22 +4766,22 @@ Artist Name/ID: Bayareasfinest/2173
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Break Up In A Small Town/2915
+Artist Name/ID: Sam Hunt/760
+Searchable Query: Break%20Up%20In%20A%20Small%20Town%20Sam%20Hunt
+COMMITTING: 2915, 760, spotify:track:2XxjRGbbwxCeSsSPZrbyoL, fQPS2sk1VTY, 941028
+
+NEXT TRACK:
+Track Name/ID: GDFR (feat. Sage The Gemini and Lookas)/9308
+Artist Name/ID: Flo Rida/2171
+Searchable Query: GDFR%20(feat.%20Sage%20The%20Gemini%20and%20Lookas)%20Flo%20Rida
+COMMITTING: 9308, 2171, spotify:track:6N9ZOtguCnnrvwH7zD82WJ, l05tcAFLTRI, 2640763
+
+NEXT TRACK:
 Track Name/ID: Happy Idiot/9146
 Artist Name/ID: TV On The Radio/2099
 Searchable Query: Happy%20Idiot%20TV%20On%20The%20Radio
-COMMITTING: 9146, 2099, spotify:track:6MLycvbQNnctHqaL5qEVZs, OaKVy-FlaUA, 317535
-
-NEXT TRACK:
-Track Name/ID: HyperParadise - Flume Remix (Ganz Flip)/9532
-Artist Name/ID: Hermitude/2247
-Searchable Query: HyperParadise%20-%20Flume%20Remix%20(Ganz%20Flip)%20Hermitude
-COMMITTING: 9532, 2247, spotify:track:3Wohv8fBYnW7DBr9AufIsA, x__9GbsTmi0, 68884
-
-NEXT TRACK:
-Track Name/ID: Problem/8531
-Artist Name/ID: Ariana Grande/1778
-Searchable Query: Problem%20Ariana%20Grande
-COMMITTING: 8531, 1778, spotify:track:6xCNYRfzZtoQRo1xruPmNq, iS1g8G_njx8, 312891871
+COMMITTING: 9146, 2099, spotify:track:6MLycvbQNnctHqaL5qEVZs, OaKVy-FlaUA, 388932
 
 NEXT TRACK:
 Track Name/ID: Nothing From Something/11186
@@ -4820,10 +4814,10 @@ Artist Name/ID: Dexcell/2934
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Won't Let You Down/8910
-Artist Name/ID: OK Go/1986
-Searchable Query: I%20Won't%20Let%20You%20Down%20OK%20Go
-COMMITTING: 8910, 1986, spotify:track:6mTqMRvuH1DHDWq0iGJ22M, u1ZB_rGFyeU, 14630207
+Track Name/ID: Problem/8531
+Artist Name/ID: Ariana Grande/1778
+Searchable Query: Problem%20Ariana%20Grande
+COMMITTING: 8531, 1778, spotify:track:6xCNYRfzZtoQRo1xruPmNq, iS1g8G_njx8, 328141980
 
 NEXT TRACK:
 Track Name/ID: Get Nekkid (feat. DJ Mustard)/11191
@@ -4836,46 +4830,40 @@ Artist Name/ID: Joe Moses/2925
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: No Type/8420
-Artist Name/ID: Rae Sremmurd/1723
-Searchable Query: No%20Type%20Rae%20Sremmurd
-COMMITTING: 8420, 1723, spotify:track:3BWxYPiMoUfNsPtSzRuXfw, wzMrK-aGCug, 49107005
+Track Name/ID: I Won't Let You Down/8910
+Artist Name/ID: OK Go/1986
+Searchable Query: I%20Won't%20Let%20You%20Down%20OK%20Go
+COMMITTING: 8910, 1986, spotify:track:6mTqMRvuH1DHDWq0iGJ22M, u1ZB_rGFyeU, 15407422
 
 NEXT TRACK:
 Track Name/ID: Bailando - English Version/8571
 Artist Name/ID: Enrique Iglesias/1806
 Searchable Query: Bailando%20-%20English%20Version%20Enrique%20Iglesias
-COMMITTING: 8571, 1806, spotify:track:3Y9xtYyVyF13po6xePV5Cp, b8I-7Wk_Vbc, 77076367
-
-NEXT TRACK:
-Track Name/ID: Left Hand Free/2463
-Artist Name/ID: alt-J/636
-Searchable Query: Left%20Hand%20Free%20alt-J
-COMMITTING: 2463, 636, spotify:track:2DCp2wBoQCFavSdK7iOeDp, NRWUoDpo2fo, 4109654
-
-NEXT TRACK:
-Track Name/ID: Flashlight/9032
-Artist Name/ID: Bonobo/2038
-Searchable Query: Flashlight%20Bonobo
-COMMITTING: 9032, 2038, spotify:track:2Qj2Owe4f7LtSsAwxbWj5B, l5gbk0xjRWI, 83641
+COMMITTING: 8571, 1806, spotify:track:3Y9xtYyVyF13po6xePV5Cp, b8I-7Wk_Vbc, 80802522
 
 NEXT TRACK:
 Track Name/ID: Promises/4664
 Artist Name/ID: Wiz Khalifa/1076
 Searchable Query: Promises%20Wiz%20Khalifa
-COMMITTING: 4664, 1076, spotify:track:035shFzbuWKyaFhnsTDv9p, KxJLYM9XOT4, 13388465
+COMMITTING: 4664, 1076, spotify:track:035shFzbuWKyaFhnsTDv9p, KxJLYM9XOT4, 14351981
 
 NEXT TRACK:
-Track Name/ID: U Guessed It/2827
-Artist Name/ID: Og Maco/742
-Searchable Query: U%20Guessed%20It%20Og%20Maco
-COMMITTING: 2827, 742, spotify:track:5DTo64LZ1SmwbvMZfGF9lg, kT3OQwyvKmk, 12697915
+Track Name/ID: Left Hand Free/2463
+Artist Name/ID: alt-J/636
+Searchable Query: Left%20Hand%20Free%20alt-J
+COMMITTING: 2463, 636, spotify:track:2DCp2wBoQCFavSdK7iOeDp, NRWUoDpo2fo, 4517419
 
 NEXT TRACK:
-Track Name/ID: Break Up In A Small Town/2915
-Artist Name/ID: Sam Hunt/760
-Searchable Query: Break%20Up%20In%20A%20Small%20Town%20Sam%20Hunt
-COMMITTING: 2915, 760, spotify:track:2XxjRGbbwxCeSsSPZrbyoL, fQPS2sk1VTY, 704455
+Track Name/ID: No Type/8420
+Artist Name/ID: Rae Sremmurd/1723
+Searchable Query: No%20Type%20Rae%20Sremmurd
+COMMITTING: 8420, 1723, spotify:track:3BWxYPiMoUfNsPtSzRuXfw, wzMrK-aGCug, 61052498
+
+NEXT TRACK:
+Track Name/ID: Flashlight/9032
+Artist Name/ID: Bonobo/2038
+Searchable Query: Flashlight%20Bonobo
+COMMITTING: 9032, 2038, spotify:track:2Qj2Owe4f7LtSsAwxbWj5B, l5gbk0xjRWI, 112325
 
 NEXT TRACK:
 Track Name/ID: Concerto for Two Trumpets in C Major, RV 537/9166
@@ -5013,10 +5001,10 @@ Artist Name/ID: Little Big Town/2184
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Day Drinking/9334
-Artist Name/ID: Little Big Town/2184
-Searchable Query: Day%20Drinking%20Little%20Big%20Town
-COMMITTING: 9334, 2184, spotify:track:5pD1qwHvnKFcQ2qjwsoKYF, -NPqM3vPDg8, 2156026
+Track Name/ID: New National Anthem/4853
+Artist Name/ID: T.I./839
+Searchable Query: New%20National%20Anthem%20T.I.
+COMMITTING: 4853, 839, spotify:track:4vJ8OPIqmP08J854FRvb39, -w8JxuXAlzM, 841262
 
 NEXT TRACK:
 Track Name/ID: Drinking Rum/9335
@@ -5104,16 +5092,16 @@ Artist Name/ID: Collerans Cross/2199
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: New National Anthem/4853
-Artist Name/ID: T.I./839
-Searchable Query: New%20National%20Anthem%20T.I.
-COMMITTING: 4853, 839, spotify:track:4vJ8OPIqmP08J854FRvb39, -w8JxuXAlzM, 784903
+Track Name/ID: Day Drinking/9334
+Artist Name/ID: Little Big Town/2184
+Searchable Query: Day%20Drinking%20Little%20Big%20Town
+COMMITTING: 9334, 2184, spotify:track:5pD1qwHvnKFcQ2qjwsoKYF, -NPqM3vPDg8, 2346203
 
 NEXT TRACK:
 Track Name/ID: I Lived/5994
 Artist Name/ID: OneRepublic/718
 Searchable Query: I%20Lived%20OneRepublic
-COMMITTING: 5994, 718, spotify:track:2QAHN4C4M8D8E8eiQvQW6a, z0rxydSolwU, 5935619
+COMMITTING: 5994, 718, spotify:track:2QAHN4C4M8D8E8eiQvQW6a, z0rxydSolwU, 6829767
 
 NEXT TRACK:
 Track Name/ID: Beg For It/9172
@@ -5214,13 +5202,13 @@ NEXT TRACK:
 Track Name/ID: Bump & Grind 2014 (Waze & Odyssey vs. R. Kelly) - Radio Edit/6142
 Artist Name/ID: Waze & Odyssey/1353
 Searchable Query: Bump%20&%20Grind%202014%20(Waze%20&%20Odyssey%20vs.%20R.%20Kelly)%20-%20Radio%20Edit%20Waze%20&%20Odyssey
-COMMITTING: 6142, 1353, spotify:track:3jcr84rjFk3rA4MZoU5QJS, s97Mb1TZqbU, 2796039
+COMMITTING: 6142, 1353, spotify:track:3jcr84rjFk3rA4MZoU5QJS, CiCWbfjf8Tw, 106585
 
 NEXT TRACK:
 Track Name/ID: One Touch (feat. AlunaGeorge and Rae Sremmurd)/8876
 Artist Name/ID: Baauer/1939
 Searchable Query: One%20Touch%20(feat.%20AlunaGeorge%20and%20Rae%20Sremmurd)%20Baauer
-COMMITTING: 8876, 1939, spotify:track:3zBWN2RILlV8RshkKvQsW8, tITYj52gXxU, 247587
+COMMITTING: 8876, 1939, spotify:track:3zBWN2RILlV8RshkKvQsW8, tITYj52gXxU, 322823
 
 NEXT TRACK:
 Track Name/ID: Take A Back Road/9191
@@ -5323,28 +5311,28 @@ Artist Name/ID: Rodney Atkins/2114
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Beg For It/9171
-Artist Name/ID: Iggy Azalea/2111
-Searchable Query: Beg%20For%20It%20Iggy%20Azalea
-COMMITTING: 9171, 2111, spotify:track:3icfRJHUPrPjMGtkLvni3y, ikAJnURZ7-o, 3335135
-
-NEXT TRACK:
 Track Name/ID: Fools Gold/8947
 Artist Name/ID: Fitz and The Tantrums/2008
 Searchable Query: Fools%20Gold%20Fitz%20and%20The%20Tantrums
-COMMITTING: 8947, 2008, spotify:track:3nSLu4fkMDyah7xrmKr4c4, YdbGXHwHAko, 163100
+COMMITTING: 8947, 2008, spotify:track:3nSLu4fkMDyah7xrmKr4c4, YdbGXHwHAko, 215433
+
+NEXT TRACK:
+Track Name/ID: Beg For It/9171
+Artist Name/ID: Iggy Azalea/2111
+Searchable Query: Beg%20For%20It%20Iggy%20Azalea
+COMMITTING: 9171, 2111, spotify:track:3icfRJHUPrPjMGtkLvni3y, 9j5vmAH9VeE, 1564214
 
 NEXT TRACK:
 Track Name/ID: Eat Sleep Love You Repeat/9211
 Artist Name/ID: Rodney Atkins/2114
 Searchable Query: Eat%20Sleep%20Love%20You%20Repeat%20Rodney%20Atkins
-COMMITTING: 9211, 2114, spotify:track:6CsZeVdSAfEmbCNRxHL6ur, wiSDL_yQod4, 61234
+COMMITTING: 9211, 2114, spotify:track:6CsZeVdSAfEmbCNRxHL6ur, wiSDL_yQod4, 65194
 
 NEXT TRACK:
 Track Name/ID: One Touch VIP (feat. AlunaGeorge)/8837
 Artist Name/ID: Baauer/1939
 Searchable Query: One%20Touch%20VIP%20(feat.%20AlunaGeorge)%20Baauer
-COMMITTING: 8837, 1939, spotify:track:4eVXis1qWamKTWgd81MAcn, QNYNsTtkzTI, 62448
+COMMITTING: 8837, 1939, spotify:track:4eVXis1qWamKTWgd81MAcn, Pzy5dD-eo8I, 16496
 
 NEXT TRACK:
 Track Name/ID: Tell Me This Night Is Over - Radio Edit/9551
@@ -5355,12 +5343,6 @@ NEXT TRACK:
 Track Name/ID: Animals (Instrumental) [Karaoke Version in the Style of Maroon 5]/9392
 Artist Name/ID: Gold Karaoke Hits/2207
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: Arrows (feat. Macklemore & Ryan Lewis)/4935
-Artist Name/ID: Fences/1102
-Searchable Query: Arrows%20(feat.%20Macklemore%20&%20Ryan%20Lewis)%20Fences
-COMMITTING: 4935, 1102, spotify:track:2GPaAr882x4ZteZnxywolL, ph6fmk27grc, 3640230
 
 NEXT TRACK:
 Track Name/ID: Dangerous (feat. Sam Martin) - David Guetta Banging Remix/9354
@@ -5553,6 +5535,12 @@ Artist Name/ID: Topline Tunes/2206
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Arrows (feat. Macklemore & Ryan Lewis)/4935
+Artist Name/ID: Fences/1102
+Searchable Query: Arrows%20(feat.%20Macklemore%20&%20Ryan%20Lewis)%20Fences
+COMMITTING: 4935, 1102, spotify:track:2GPaAr882x4ZteZnxywolL, ph6fmk27grc, 3885512
+
+NEXT TRACK:
 Track Name/ID: Outside - A Ringtone Tribute to Calvin Harris and Ellie Goulding/9394
 Artist Name/ID: 2014 Ringtone Legends/2208
 Not IPO'd Yet!
@@ -5563,10 +5551,10 @@ Artist Name/ID: Wilhelm Tell Me/2251
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Under Control/9402
+Track Name/ID: Together/9412
 Artist Name/ID: Calvin Harris/1934
-Searchable Query: Under%20Control%20Calvin%20Harris
-COMMITTING: 9402, 1934, spotify:track:4J7CKHCF3mdL4diUsmW8lq, yZqmarGShxg, 90819863
+Searchable Query: Together%20Calvin%20Harris
+COMMITTING: 9412, 1934, spotify:track:0otmDG441slQ7QYZUPgBcM, 8B8nLah6Gw8, 512248
 
 NEXT TRACK:
 Track Name/ID: Outside (Karaoke Version) [Originally Performed By Calvin Harris & Ellie Goulding]/9395
@@ -5759,28 +5747,22 @@ Artist Name/ID: Foo Fighters/2212
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Together/9412
-Artist Name/ID: Calvin Harris/1934
-Searchable Query: Together%20Calvin%20Harris
-COMMITTING: 9412, 1934, spotify:track:0otmDG441slQ7QYZUPgBcM, 8B8nLah6Gw8, 170011
-
-NEXT TRACK:
 Track Name/ID: Summer/9407
 Artist Name/ID: Calvin Harris/1934
 Searchable Query: Summer%20Calvin%20Harris
-COMMITTING: 9407, 1934, spotify:track:6YUTL4dYpB9xZO5qExPf05, ebXbLfLACGM, 292962851
+COMMITTING: 9407, 1934, spotify:track:6YUTL4dYpB9xZO5qExPf05, ebXbLfLACGM, 305078312
 
 NEXT TRACK:
 Track Name/ID: Something From Nothing/9414
 Artist Name/ID: Foo Fighters/2212
 Searchable Query: Something%20From%20Nothing%20Foo%20Fighters
-COMMITTING: 9414, 2212, spotify:track:5ilM3rmBwAw6ZxUJotTcif, V_YlZ1JdcVk, 3187276
+COMMITTING: 9414, 2212, spotify:track:5ilM3rmBwAw6ZxUJotTcif, V_YlZ1JdcVk, 3684492
 
 NEXT TRACK:
 Track Name/ID: Sun Daze/3096
 Artist Name/ID: Florida Georgia Line/563
 Searchable Query: Sun%20Daze%20Florida%20Georgia%20Line
-COMMITTING: 3096, 563, spotify:track:5aV8tqwLem6Duljakqzgar, c8nY06Pt8Qw, 1541085
+COMMITTING: 3096, 563, spotify:track:5aV8tqwLem6Duljakqzgar, c8nY06Pt8Qw, 2022766
 
 NEXT TRACK:
 Track Name/ID: Tell Me This Night Is Over/9557
@@ -5791,6 +5773,12 @@ NEXT TRACK:
 Track Name/ID: Kiss Me Thru The Phone/9558
 Artist Name/ID: Soulja Boy/2254
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Under Control/9402
+Artist Name/ID: Calvin Harris/1934
+Searchable Query: Under%20Control%20Calvin%20Harris
+COMMITTING: 9402, 1934, spotify:track:4J7CKHCF3mdL4diUsmW8lq, yZqmarGShxg, 92995310
 
 NEXT TRACK:
 Track Name/ID: Tell Me Why (Radio Edit)/9560
@@ -6333,16 +6321,16 @@ Artist Name/ID: Selena Gomez & The Scene/2263
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Everywhere I Go (Kings and Queens)/9314
-Artist Name/ID: New Politics/2174
-Searchable Query: Everywhere%20I%20Go%20(Kings%20and%20Queens)%20New%20Politics
-COMMITTING: 9314, 2174, spotify:track:6oztjkmPuV8iqw8Od7cjsa, NdMeiRlOz1o, 170159
+Track Name/ID: Burnin (feat. Wiz Khalifa, Berner)/9518
+Artist Name/ID: Twista/2244
+Searchable Query: Burnin%20(feat.%20Wiz%20Khalifa,%20Berner)%20Twista
+COMMITTING: 9518, 2244, spotify:track:3dj7yb4rOtzHjtLw01Y2PA, 3o3S1vPpydg, 8990
 
 NEXT TRACK:
-Track Name/ID: Oh Cecilia (Breaking My Heart)/5009
-Artist Name/ID: The Vamps/1121
-Searchable Query: Oh%20Cecilia%20(Breaking%20My%20Heart)%20The%20Vamps
-COMMITTING: 5009, 1121, spotify:track:3jnQF0OxLiAEFFcMdBgJ9s, COwkCW38J54, 10927347
+Track Name/ID: We Make It Bounce/4264
+Artist Name/ID: Dillon Francis/1004
+Searchable Query: We%20Make%20It%20Bounce%20Dillon%20Francis
+COMMITTING: 4264, 1004, spotify:track:0rlibmoWb58hRcQ4wA4Fsh, ExY0exavZrY, 506453
 
 NEXT TRACK:
 Track Name/ID: Jaguar/9588
@@ -6350,22 +6338,22 @@ Artist Name/ID: What So Not/2264
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Ongoing Thing/8137
-Artist Name/ID: 20syl/1654
-Searchable Query: Ongoing%20Thing%2020syl
-COMMITTING: 8137, 1654, spotify:track:3kL30Pjp90WKuX89Fx5TOv, Xkm8mGlfm9w, 1686977
-
-NEXT TRACK:
-Track Name/ID: We Make It Bounce/4264
-Artist Name/ID: Dillon Francis/1004
-Searchable Query: We%20Make%20It%20Bounce%20Dillon%20Francis
-COMMITTING: 4264, 1004, spotify:track:0rlibmoWb58hRcQ4wA4Fsh, ExY0exavZrY, 439219
-
-NEXT TRACK:
 Track Name/ID: Jaguar/9571
 Artist Name/ID: What So Not/2264
 Searchable Query: Jaguar%20What%20So%20Not
-COMMITTING: 9571, 2264, spotify:track:0QcwSZWxpePBVSCbfIJUz6, KB6ac_hRBik, 2663670
+COMMITTING: 9571, 2264, spotify:track:0QcwSZWxpePBVSCbfIJUz6, KB6ac_hRBik, 2737260
+
+NEXT TRACK:
+Track Name/ID: High You Are - Branchez Remix/9570
+Artist Name/ID: What So Not/2264
+Searchable Query: High%20You%20Are%20-%20Branchez%20Remix%20What%20So%20Not
+COMMITTING: 9570, 2264, spotify:track:7xtDbIcvKaFDRnS02wM1wr, B2m_WnXjqnM, 12667084
+
+NEXT TRACK:
+Track Name/ID: Push (feat. Andrew Wyatt)/9004
+Artist Name/ID: A-Trak/2018
+Searchable Query: Push%20(feat.%20Andrew%20Wyatt)%20A-Trak
+COMMITTING: 9004, 2018, spotify:track:0ml0C3EBDZyRhUrT3p5cMu, 5TLOc3Ytwbk, 38691
 
 NEXT TRACK:
 Track Name/ID: Love Theme/9572
@@ -6398,28 +6386,28 @@ Artist Name/ID: What So Not/2264
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: High You Are - Branchez Remix/9570
-Artist Name/ID: What So Not/2264
-Searchable Query: High%20You%20Are%20-%20Branchez%20Remix%20What%20So%20Not
-COMMITTING: 9570, 2264, spotify:track:7xtDbIcvKaFDRnS02wM1wr, B2m_WnXjqnM, 12138867
+Track Name/ID: Everywhere I Go (Kings and Queens)/9314
+Artist Name/ID: New Politics/2174
+Searchable Query: Everywhere%20I%20Go%20(Kings%20and%20Queens)%20New%20Politics
+COMMITTING: 9314, 2174, spotify:track:6oztjkmPuV8iqw8Od7cjsa, NdMeiRlOz1o, 249113
 
 NEXT TRACK:
 Track Name/ID: It's Yours (feat. Tia London)/9510
 Artist Name/ID: Twista/2244
 Searchable Query: It's%20Yours%20(feat.%20Tia%20London)%20Twista
-COMMITTING: 9510, 2244, spotify:track:6wAsGpUaQhRUpgRaZcO6Wk, Z1jIXmmCzFI, 434949
+COMMITTING: 9510, 2244, spotify:track:6wAsGpUaQhRUpgRaZcO6Wk, Z1jIXmmCzFI, 443245
 
 NEXT TRACK:
-Track Name/ID: Burnin (feat. Wiz Khalifa, Berner)/9518
-Artist Name/ID: Twista/2244
-Searchable Query: Burnin%20(feat.%20Wiz%20Khalifa,%20Berner)%20Twista
-COMMITTING: 9518, 2244, spotify:track:3dj7yb4rOtzHjtLw01Y2PA, ZOfJ7NxgTuU, 62614
+Track Name/ID: Oh Cecilia (Breaking My Heart)/5009
+Artist Name/ID: The Vamps/1121
+Searchable Query: Oh%20Cecilia%20(Breaking%20My%20Heart)%20The%20Vamps
+COMMITTING: 5009, 1121, spotify:track:3jnQF0OxLiAEFFcMdBgJ9s, COwkCW38J54, 12179756
 
 NEXT TRACK:
-Track Name/ID: Push (feat. Andrew Wyatt)/9004
-Artist Name/ID: A-Trak/2018
-Searchable Query: Push%20(feat.%20Andrew%20Wyatt)%20A-Trak
-COMMITTING: 9004, 2018, spotify:track:0ml0C3EBDZyRhUrT3p5cMu, 5TLOc3Ytwbk, 16998
+Track Name/ID: Ongoing Thing/8137
+Artist Name/ID: 20syl/1654
+Searchable Query: Ongoing%20Thing%2020syl
+COMMITTING: 8137, 1654, spotify:track:3kL30Pjp90WKuX89Fx5TOv, Xkm8mGlfm9w, 1755619
 
 NEXT TRACK:
 Track Name/ID: Walking On the Bottom Line/11760
@@ -6482,22 +6470,22 @@ Artist Name/ID: Green.Frog.Feet/3099
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Detroit Vs. Everybody/11196
-Artist Name/ID: Eminem/2282
-Searchable Query: Detroit%20Vs.%20Everybody%20Eminem
-COMMITTING: 11196, 2282, spotify:track:61uYTbwUDAyfqUBDoG220w, vjUgJ6Cw5PU, 3853915
-
-NEXT TRACK:
-Track Name/ID: Got It/11746
-Artist Name/ID: Marian Hill/3085
-Searchable Query: Got%20It%20Marian%20Hill
-COMMITTING: 11746, 3085, spotify:track:3Kxr1WYY0WeTgSJ4gEWsPf, nmjsnLLAcn0, 51342
-
-NEXT TRACK:
 Track Name/ID: Detroit Vs. Everybody/11197
 Artist Name/ID: Eminem/2282
 Searchable Query: Detroit%20Vs.%20Everybody%20Eminem
-COMMITTING: 11197, 2282, spotify:track:13no4OaEDhbEGC6zrvPsQU, vjUgJ6Cw5PU, 3853915
+COMMITTING: 11197, 2282, spotify:track:13no4OaEDhbEGC6zrvPsQU, vjUgJ6Cw5PU, 4469049
+
+NEXT TRACK:
+Track Name/ID: Tell Me/9559
+Artist Name/ID: RL Grime/2255
+Searchable Query: Tell%20Me%20RL%20Grime
+COMMITTING: 9559, 2255, spotify:track:1JR7GbobhcAEiWEAhTgLtz, x8SO2BwNg4k, 1319360
+
+NEXT TRACK:
+Track Name/ID: Detroit Vs. Everybody/11196
+Artist Name/ID: Eminem/2282
+Searchable Query: Detroit%20Vs.%20Everybody%20Eminem
+COMMITTING: 11196, 2282, spotify:track:61uYTbwUDAyfqUBDoG220w, vjUgJ6Cw5PU, 4469049
 
 NEXT TRACK:
 Track Name/ID: Down On The Bottom/11754
@@ -6620,10 +6608,10 @@ Artist Name/ID: Boyd Bros/3100
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Tell Me/9559
-Artist Name/ID: RL Grime/2255
-Searchable Query: Tell%20Me%20RL%20Grime
-COMMITTING: 9559, 2255, spotify:track:1JR7GbobhcAEiWEAhTgLtz, x8SO2BwNg4k, 1257954
+Track Name/ID: Down On The Bottom/11753
+Artist Name/ID: The New Basement Tapes/3037
+Searchable Query: Down%20On%20The%20Bottom%20The%20New%20Basement%20Tapes
+COMMITTING: 11753, 3037, spotify:track:4Hyo8tgufuyyxTp2UHdQNG, vsYSxkbgW-M, 81033
 
 NEXT TRACK:
 Track Name/ID: Down On The Bottom - Track By Track/11759
@@ -6646,10 +6634,10 @@ Artist Name/ID: Bahamas/3101
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Down On The Bottom/11753
-Artist Name/ID: The New Basement Tapes/3037
-Searchable Query: Down%20On%20The%20Bottom%20The%20New%20Basement%20Tapes
-COMMITTING: 11753, 3037, spotify:track:4Hyo8tgufuyyxTp2UHdQNG, vsYSxkbgW-M, 56389
+Track Name/ID: Got It/11746
+Artist Name/ID: Marian Hill/3085
+Searchable Query: Got%20It%20Marian%20Hill
+COMMITTING: 11746, 3085, spotify:track:3Kxr1WYY0WeTgSJ4gEWsPf, nmjsnLLAcn0, 85515
 
 NEXT TRACK:
 Track Name/ID: Habits (Stay High) - The Chainsmokers Extended Mix/9591
@@ -6770,7 +6758,7 @@ NEXT TRACK:
 Track Name/ID: Habits (Stay High)/9590
 Artist Name/ID: Tove Lo/2270
 Searchable Query: Habits%20(Stay%20High)%20Tove%20Lo
-COMMITTING: 9590, 2270, spotify:track:18AJRdgUoO9EYn11N7xzaT, oh2LWWORoiM, 53823623
+COMMITTING: 9590, 2270, spotify:track:18AJRdgUoO9EYn11N7xzaT, oh2LWWORoiM, 59835705
 
 NEXT TRACK:
 Track Name/ID: U Guessed It (Extended Version)/11221
@@ -7023,28 +7011,28 @@ Artist Name/ID: Bahamas/3101
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Close Your Eyes (And Count to Fuck) [feat. Zack De La Rocha]/11298
-Artist Name/ID: Run The Jewels/2983
-Searchable Query: Close%20Your%20Eyes%20(And%20Count%20to%20Fuck)%20[feat.%20Zack%20De%20La%20Rocha]%20Run%20The%20Jewels
-COMMITTING: 11298, 2983, spotify:track:76QLGx0NleOYqkDtL7HKIA, rghRRD4mCn4, 138600
+Track Name/ID: Only/11240
+Artist Name/ID: Nicki Minaj/2346
+Searchable Query: Only%20Nicki%20Minaj
+COMMITTING: 11240, 2346, spotify:track:6OTaps5Xn8XEWraT29bAwW, BU769XX_dIQ, 19787424
 
 NEXT TRACK:
 Track Name/ID: Do Or Die - Afrojack vs. THIRTY SECONDS TO MARS Remix/3079
 Artist Name/ID: Afrojack/761
 Searchable Query: Do%20Or%20Die%20-%20Afrojack%20vs.%20THIRTY%20SECONDS%20TO%20MARS%20Remix%20Afrojack
-COMMITTING: 3079, 761, spotify:track:6rK8YLvFotZ78rb9m6MeqE, W1eYh59VzEs, 8046009
+COMMITTING: 3079, 761, spotify:track:6rK8YLvFotZ78rb9m6MeqE, W1eYh59VzEs, 8221699
 
 NEXT TRACK:
 Track Name/ID: Stay High - Habits Remix/9589
 Artist Name/ID: Tove Lo/2270
 Searchable Query: Stay%20High%20-%20Habits%20Remix%20Tove%20Lo
-COMMITTING: 9589, 2270, spotify:track:5JCi3pyggvk4B0yd0BK3ow, SYM-RJwSGQ8, 102406873
+COMMITTING: 9589, 2270, spotify:track:5JCi3pyggvk4B0yd0BK3ow, SYM-RJwSGQ8, 111087642
 
 NEXT TRACK:
 Track Name/ID: 365 Days/6589
 Artist Name/ID: ZZ Ward/1426
 Searchable Query: 365%20Days%20ZZ%20Ward
-COMMITTING: 6589, 1426, spotify:track:7M5wsHW23nmrmemU5QoPyI, m6YkSItejP4, 1242949
+COMMITTING: 6589, 1426, spotify:track:7M5wsHW23nmrmemU5QoPyI, m6YkSItejP4, 1254945
 
 NEXT TRACK:
 Track Name/ID: All Time Favourite/11790
@@ -7075,7 +7063,7 @@ NEXT TRACK:
 Track Name/ID: Thinking Out Loud/3254
 Artist Name/ID: Ed Sheeran/821
 Searchable Query: Thinking%20Out%20Loud%20Ed%20Sheeran
-COMMITTING: 3254, 821, spotify:track:34gCuhDGsG4bRPIf9bb02f, lp-EO5I60KA, 55792608
+COMMITTING: 3254, 821, spotify:track:34gCuhDGsG4bRPIf9bb02f, lp-EO5I60KA, 71659175
 
 NEXT TRACK:
 Track Name/ID: Stronger Than That/11777
@@ -7083,16 +7071,10 @@ Artist Name/ID: Bahamas/3101
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Only/11240
-Artist Name/ID: Nicki Minaj/2346
-Searchable Query: Only%20Nicki%20Minaj
-COMMITTING: 11240, 2346, spotify:track:6OTaps5Xn8XEWraT29bAwW, BU769XX_dIQ, 14058227
-
-NEXT TRACK:
 Track Name/ID: Smash the Funk/10844
 Artist Name/ID: Griz/2742
 Searchable Query: Smash%20the%20Funk%20Griz
-COMMITTING: 10844, 2742, spotify:track:113SF8M5L7kuEfReO3dHkB, UsSzq5h2-tc, 400158
+COMMITTING: 10844, 2742, spotify:track:113SF8M5L7kuEfReO3dHkB, UsSzq5h2-tc, 405857
 
 NEXT TRACK:
 Track Name/ID: (I Can't Get No) Satisfaction - (Original Single Mono Version)/12008
@@ -7120,16 +7102,16 @@ Artist Name/ID: Dave Pell Octet/2968
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Drinking Class/3129
-Artist Name/ID: Lee Brice/806
-Searchable Query: Drinking%20Class%20Lee%20Brice
-COMMITTING: 3129, 806, spotify:track:2Hx66vdWgA4DE0yqqktQiT, ZV1oQiRdoPc, 222736
+Track Name/ID: Anything Goes/3347
+Artist Name/ID: Florida Georgia Line/563
+Searchable Query: Anything%20Goes%20Florida%20Georgia%20Line
+COMMITTING: 3347, 563, spotify:track:40DOlZURKwuOV9PnJN7jQX, 5PwVDLWF7-k, 192690
 
 NEXT TRACK:
-Track Name/ID: The Mother We Share/6558
-Artist Name/ID: CHVRCHES/1421
-Searchable Query: The%20Mother%20We%20Share%20CHVRCHES
-COMMITTING: 6558, 1421, spotify:track:31AyUvMRDvZjyQI1N05lsT, _mTRvJ9fugM, 8633812
+Track Name/ID: Push (feat. Andrew Wyatt)/9251
+Artist Name/ID: A-Trak/2018
+Searchable Query: Push%20(feat.%20Andrew%20Wyatt)%20A-Trak
+COMMITTING: 9251, 2018, spotify:track:0ml0C3EBDZyRhUrT3p5cMu, 5TLOc3Ytwbk, 38691
 
 NEXT TRACK:
 Track Name/ID: Love Me Harder/9611
@@ -7157,16 +7139,16 @@ Artist Name/ID: Molotov Cocktail Piano/2275
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Love Me Harder/9610
-Artist Name/ID: Ariana Grande/1778
-Searchable Query: Love%20Me%20Harder%20Ariana%20Grande
-COMMITTING: 9610, 1778, spotify:track:1aKsg5b9sOngINaQXbB0P7, g5qU7p7yOY8, 35652856
+Track Name/ID: Animals/9373
+Artist Name/ID: Maroon 5/1831
+Searchable Query: Animals%20Maroon%205
+COMMITTING: 9373, 1831, spotify:track:4O594chXfv4lHvneDP0Ud0, qpgTC9MDx1o, 69259501
 
 NEXT TRACK:
-Track Name/ID: Ready err Not/9619
-Artist Name/ID: Flying Lotus/2276
-Searchable Query: Ready%20err%20Not%20Flying%20Lotus
-COMMITTING: 9619, 2276, spotify:track:4Bh15PbohDVAdyCzCtMkLL, 0XDhz5kanYk, 758539
+Track Name/ID: Cool Kids/6369
+Artist Name/ID: Echosmith/574
+Searchable Query: Cool%20Kids%20Echosmith
+COMMITTING: 6369, 574, spotify:track:13P5rwmk2EsoFRIz9UCeh9, SSCzDykng4g, 14042303
 
 NEXT TRACK:
 Track Name/ID: Love Me Harder Originally Performed By Ariana Grande - Tribute Version/9616
@@ -7184,16 +7166,16 @@ Artist Name/ID: DJ MixMasters/1968
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Cool Kids/6369
-Artist Name/ID: Echosmith/574
-Searchable Query: Cool%20Kids%20Echosmith
-COMMITTING: 6369, 574, spotify:track:13P5rwmk2EsoFRIz9UCeh9, SSCzDykng4g, 11861534
-
-NEXT TRACK:
 Track Name/ID: Bailando - Spanish Version/8572
 Artist Name/ID: Enrique Iglesias/1806
 Searchable Query: Bailando%20-%20Spanish%20Version%20Enrique%20Iglesias
-COMMITTING: 8572, 1806, spotify:track:5M830cD7MNeiiwIGHzH9TV, NUsoVlDFqZg, 566465869
+COMMITTING: 8572, 1806, spotify:track:5M830cD7MNeiiwIGHzH9TV, NUsoVlDFqZg, 590055845
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/6558
+Artist Name/ID: CHVRCHES/1421
+Searchable Query: The%20Mother%20We%20Share%20CHVRCHES
+COMMITTING: 6558, 1421, spotify:track:31AyUvMRDvZjyQI1N05lsT, _mTRvJ9fugM, 8786586
 
 NEXT TRACK:
 Track Name/ID: It Never Entered My Mind/11266
@@ -7236,10 +7218,10 @@ Artist Name/ID: Scooter/2595
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Push (feat. Andrew Wyatt)/9251
-Artist Name/ID: A-Trak/2018
-Searchable Query: Push%20(feat.%20Andrew%20Wyatt)%20A-Trak
-COMMITTING: 9251, 2018, spotify:track:0ml0C3EBDZyRhUrT3p5cMu, 5TLOc3Ytwbk, 16998
+Track Name/ID: Blind Heart - Radio Edit/6324
+Artist Name/ID: CAZZETTE/1378
+Searchable Query: Blind%20Heart%20-%20Radio%20Edit%20CAZZETTE
+COMMITTING: 6324, 1378, spotify:track:3Wb4T8OJg4obJNBMUYgfPm, C6H6tqzx4S4, 761168
 
 NEXT TRACK:
 Track Name/ID: We Can't Stop/11269
@@ -7252,28 +7234,22 @@ Artist Name/ID: OneRepublic/2972
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: The Never (feat. LV Baby)/11260
-Artist Name/ID: Pell/2967
-Searchable Query: The%20Never%20(feat.%20LV%20Baby)%20Pell
-COMMITTING: 11260, 2967, spotify:track:0PSdCpSNz2Q98Wzz7on5dX, U7VsPQD7Dl4, 50477
-
-NEXT TRACK:
-Track Name/ID: Blind Heart - Radio Edit/6324
-Artist Name/ID: CAZZETTE/1378
-Searchable Query: Blind%20Heart%20-%20Radio%20Edit%20CAZZETTE
-COMMITTING: 6324, 1378, spotify:track:3Wb4T8OJg4obJNBMUYgfPm, C6H6tqzx4S4, 662306
-
-NEXT TRACK:
-Track Name/ID: Animals/9373
-Artist Name/ID: Maroon 5/1831
-Searchable Query: Animals%20Maroon%205
-COMMITTING: 9373, 1831, spotify:track:4O594chXfv4lHvneDP0Ud0, qpgTC9MDx1o, 61589376
+Track Name/ID: Love Me Harder/9610
+Artist Name/ID: Ariana Grande/1778
+Searchable Query: Love%20Me%20Harder%20Ariana%20Grande
+COMMITTING: 9610, 1778, spotify:track:1aKsg5b9sOngINaQXbB0P7, g5qU7p7yOY8, 51071546
 
 NEXT TRACK:
 Track Name/ID: Sunshine/9620
 Artist Name/ID: Flight Facilities/2277
 Searchable Query: Sunshine%20Flight%20Facilities
-COMMITTING: 9620, 2277, spotify:track:54fgVvj2y9fTTgEUK95CZN, Yuz_8Vxlyjw, 176469
+COMMITTING: 9620, 2277, spotify:track:54fgVvj2y9fTTgEUK95CZN, Yuz_8Vxlyjw, 197204
+
+NEXT TRACK:
+Track Name/ID: Drinking Class/3129
+Artist Name/ID: Lee Brice/806
+Searchable Query: Drinking%20Class%20Lee%20Brice
+COMMITTING: 3129, 806, spotify:track:2Hx66vdWgA4DE0yqqktQiT, ZV1oQiRdoPc, 437112
 
 NEXT TRACK:
 Track Name/ID: Can't Stop Dancin'/11271
@@ -7281,10 +7257,16 @@ Artist Name/ID: Becky G/2973
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Anything Goes/3347
-Artist Name/ID: Florida Georgia Line/563
-Searchable Query: Anything%20Goes%20Florida%20Georgia%20Line
-COMMITTING: 3347, 563, spotify:track:40DOlZURKwuOV9PnJN7jQX, 5PwVDLWF7-k, 144481
+Track Name/ID: The Never (feat. LV Baby)/11260
+Artist Name/ID: Pell/2967
+Searchable Query: The%20Never%20(feat.%20LV%20Baby)%20Pell
+COMMITTING: 11260, 2967, spotify:track:0PSdCpSNz2Q98Wzz7on5dX, U7VsPQD7Dl4, 56948
+
+NEXT TRACK:
+Track Name/ID: Ready err Not/9619
+Artist Name/ID: Flying Lotus/2276
+Searchable Query: Ready%20err%20Not%20Flying%20Lotus
+COMMITTING: 9619, 2276, spotify:track:4Bh15PbohDVAdyCzCtMkLL, 0XDhz5kanYk, 799011
 
 NEXT TRACK:
 Track Name/ID: Can't Stop Drinking About You - Radio Edit/11272
@@ -7360,13 +7342,13 @@ NEXT TRACK:
 Track Name/ID: Rebound/9014
 Artist Name/ID: Flosstradamus/1959
 Searchable Query: Rebound%20Flosstradamus
-COMMITTING: 9014, 1959, spotify:track:40H1K9ZvTpYAXGTuiRNHSf, oufq2yyw4oY, 90914
+COMMITTING: 9014, 1959, spotify:track:40H1K9ZvTpYAXGTuiRNHSf, oufq2yyw4oY, 96067
 
 NEXT TRACK:
 Track Name/ID: Dangerous (feat. Sam Martin)/5184
 Artist Name/ID: David Guetta/1017
 Searchable Query: Dangerous%20(feat.%20Sam%20Martin)%20David%20Guetta
-COMMITTING: 5184, 1017, spotify:track:1rf3C6fWUJU2puq8Smqph9, EVr__5Addjw, 15652976
+COMMITTING: 5184, 1017, spotify:track:1rf3C6fWUJU2puq8Smqph9, EVr__5Addjw, 21736668
 
 NEXT TRACK:
 Track Name/ID: Yellow Flicker Beat - Tribute to Lorde/9626
@@ -7462,13 +7444,13 @@ NEXT TRACK:
 Track Name/ID: Y'all Ready Know/9644
 Artist Name/ID: Slaughterhouse/2281
 Searchable Query: Y'all%20Ready%20Know%20Slaughterhouse
-COMMITTING: 9644, 2281, spotify:track:7l3sjaDdNLDZ8paYkwgIot, baEqe2_vH30, 614331
+COMMITTING: 9644, 2281, spotify:track:7l3sjaDdNLDZ8paYkwgIot, baEqe2_vH30, 686425
 
 NEXT TRACK:
 Track Name/ID: Yellow Flicker Beat/9625
 Artist Name/ID: Lorde/2278
 Searchable Query: Yellow%20Flicker%20Beat%20Lorde
-COMMITTING: 9625, 2278, spotify:track:0Nf53RDPZEjFrQE4B5n6Vf, 3PdILZ_1P74, 6803387
+COMMITTING: 9625, 2278, spotify:track:0Nf53RDPZEjFrQE4B5n6Vf, 3PdILZ_1P74, 9892363
 
 NEXT TRACK:
 Track Name/ID: Y'all Ready Know/9645
@@ -7641,10 +7623,10 @@ Artist Name/ID: Dale Earnhardt Jr. Jr./2300
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Guts Over Fear/9648
-Artist Name/ID: Eminem/2282
-Searchable Query: Guts%20Over%20Fear%20Eminem
-COMMITTING: 9648, 2282, spotify:track:4Yv6T3BqrdDqaklemAWgfl, 0AqnCSdkjQ0, 8408496
+Track Name/ID: Guts Over Fear/9649
+Artist Name/ID: Shady XV/2283
+Searchable Query: Guts%20Over%20Fear%20Shady%20XV
+COMMITTING: 9649, 2283, spotify:track:3h0Tp8HHry2IjYaM1c5SuC, C2pYNk-Gxxk, 7996245
 
 NEXT TRACK:
 Track Name/ID: Dark Water/9687
@@ -7655,6 +7637,12 @@ NEXT TRACK:
 Track Name/ID: God Only Knows/9688
 Artist Name/ID: Dale Earnhardt Jr. Jr./2300
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Guts Over Fear/9648
+Artist Name/ID: Eminem/2282
+Searchable Query: Guts%20Over%20Fear%20Eminem
+COMMITTING: 9648, 2282, spotify:track:4Yv6T3BqrdDqaklemAWgfl, 0AqnCSdkjQ0, 18752427
 
 NEXT TRACK:
 Track Name/ID: Work It Out/9669
@@ -7760,13 +7748,7 @@ NEXT TRACK:
 Track Name/ID: Work It Out/9668
 Artist Name/ID: Knox Hamilton/2297
 Searchable Query: Work%20It%20Out%20Knox%20Hamilton
-COMMITTING: 9668, 2297, spotify:track:0XU04bwLRjVa0MNW4fL6EI, tiDmy6XnNyA, 153395
-
-NEXT TRACK:
-Track Name/ID: Guts Over Fear/9649
-Artist Name/ID: Shady XV/2283
-Searchable Query: Guts%20Over%20Fear%20Shady%20XV
-COMMITTING: 9649, 2283, spotify:track:3h0Tp8HHry2IjYaM1c5SuC, XJwB2b3oXfY, 23050
+COMMITTING: 9668, 2297, spotify:track:0XU04bwLRjVa0MNW4fL6EI, tiDmy6XnNyA, 165016
 
 NEXT TRACK:
 Track Name/ID: Ten Feet Tall - David Guetta Remix/9694
@@ -7964,16 +7946,16 @@ Artist Name/ID: Miranda Lambert/2319
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: James Dean/9671
-Artist Name/ID: Dale Earnhardt Jr. Jr./2300
-Searchable Query: James%20Dean%20Dale%20Earnhardt%20Jr.%20Jr.
-COMMITTING: 9671, 2300, spotify:track:0yeBjnVge8MxXnVWNAi9lh, asCOl7xSsb8, 3980
+Track Name/ID: Automatic/9716
+Artist Name/ID: Miranda Lambert/2319
+Searchable Query: Automatic%20Miranda%20Lambert
+COMMITTING: 9716, 2319, spotify:track:0B0y2FImat9j9MJTNRZWfW, 2ksWKOy665o, 4735081
 
 NEXT TRACK:
-Track Name/ID: Can't Stop (feat. Kanye West)/11285
-Artist Name/ID: Theophilus London/2980
-Searchable Query: Can't%20Stop%20(feat.%20Kanye%20West)%20Theophilus%20London
-COMMITTING: 11285, 2980, spotify:track:5NWzO9jLluZ3R7FHFDtMqS, x1_X6eAA_LA, 77793
+Track Name/ID: Taylor Swift Mash-Up/9700
+Artist Name/ID: Anthem Lights/1866
+Searchable Query: Taylor%20Swift%20Mash-Up%20Anthem%20Lights
+COMMITTING: 9700, 1866, spotify:track:1SSj8VnmFs7jDDGUddEOoY, fAOQyNbTVdQ, 97988
 
 NEXT TRACK:
 Track Name/ID: Dear Body/11297
@@ -7981,10 +7963,10 @@ Artist Name/ID: Cherub/2982
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Automatic/9716
-Artist Name/ID: Miranda Lambert/2319
-Searchable Query: Automatic%20Miranda%20Lambert
-COMMITTING: 9716, 2319, spotify:track:0B0y2FImat9j9MJTNRZWfW, 2ksWKOy665o, 4650094
+Track Name/ID: Can't Stop (feat. Kanye West)/11285
+Artist Name/ID: Theophilus London/2980
+Searchable Query: Can't%20Stop%20(feat.%20Kanye%20West)%20Theophilus%20London
+COMMITTING: 11285, 2980, spotify:track:5NWzO9jLluZ3R7FHFDtMqS, x1_X6eAA_LA, 104847
 
 NEXT TRACK:
 Track Name/ID: Oh My Darling Don't Cry/11300
@@ -7992,10 +7974,10 @@ Artist Name/ID: Run The Jewels/2983
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Taylor Swift Mash-Up/9700
-Artist Name/ID: Anthem Lights/1866
-Searchable Query: Taylor%20Swift%20Mash-Up%20Anthem%20Lights
-COMMITTING: 9700, 1866, spotify:track:1SSj8VnmFs7jDDGUddEOoY, fAOQyNbTVdQ, 94146
+Track Name/ID: James Dean/9671
+Artist Name/ID: Dale Earnhardt Jr. Jr./2300
+Searchable Query: James%20Dean%20Dale%20Earnhardt%20Jr.%20Jr.
+COMMITTING: 9671, 2300, spotify:track:0yeBjnVge8MxXnVWNAi9lh, asCOl7xSsb8, 5696
 
 NEXT TRACK:
 Track Name/ID: Black Widow/9767
@@ -8011,7 +7993,7 @@ NEXT TRACK:
 Track Name/ID: Fiona Coyne/9751
 Artist Name/ID: Saint Pepsi/2333
 Searchable Query: Fiona%20Coyne%20Saint%20Pepsi
-COMMITTING: 9751, 2333, spotify:track:1sH2GeOsLFEw714Otu8P9i, Bw_7UrqzNUg, 174686
+COMMITTING: 9751, 2333, spotify:track:1sH2GeOsLFEw714Otu8P9i, Bw_7UrqzNUg, 185216
 
 NEXT TRACK:
 Track Name/ID: No Mediocre/9769
@@ -8637,13 +8619,7 @@ NEXT TRACK:
 Track Name/ID: All The Time/11774
 Artist Name/ID: Bahamas/3101
 Searchable Query: All%20The%20Time%20Bahamas
-COMMITTING: 11774, 3101, spotify:track:2zH8blq2DmO9c8305A2iFB, bc2_PwTUJag, 441727
-
-NEXT TRACK:
-Track Name/ID: Love Again (Akinyele Back) [feat. Gangsta Boo]/11305
-Artist Name/ID: Run The Jewels/2983
-Searchable Query: Love%20Again%20(Akinyele%20Back)%20[feat.%20Gangsta%20Boo]%20Run%20The%20Jewels
-COMMITTING: 11305, 2983, spotify:track:7I6YpuvNg6mEzUmvpxY5ro, UBY1GtnUWEQ, 9354
+COMMITTING: 11774, 3101, spotify:track:2zH8blq2DmO9c8305A2iFB, 8t2H1Ke4MXE, 66365
 
 NEXT TRACK:
 Track Name/ID: Beast Of Burden - Remastered/12024
@@ -8656,16 +8632,16 @@ Artist Name/ID: Dada Life/2476
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Run the Jewels/11307
-Artist Name/ID: Run The Jewels/2983
-Searchable Query: Run%20the%20Jewels%20Run%20The%20Jewels
-COMMITTING: 11307, 2983, spotify:track:2eha6iitIJ7EaVdvusgtQi, AfuCLp8VEng, 661232
-
-NEXT TRACK:
 Track Name/ID: Lost In The Light/11773
 Artist Name/ID: Bahamas/3101
 Searchable Query: Lost%20In%20The%20Light%20Bahamas
-COMMITTING: 11773, 3101, spotify:track:6IBpFG2LU2udYofIuROp3w, jPJNt1eTVNY, 793912
+COMMITTING: 11773, 3101, spotify:track:6IBpFG2LU2udYofIuROp3w, jPJNt1eTVNY, 816539
+
+NEXT TRACK:
+Track Name/ID: Run the Jewels/11307
+Artist Name/ID: Run The Jewels/2983
+Searchable Query: Run%20the%20Jewels%20Run%20The%20Jewels
+COMMITTING: 11307, 2983, spotify:track:2eha6iitIJ7EaVdvusgtQi, AfuCLp8VEng, 707411
 
 NEXT TRACK:
 Track Name/ID: Sympathy For The Devil/12012
@@ -8838,10 +8814,10 @@ Artist Name/ID: Earl Stewart, Jr./3112
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Blockbuster Night Part 1/11299
-Artist Name/ID: Run The Jewels/2983
-Searchable Query: Blockbuster%20Night%20Part%201%20Run%20The%20Jewels
-COMMITTING: 11299, 2983, spotify:track:2KxIMZDazuXN3yvPC6Kqwn, uuWQyfGa1yI, 65130
+Track Name/ID: Yellow Flicker Beat - From The Hunger Games: Mockingjay Part 1/3626
+Artist Name/ID: Lorde/857
+Searchable Query: Yellow%20Flicker%20Beat%20-%20From%20The%20Hunger%20Games:%20Mockingjay%20Part%201%20Lorde
+COMMITTING: 3626, 857, spotify:track:0GZoB8h0kqXn7XFm4Sj06k, psOmeRcbLBU, 98249
 
 NEXT TRACK:
 Track Name/ID: Take Me to Church - 8-Bit Version/11811
@@ -8854,16 +8830,16 @@ Artist Name/ID: Atreyu/3113
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Blockbuster Night Part 1/11299
+Artist Name/ID: Run The Jewels/2983
+Searchable Query: Blockbuster%20Night%20Part%201%20Run%20The%20Jewels
+COMMITTING: 11299, 2983, spotify:track:2KxIMZDazuXN3yvPC6Kqwn, uuWQyfGa1yI, 126716
+
+NEXT TRACK:
 Track Name/ID: I'm an Albatraoz/8092
 Artist Name/ID: AronChupa/1645
 Searchable Query: I'm%20an%20Albatraoz%20AronChupa
-COMMITTING: 8092, 1645, spotify:track:5MhsZlmKJG6X5kTHkdwC4B, Bznxx12Ptl0, 5541664
-
-NEXT TRACK:
-Track Name/ID: Seaside/9841
-Artist Name/ID: The Kooks/2368
-Searchable Query: Seaside%20The%20Kooks
-COMMITTING: 9841, 2368, spotify:track:6ZygaqgtPkiahkiYJhYWhn, 7_RZLAxsa8Q, 1276657
+COMMITTING: 8092, 1645, spotify:track:5MhsZlmKJG6X5kTHkdwC4B, Bznxx12Ptl0, 10086428
 
 NEXT TRACK:
 Track Name/ID: Take Me To Church/11793
@@ -8931,16 +8907,16 @@ Artist Name/ID: Mindy Gledhill/3116
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Yellow Flicker Beat - From The Hunger Games: Mockingjay Part 1/3626
-Artist Name/ID: Lorde/857
-Searchable Query: Yellow%20Flicker%20Beat%20-%20From%20The%20Hunger%20Games:%20Mockingjay%20Part%201%20Lorde
-COMMITTING: 3626, 857, spotify:track:0GZoB8h0kqXn7XFm4Sj06k, e1S9HUNoI4k, 8862003
+Track Name/ID: Seaside/9841
+Artist Name/ID: The Kooks/2368
+Searchable Query: Seaside%20The%20Kooks
+COMMITTING: 9841, 2368, spotify:track:6ZygaqgtPkiahkiYJhYWhn, 7_RZLAxsa8Q, 1295807
 
 NEXT TRACK:
 Track Name/ID: Trippy's Theme/8482
 Artist Name/ID: Trippy Turtle/1745
 Searchable Query: Trippy's%20Theme%20Trippy%20Turtle
-COMMITTING: 8482, 1745, spotify:track:3KRDlJT6noeJUGrSoqKirA, 4PweEtDSqUs, 145536
+COMMITTING: 8482, 1745, spotify:track:3KRDlJT6noeJUGrSoqKirA, 4PweEtDSqUs, 151129
 
 NEXT TRACK:
 Track Name/ID: Cecilia And The Satellite/9859
@@ -9113,16 +9089,16 @@ Artist Name/ID: Grateful Dead/2985
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Faded/9862
-Artist Name/ID: Zhu/2370
-Searchable Query: Faded%20Zhu
-COMMITTING: 9862, 2370, spotify:track:27ImR3LOSWgzqrABxD92uq, BwWzSyxNc9I, 19527178
-
-NEXT TRACK:
 Track Name/ID: Take Me To Church/3547
 Artist Name/ID: Hozier/843
 Searchable Query: Take%20Me%20To%20Church%20Hozier
-COMMITTING: 3547, 843, spotify:track:6UvZ1XimCap0SJyErd8zmW, MYSVMgRr6pw, 32913903
+COMMITTING: 3547, 843, spotify:track:6UvZ1XimCap0SJyErd8zmW, MYSVMgRr6pw, 40767294
+
+NEXT TRACK:
+Track Name/ID: Faded/9862
+Artist Name/ID: Zhu/2370
+Searchable Query: Faded%20Zhu
+COMMITTING: 9862, 2370, spotify:track:27ImR3LOSWgzqrABxD92uq, BwWzSyxNc9I, 21019877
 
 NEXT TRACK:
 Track Name/ID: Wanted Dead or Alive - Live/11318
@@ -9283,19 +9259,13 @@ NEXT TRACK:
 Track Name/ID: Anaconda/9781
 Artist Name/ID: Nicki Minaj/2346
 Searchable Query: Anaconda%20Nicki%20Minaj
-COMMITTING: 9781, 2346, spotify:track:1blo7jFYjDyBkD43T4cvjY, LDZX4ooRsWs, 316571771
+COMMITTING: 9781, 2346, spotify:track:1blo7jFYjDyBkD43T4cvjY, LDZX4ooRsWs, 328557874
 
 NEXT TRACK:
 Track Name/ID: If I Go/11354
 Artist Name/ID: Ella Eyre/2998
 Searchable Query: If%20I%20Go%20Ella%20Eyre
-COMMITTING: 11354, 2998, spotify:track:0xBIkG5w87D9BqtqnhoyHj, JJr80jXCepc, 3353366
-
-NEXT TRACK:
-Track Name/ID: Comeback/11355
-Artist Name/ID: Ella Eyre/2998
-Searchable Query: Comeback%20Ella%20Eyre
-COMMITTING: 11355, 2998, spotify:track:6iF3DAPEgDtC6xVocE19P0, KnnvfHz7qzA, 5469400
+COMMITTING: 11354, 2998, spotify:track:0xBIkG5w87D9BqtqnhoyHj, JJr80jXCepc, 3464765
 
 NEXT TRACK:
 Track Name/ID: James Dean/11342
@@ -9388,15 +9358,15 @@ Artist Name/ID: Rudimental/2010
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Comeback/11355
+Artist Name/ID: Ella Eyre/2998
+Searchable Query: Comeback%20Ella%20Eyre
+COMMITTING: 11355, 2998, spotify:track:6iF3DAPEgDtC6xVocE19P0, KnnvfHz7qzA, 5643719
+
+NEXT TRACK:
 Track Name/ID: Lemme Freak (In the Style of Lil Dicky) [Instrumental Version]/11374
 Artist Name/ID: Kushingham/2779
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: XMAS_EVET10 [120][thanaton3 mix]/6782
-Artist Name/ID: Aphex Twin/1480
-Searchable Query: XMAS_EVET10%20[120][thanaton3%20mix]%20Aphex%20Twin
-COMMITTING: 6782, 1480, spotify:track:6CUxhtTkH0fSwfmsiOKPNV, n2Gj8GLr34s, 2750
 
 NEXT TRACK:
 Track Name/ID: OctaHate/11376
@@ -9417,6 +9387,12 @@ NEXT TRACK:
 Track Name/ID: OctaHate/11379
 Artist Name/ID: Ryn Weaver/3004
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: XMAS_EVET10 [120][thanaton3 mix]/6782
+Artist Name/ID: Aphex Twin/1480
+Searchable Query: XMAS_EVET10%20[120][thanaton3%20mix]%20Aphex%20Twin
+COMMITTING: 6782, 1480, spotify:track:6CUxhtTkH0fSwfmsiOKPNV, n2Gj8GLr34s, 3073
 
 NEXT TRACK:
 Track Name/ID: All About That Bass (Clean Version)/9922
@@ -9454,10 +9430,10 @@ Artist Name/ID: I'm All About/2391
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: All About That Bass/9909
-Artist Name/ID: Meghan Trainor/2383
-Searchable Query: All%20About%20That%20Bass%20Meghan%20Trainor
-COMMITTING: 9909, 2383, spotify:track:0ifSeVGUr7py5GggttDhXw, 7PCkvCPvDXk, 321023779
+Track Name/ID: Drunk Americans/3705
+Artist Name/ID: Toby Keith/872
+Searchable Query: Drunk%20Americans%20Toby%20Keith
+COMMITTING: 3705, 872, spotify:track:799mKKcXcpcJcbBZzrnyAp, iyWUTGEdLuE, 146415
 
 NEXT TRACK:
 Track Name/ID: Shake It Off/9891
@@ -9615,12 +9591,6 @@ Artist Name/ID: Dredg/2392
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Drunk Americans/3705
-Artist Name/ID: Toby Keith/872
-Searchable Query: Drunk%20Americans%20Toby%20Keith
-COMMITTING: 3705, 872, spotify:track:799mKKcXcpcJcbBZzrnyAp, HaoHedDPkJE, 290460
-
-NEXT TRACK:
 Track Name/ID: On A Tuesday In Amsterdam Long Ago/9930
 Artist Name/ID: Counting Crows/2393
 Not IPO'd Yet!
@@ -9629,6 +9599,12 @@ NEXT TRACK:
 Track Name/ID: Also On a Tuesday/9931
 Artist Name/ID: Ayoe Angelica/2394
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All About That Bass/9909
+Artist Name/ID: Meghan Trainor/2383
+Searchable Query: All%20About%20That%20Bass%20Meghan%20Trainor
+COMMITTING: 9909, 2383, spotify:track:0ifSeVGUr7py5GggttDhXw, 7PCkvCPvDXk, 364996711
 
 NEXT TRACK:
 Track Name/ID: Everybody Wants To Rule The World - From "The Hunger Games: Catching Fire" / Soundtrack/9970
@@ -10326,22 +10302,22 @@ Artist Name/ID: Sean Hayes/2473
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Blame It on Me/11468
-Artist Name/ID: George Ezra/3021
-Searchable Query: Blame%20It%20on%20Me%20George%20Ezra
-COMMITTING: 11468, 3021, spotify:track:2Zgnaip1c876zmBhz9HifI, H4ifSrE8iSg, 6365186
+Track Name/ID: I Don't Sell Molly No More/10883
+Artist Name/ID: I LOVE MAKONNEN/2409
+Searchable Query: I%20Don't%20Sell%20Molly%20No%20More%20I%20LOVE%20MAKONNEN
+COMMITTING: 10883, 2409, spotify:track:1LayrJMG1oeSz3SliFhalc, Ljd7h8ovEow, 3068701
 
 NEXT TRACK:
-Track Name/ID: Something in the Water/10015
-Artist Name/ID: Carrie Underwood/2437
-Searchable Query: Something%20in%20the%20Water%20Carrie%20Underwood
-COMMITTING: 10015, 2437, spotify:track:4r23g3XYLDoNTwgTodatzT, mH9kYn4L8TI, 3045744
+Track Name/ID: I Don't Fuck With You/10071
+Artist Name/ID: Big Sean/2472
+Searchable Query: I%20Don't%20Fuck%20With%20You%20Big%20Sean
+COMMITTING: 10071, 2472, spotify:track:3KT41h3L0xjFbMhMOob2HU, cZaJYDPY-YQ, 11060483
 
 NEXT TRACK:
-Track Name/ID: Who Are You/12028
-Artist Name/ID: The Who/3194
-Searchable Query: Who%20Are%20You%20The%20Who
-COMMITTING: 12028, 3194, spotify:track:3x2bXiU0o4WbsPkawXlfDA, PdLIerfXuZ4, 8803094
+Track Name/ID: Something Big/11023
+Artist Name/ID: Shawn Mendes/2834
+Searchable Query: Something%20Big%20Shawn%20Mendes
+COMMITTING: 11023, 2834, spotify:track:5f0WLQquCf955JPSnt7JvR, mytLRy32Viw, 2540201
 
 NEXT TRACK:
 Track Name/ID: Nobody's Perfect/12029
@@ -10529,10 +10505,16 @@ Artist Name/ID: C2C/3202
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Budapest/11467
-Artist Name/ID: George Ezra/3021
-Searchable Query: Budapest%20George%20Ezra
-COMMITTING: 11467, 3021, spotify:track:7GJClzimvMSghjcrKxuf1M, VHrLPs3_1Fs, 21428127
+Track Name/ID: Who Are You/12028
+Artist Name/ID: The Who/3194
+Searchable Query: Who%20Are%20You%20The%20Who
+COMMITTING: 12028, 3194, spotify:track:3x2bXiU0o4WbsPkawXlfDA, T7sk3SD24UE, 114727
+
+NEXT TRACK:
+Track Name/ID: HyperParadise - Flume Remix (Ganz Flip)/9532
+Artist Name/ID: Hermitude/2247
+Searchable Query: HyperParadise%20-%20Flume%20Remix%20(Ganz%20Flip)%20Hermitude
+COMMITTING: 9532, 2247, spotify:track:3Wohv8fBYnW7DBr9AufIsA, x__9GbsTmi0, 70254
 
 NEXT TRACK:
 Track Name/ID: Redneck Woman/12041
@@ -10552,6 +10534,29 @@ Not IPO'd Yet!
 NEXT TRACK:
 Track Name/ID: Who You Are/12044
 Artist Name/ID: Robin Stjernberg/3201
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Budapest/11467
+Artist Name/ID: George Ezra/3021
+Searchable Query: Budapest%20George%20Ezra
+COMMITTING: 11467, 3021, spotify:track:7GJClzimvMSghjcrKxuf1M, VHrLPs3_1Fs, 22668375
+
+NEXT TRACK:
+Track Name/ID: Feels Like Forever/7464
+Artist Name/ID: Of Mice & Men/1573
+Searchable Query: Feels%20Like%20Forever%20Of%20Mice%20&%20Men
+COMMITTING: 7464, 1573, spotify:track:3iPMVDlzpkXuYkvsa1PRQj, xCGR9wEcqZs, 925944
+
+NEXT TRACK:
+Track Name/ID: Blame It on Me/11468
+Artist Name/ID: George Ezra/3021
+Searchable Query: Blame%20It%20on%20Me%20George%20Ezra
+COMMITTING: 11468, 3021, spotify:track:2Zgnaip1c876zmBhz9HifI, H4ifSrE8iSg, 7159994
+
+NEXT TRACK:
+Track Name/ID: I'll Be Good/12169
+Artist Name/ID: Jaymes Young/2540
 Not IPO'd Yet!
 
 NEXT TRACK:
@@ -10695,10 +10700,10 @@ Artist Name/ID: Harry Brandelius/3009
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: OctaHate/11375
-Artist Name/ID: Ryn Weaver/3004
-Searchable Query: OctaHate%20Ryn%20Weaver
-COMMITTING: 11375, 3004, spotify:track:66EfRY39lNvuhWLgYc0np4, hTVZdW8pTEM, 374876
+Track Name/ID: Dearly Departed (feat. Esme Patterson)/11381
+Artist Name/ID: Shakey Graves/3005
+Searchable Query: Dearly%20Departed%20(feat.%20Esme%20Patterson)%20Shakey%20Graves
+COMMITTING: 11381, 3005, spotify:track:6Gzjg6VWlLH5GluEOLdJfX, AkDycke-u6M, 128177
 
 NEXT TRACK:
 Track Name/ID: Coffee/11401
@@ -10714,12 +10719,6 @@ NEXT TRACK:
 Track Name/ID: Sylvan/11403
 Artist Name/ID: Bronze Radio Return/3008
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: Dearly Departed (feat. Esme Patterson)/11381
-Artist Name/ID: Shakey Graves/3005
-Searchable Query: Dearly%20Departed%20(feat.%20Esme%20Patterson)%20Shakey%20Graves
-COMMITTING: 11381, 3005, spotify:track:6Gzjg6VWlLH5GluEOLdJfX, AkDycke-u6M, 115262
 
 NEXT TRACK:
 Track Name/ID: Dearly Departed (feat. Esme Patterson)/11382
@@ -11137,16 +11136,16 @@ Artist Name/ID: YVE/2491
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Till It's Gone/10143
-Artist Name/ID: Yelawolf/2490
-Searchable Query: Till%20It's%20Gone%20Yelawolf
-COMMITTING: 10143, 2490, spotify:track:2FTr8WafgU19wcqkgUaxYZ, Ndpryp2OlUQ, 2475488
-
-NEXT TRACK:
 Track Name/ID: Growing Pains III/5807
 Artist Name/ID: Logic/1286
 Searchable Query: Growing%20Pains%20III%20Logic
-COMMITTING: 5807, 1286, spotify:track:31lXvIeMnNvbSrhypl2bUA, kj0EwtgeXtQ, 153126
+COMMITTING: 5807, 1286, spotify:track:31lXvIeMnNvbSrhypl2bUA, kj0EwtgeXtQ, 170243
+
+NEXT TRACK:
+Track Name/ID: Till It's Gone/10143
+Artist Name/ID: Yelawolf/2490
+Searchable Query: Till%20It's%20Gone%20Yelawolf
+COMMITTING: 10143, 2490, spotify:track:2FTr8WafgU19wcqkgUaxYZ, Ndpryp2OlUQ, 3065324
 
 NEXT TRACK:
 Track Name/ID: Spirit of Albion / Wooden Box (feat. Damh the Bard)/11413
@@ -11392,24 +11391,24 @@ NEXT TRACK:
 Track Name/ID: Cadillactica/10123
 Artist Name/ID: Big K.R.I.T./2489
 Searchable Query: Cadillactica%20Big%20K.R.I.T.
-COMMITTING: 10123, 2489, spotify:track:13r3Gicr7l5TBoR3JvnOnE, UT7X2LfCn5w, 234506
+COMMITTING: 10123, 2489, spotify:track:13r3Gicr7l5TBoR3JvnOnE, UT7X2LfCn5w, 305008
 
 NEXT TRACK:
 Track Name/ID: Trouble/5861
 Artist Name/ID: Gloriana/1296
 Searchable Query: Trouble%20Gloriana
-COMMITTING: 5861, 1296, spotify:track:1pgOCpheMiNGIytdcrdkFX, ow89TYdPLy0, 25523
-
-NEXT TRACK:
-Track Name/ID: Sweet Talker/5863
-Artist Name/ID: Jessie J/1313
-Searchable Query: Sweet%20Talker%20Jessie%20J
-COMMITTING: 5863, 1313, spotify:track:3SaIsrEzrQGDcG1jCeaK8q, Ksq-2ULKmX0, 64129
+COMMITTING: 5861, 1296, spotify:track:1pgOCpheMiNGIytdcrdkFX, ow89TYdPLy0, 32293
 
 NEXT TRACK:
 Track Name/ID: Lifestyle/10191
 Artist Name/ID: Beam vs Cyrus/2523
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sweet Talker/5863
+Artist Name/ID: Jessie J/1313
+Searchable Query: Sweet%20Talker%20Jessie%20J
+COMMITTING: 5863, 1313, spotify:track:3SaIsrEzrQGDcG1jCeaK8q, Ksq-2ULKmX0, 97036
 
 NEXT TRACK:
 Track Name/ID: Boy From School/10151
@@ -11530,12 +11529,6 @@ NEXT TRACK:
 Track Name/ID: Avenue Lifestyle/10196
 Artist Name/ID: Frowzy/2528
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: Far Alone/2040
-Artist Name/ID: G-Eazy/520
-Searchable Query: Far%20Alone%20G-Eazy
-COMMITTING: 2040, 520, spotify:track:7f1M8ElwbsDozUiWkoAN3I, sxV1_Lr1yf0, 3475875
 
 NEXT TRACK:
 Track Name/ID: Lifestyle/10197
@@ -11716,13 +11709,13 @@ NEXT TRACK:
 Track Name/ID: All I Do Is Win - Feat. T-Pain, Ludacris, Snoop Dogg & Rick Ross/9806
 Artist Name/ID: DJ Khaled/2354
 Searchable Query: All%20I%20Do%20Is%20Win%20-%20Feat.%20T-Pain,%20Ludacris,%20Snoop%20Dogg%20&%20Rick%20Ross%20DJ%20Khaled
-COMMITTING: 9806, 2354, spotify:track:0RIHDrcRAXtUlnkvTYPW1a, GGXzlRoNtHU, 45819115
+COMMITTING: 9806, 2354, spotify:track:0RIHDrcRAXtUlnkvTYPW1a, GGXzlRoNtHU, 46030969
 
 NEXT TRACK:
 Track Name/ID: You Don't Know - for fucks sake/11460
 Artist Name/ID: Ed Sheeran/1746
 Searchable Query: You%20Don't%20Know%20-%20for%20fucks%20sake%20Ed%20Sheeran
-COMMITTING: 11460, 1746, spotify:track:5wDo8f5JkiLu98wa38chVT, cEebTarx1bs, 37398
+COMMITTING: 11460, 1746, spotify:track:5wDo8f5JkiLu98wa38chVT, cEebTarx1bs, 39726
 
 NEXT TRACK:
 Track Name/ID: I Can Lift A Car/11450
@@ -11750,12 +11743,6 @@ Artist Name/ID: The Civil Wars/3020
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Billie Jean/11463
-Artist Name/ID: The Civil Wars/3020
-Searchable Query: Billie%20Jean%20The%20Civil%20Wars
-COMMITTING: 11463, 3020, spotify:track:4zzi2eD2cEPpQ3a307mPPj, 441mR2zsQbg, 2138224
-
-NEXT TRACK:
 Track Name/ID: Cassy O'/11469
 Artist Name/ID: George Ezra/3021
 Not IPO'd Yet!
@@ -11766,10 +11753,16 @@ Artist Name/ID: George Ezra/3021
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Billie Jean/11463
+Artist Name/ID: The Civil Wars/3020
+Searchable Query: Billie%20Jean%20The%20Civil%20Wars
+COMMITTING: 11463, 3020, spotify:track:4zzi2eD2cEPpQ3a307mPPj, 441mR2zsQbg, 2166955
+
+NEXT TRACK:
 Track Name/ID: Doses & Mimosas/5571
 Artist Name/ID: Cherub/1241
 Searchable Query: Doses%20&%20Mimosas%20Cherub
-COMMITTING: 5571, 1241, spotify:track:12ZTpSvqoRhlZh6GZZEvuR, XlZtvEM5mf4, 4762252
+COMMITTING: 5571, 1241, spotify:track:12ZTpSvqoRhlZh6GZZEvuR, XlZtvEM5mf4, 4833732
 
 NEXT TRACK:
 Track Name/ID: Over the Creek/11479
@@ -11807,34 +11800,142 @@ Artist Name/ID: Ezra Vine/3022
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Love Me Harder Parody/12176
+Artist Name/ID: Bart Baker/1785
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love Me Harder/12177
+Artist Name/ID: Daniel De Bourg/3242
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love Me Harder - Orchestral Version/12178
+Artist Name/ID: The Symphonic Pops/2822
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car/12179
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12180
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Backing Track Instrumental Version)/12181
+Artist Name/ID: Cafe Backing Band/3243
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12182
+Artist Name/ID: Country Matters/3244
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12183
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12184
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12185
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12186
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12187
+Artist Name/ID: Keith Urban/2322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Karaoke Lead Vocal Demo)/12188
+Artist Name/ID: ProSound Karaoke Band/3245
+Not IPO'd Yet!
+
+NEXT TRACK:
 Track Name/ID: Lifestyle/10189
 Artist Name/ID: Rich Gang/2521
 Searchable Query: Lifestyle%20Rich%20Gang
-COMMITTING: 10189, 2521, spotify:track:5hmQ76WSXsot6JQV3NdaCV, nGt_JGHYEO4, 81729606
+COMMITTING: 10189, 2521, spotify:track:5hmQ76WSXsot6JQV3NdaCV, nGt_JGHYEO4, 89092333
 
 NEXT TRACK:
-Track Name/ID: 'Till I Collapse/3315
-Artist Name/ID: Eminem/522
-Searchable Query: 'Till%20I%20Collapse%20Eminem
-COMMITTING: 3315, 522, spotify:track:6yr8GiTHWvFfi4o6Q5ebdT, _1xXYeNrW9k, 23370288
+Track Name/ID: Somewhere in My Car (Karaoke Instrumental Track) [In the Style of Keith Urban]/12189
+Artist Name/ID: ProSound Karaoke Band/3245
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Karaoke Instrumental Track) [In the Style of Keith Urban]/12190
+Artist Name/ID: ProSound Karaoke Band/3245
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Karaoke with Background Vocal) [In the Style of Keith Urban]/12191
+Artist Name/ID: ProSound Karaoke Band/3245
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Ruckus In B Minor/9834
 Artist Name/ID: Wu-Tang Clan/2362
 Searchable Query: Ruckus%20In%20B%20Minor%20Wu-Tang%20Clan
-COMMITTING: 9834, 2362, spotify:track:4eJ0K6wkaAaHtvvIXeLWBF, DUG9PlysxlM, 46934
-
-NEXT TRACK:
-Track Name/ID: Don't/3255
-Artist Name/ID: Ed Sheeran/821
-Searchable Query: Don't%20Ed%20Sheeran
-COMMITTING: 3255, 821, spotify:track:1huvTbEYtgltjQRXzrNKGi, iD2rhdFRehU, 31527797
+COMMITTING: 9834, 2362, spotify:track:4eJ0K6wkaAaHtvvIXeLWBF, DUG9PlysxlM, 76287
 
 NEXT TRACK:
 Track Name/ID: Anchor - Radio Mix/11813
 Artist Name/ID: Tritonal/3114
 Searchable Query: Anchor%20-%20Radio%20Mix%20Tritonal
-COMMITTING: 11813, 3114, spotify:track:6RxjwsDtmmK9NZ2S8r5xBU, yEOra-A-mFs, 668600
+COMMITTING: 11813, 3114, spotify:track:6RxjwsDtmmK9NZ2S8r5xBU, yEOra-A-mFs, 711892
+
+NEXT TRACK:
+Track Name/ID: Only Place I Call Home/12170
+Artist Name/ID: Every Avenue/3241
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Oxy Music/12171
+Artist Name/ID: Schoolboy Q/2538
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love Me Harder/12172
+Artist Name/ID: Ariana Grande/1778
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Karaoke Version) [Originally Performed By Keith Urban]/12192
+Artist Name/ID: Ameritz Entertainment/3246
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Originally Performed by Keith Urban) [Vocal Version]/12193
+Artist Name/ID: Mega Tracks Karaoke Band/3247
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies - Ukulele Version/12203
+Artist Name/ID: The Ukulele Boys/2245
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cadillac Song/12173
+Artist Name/ID: Ariana Grande/1778
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Too Close/12174
+Artist Name/ID: Ariana Grande/1778
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Listen to the Man/11471
@@ -11874,6 +11975,11 @@ Not IPO'd Yet!
 NEXT TRACK:
 Track Name/ID: Da Vinci Riot Police/11478
 Artist Name/ID: George Ezra/3021
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love Me Harder/12175
+Artist Name/ID: Sofia Karlberg/1969
 Not IPO'd Yet!
 
 NEXT TRACK:
@@ -12095,7 +12201,7 @@ NEXT TRACK:
 Track Name/ID: Drastic Measures/10227
 Artist Name/ID: Vansic/2546
 Searchable Query: Drastic%20Measures%20Vansic
-COMMITTING: 10227, 2546, spotify:track:4GIv9CUU2LdBFRk36REIH0, 7VAvZAkvLRQ, 2058
+COMMITTING: 10227, 2546, spotify:track:4GIv9CUU2LdBFRk36REIH0, 7VAvZAkvLRQ, 2200
 
 NEXT TRACK:
 Track Name/ID: Tough Love/11492
@@ -13056,18 +13162,12 @@ NEXT TRACK:
 Track Name/ID: Out The Speakers (feat. Rich Kidz)/9003
 Artist Name/ID: A-Trak/2018
 Searchable Query: Out%20The%20Speakers%20(feat.%20Rich%20Kidz)%20A-Trak
-COMMITTING: 9003, 2018, spotify:track:3UjtvIcq1RgRrg2Or5u2LV, DKl9BJp5kIs, 259731
+COMMITTING: 9003, 2018, spotify:track:3UjtvIcq1RgRrg2Or5u2LV, DKl9BJp5kIs, 268111
 
 NEXT TRACK:
 Track Name/ID: Intro - (Rick Ross / Hood Billionaire)/11844
 Artist Name/ID: Rick Ross/2353
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: Cecilia And The Satellite/9860
-Artist Name/ID: Andrew McMahon in the Wilderness/2369
-Searchable Query: Cecilia%20And%20The%20Satellite%20Andrew%20McMahon%20in%20the%20Wilderness
-COMMITTING: 9860, 2369, spotify:track:2Kgjd9G808FhUDRhS2gidG, 6tYya_LOPEw, 283208
 
 NEXT TRACK:
 Track Name/ID: Intro - (Rick Ross / Hood Billionaire)/11845
@@ -13120,16 +13220,16 @@ Artist Name/ID: Count Basie/3038
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Move Into Light - Koven Remix/2995
-Artist Name/ID: Juventa feat. Erica Curran/790
-Searchable Query: Move%20Into%20Light%20-%20Koven%20Remix%20Juventa%20feat.%20Erica%20Curran
-COMMITTING: 2995, 790, spotify:track:1pwIIEFRGnlHOsySG0Rh3v, 32HT9LRq6D0, 1320334
+Track Name/ID: Baby Don't Lie/4897
+Artist Name/ID: Gwen Stefani/629
+Searchable Query: Baby%20Don't%20Lie%20Gwen%20Stefani
+COMMITTING: 4897, 629, spotify:track:5t54WbqXtMwT5yF1nQSuKz, 9uo9oy-Eqo4, 9417486
 
 NEXT TRACK:
-Track Name/ID: Sweater Weather/5038
-Artist Name/ID: The Neighbourhood/1131
-Searchable Query: Sweater%20Weather%20The%20Neighbourhood
-COMMITTING: 5038, 1131, spotify:track:4pGqFOfzvfe6avb9kbZicC, GCdwKhTtNNw, 51146529
+Track Name/ID: When I Get My Hands On You/11539
+Artist Name/ID: The New Basement Tapes/3037
+Searchable Query: When%20I%20Get%20My%20Hands%20On%20You%20The%20New%20Basement%20Tapes
+COMMITTING: 11539, 3037, spotify:track:4ggvqSjffwaO7896hpgLuu, BDUDx15KdkI, 338007
 
 NEXT TRACK:
 Track Name/ID: When I Get My Hands On You/11540
@@ -13167,52 +13267,52 @@ Artist Name/ID: The New Basement Tapes/3037
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Sweater Weather/5038
+Artist Name/ID: The Neighbourhood/1131
+Searchable Query: Sweater%20Weather%20The%20Neighbourhood
+COMMITTING: 5038, 1131, spotify:track:4pGqFOfzvfe6avb9kbZicC, GCdwKhTtNNw, 52681872
+
+NEXT TRACK:
 Track Name/ID: Slow Acid/3971
 Artist Name/ID: Calvin Harris/928
 Searchable Query: Slow%20Acid%20Calvin%20Harris
-COMMITTING: 3971, 928, spotify:track:3AdrTMuTUgK4ygcBD6u938, no1YHRhFr5A, 5838711
+COMMITTING: 3971, 928, spotify:track:3AdrTMuTUgK4ygcBD6u938, no1YHRhFr5A, 6097169
 
 NEXT TRACK:
 Track Name/ID: Take You Home/10364
 Artist Name/ID: Thomas Rhett/2588
 Searchable Query: Take%20You%20Home%20Thomas%20Rhett
-COMMITTING: 10364, 2588, spotify:track:3O5ZChdIdwXA3aZdb0KZVq, KPt7QfzIsT0, 154525
-
-NEXT TRACK:
-Track Name/ID: Bumpin' The Night/4631
-Artist Name/ID: Florida Georgia Line/563
-Searchable Query: Bumpin'%20The%20Night%20Florida%20Georgia%20Line
-COMMITTING: 4631, 563, spotify:track:5Cn31qWn2fA01TkG0sr3BO, ADa8WGwpg1U, 350774
+COMMITTING: 10364, 2588, spotify:track:3O5ZChdIdwXA3aZdb0KZVq, KPt7QfzIsT0, 161156
 
 NEXT TRACK:
 Track Name/ID: Flora-Bama/2307
 Artist Name/ID: Kenny Chesney/573
 Searchable Query: Flora-Bama%20Kenny%20Chesney
-COMMITTING: 2307, 573, spotify:track:5hXU1eJ7E53QJkD5zP7gV2, kqzM7bP6aRY, 143889
+COMMITTING: 2307, 573, spotify:track:5hXU1eJ7E53QJkD5zP7gV2, kqzM7bP6aRY, 170137
 
 NEXT TRACK:
 Track Name/ID: Younger - Kygo Remix/4343
 Artist Name/ID: Seinabo Sey/1023
 Searchable Query: Younger%20-%20Kygo%20Remix%20Seinabo%20Sey
-COMMITTING: 4343, 1023, spotify:track:7hrDA2n8BVGLyHra0rBiFd, gx4rsZkCCss, 1211926
+COMMITTING: 4343, 1023, spotify:track:7hrDA2n8BVGLyHra0rBiFd, gx4rsZkCCss, 1329462
 
 NEXT TRACK:
 Track Name/ID: Immortals - (End Credit Version) ["From "Big Hero 6"]/3670
 Artist Name/ID: Fall Out Boy/603
 Searchable Query: Immortals%20-%20(End%20Credit%20Version)%20["From%20"Big%20Hero%206"]%20Fall%20Out%20Boy
-COMMITTING: 3670, 603, spotify:track:7oGN86j9FqUXYYxJoPccuB, l9PxOanFjxQ, 4841881
+COMMITTING: 3670, 603, spotify:track:7oGN86j9FqUXYYxJoPccuB, l9PxOanFjxQ, 6257368
 
 NEXT TRACK:
 Track Name/ID: Ebb & Flow/3183
 Artist Name/ID: Feed Me/816
 Searchable Query: Ebb%20&%20Flow%20Feed%20Me
-COMMITTING: 3183, 816, spotify:track:4rRfyXndoKnaJvlDnc9zo1, QCNprAT4svE, 29671
+COMMITTING: 3183, 816, spotify:track:4rRfyXndoKnaJvlDnc9zo1, QCNprAT4svE, 29711
 
 NEXT TRACK:
 Track Name/ID: The Fox (What Does The Fox Say?)/2656
 Artist Name/ID: Ylvis/701
 Searchable Query: The%20Fox%20(What%20Does%20The%20Fox%20Say?)%20Ylvis
-COMMITTING: 2656, 701, spotify:track:5HOpkTTVcmZHnthgyxrIL8, jofNR_WkoCE, 473734701
+COMMITTING: 2656, 701, spotify:track:5HOpkTTVcmZHnthgyxrIL8, jofNR_WkoCE, 476613812
 
 NEXT TRACK:
 Track Name/ID: Hood Billionaire/11846
@@ -13238,7 +13338,7 @@ NEXT TRACK:
 Track Name/ID: Lady Patra/2065
 Artist Name/ID: Iggy Azalea/528
 Searchable Query: Lady%20Patra%20Iggy%20Azalea
-COMMITTING: 2065, 528, spotify:track:4JO7lSmOVxyxPcw0ynWAqC, h1Fb8_y32uw, 54269
+COMMITTING: 2065, 528, spotify:track:4JO7lSmOVxyxPcw0ynWAqC, h1Fb8_y32uw, 58296
 
 NEXT TRACK:
 Track Name/ID: Coke Like The 80's/11850
@@ -13246,28 +13346,16 @@ Artist Name/ID: Rick Ross/2353
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Baby Don't Lie/4897
-Artist Name/ID: Gwen Stefani/629
-Searchable Query: Baby%20Don't%20Lie%20Gwen%20Stefani
-COMMITTING: 4897, 629, spotify:track:5t54WbqXtMwT5yF1nQSuKz, 9uo9oy-Eqo4, 7605225
-
-NEXT TRACK:
-Track Name/ID: Hey Mami/11421
-Artist Name/ID: Sylvan Esso/3006
-Searchable Query: Hey%20Mami%20Sylvan%20Esso
-COMMITTING: 11421, 3006, spotify:track:6WdZgnyqGLCE3rxz9lFy0j, 3mh2RctlGxc, 575426
+Track Name/ID: Bumpin' The Night/4631
+Artist Name/ID: Florida Georgia Line/563
+Searchable Query: Bumpin'%20The%20Night%20Florida%20Georgia%20Line
+COMMITTING: 4631, 563, spotify:track:5Cn31qWn2fA01TkG0sr3BO, ADa8WGwpg1U, 364629
 
 NEXT TRACK:
 Track Name/ID: Dance the Pain Away - Alex Gaudino & Benny Benassi Edit/3037
 Artist Name/ID: Benny Benassi/798
 Searchable Query: Dance%20the%20Pain%20Away%20-%20Alex%20Gaudino%20&%20Benny%20Benassi%20Edit%20Benny%20Benassi
-COMMITTING: 3037, 798, spotify:track:2DSyrjx2e76gx6Qfq8Fwr6, X7foeMSXQa4, 87974
-
-NEXT TRACK:
-Track Name/ID: When I Get My Hands On You/11539
-Artist Name/ID: The New Basement Tapes/3037
-Searchable Query: When%20I%20Get%20My%20Hands%20On%20You%20The%20New%20Basement%20Tapes
-COMMITTING: 11539, 3037, spotify:track:4ggvqSjffwaO7896hpgLuu, BDUDx15KdkI, 288430
+COMMITTING: 3037, 798, spotify:track:2DSyrjx2e76gx6Qfq8Fwr6, X7foeMSXQa4, 88614
 
 NEXT TRACK:
 Track Name/ID: Neighborhood Drug Dealer/11851
@@ -13310,6 +13398,12 @@ Artist Name/ID: Rick Ross/2353
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Hey Mami/11421
+Artist Name/ID: Sylvan Esso/3006
+Searchable Query: Hey%20Mami%20Sylvan%20Esso
+COMMITTING: 11421, 3006, spotify:track:6WdZgnyqGLCE3rxz9lFy0j, 3mh2RctlGxc, 612014
+
+NEXT TRACK:
 Track Name/ID: Monsters (Karaoke Instrumental Version) [Originally Performed By Timeflies & Katie Sky]/10459
 Artist Name/ID: Karaoke Galaxy/2044
 Not IPO'd Yet!
@@ -13320,10 +13414,10 @@ Artist Name/ID: Karaoke Galaxy/2044
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Monsters/10451
-Artist Name/ID: Timeflies/2615
-Searchable Query: Monsters%20Timeflies
-COMMITTING: 10451, 2615, spotify:track:7CpXx4aPvWrIhOieXWZM0j, FPyDLV-4XtI, 2082958
+Track Name/ID: Tuesday (feat. Drake)/7014
+Artist Name/ID: I LOVE MAKONNEN/1502
+Searchable Query: Tuesday%20(feat.%20Drake)%20I%20LOVE%20MAKONNEN
+COMMITTING: 7014, 1502, spotify:track:2znzyzlAUc8Z1Ikq9aFOcx, avFq9errZCk, 23241662
 
 NEXT TRACK:
 Track Name/ID: Monsters/10452
@@ -13359,7 +13453,7 @@ NEXT TRACK:
 Track Name/ID: If You Didn't See Me [Then You Weren't On The Dancefloor]/9674
 Artist Name/ID: Dale Earnhardt Jr. Jr./2300
 Searchable Query: If%20You%20Didn't%20See%20Me%20[Then%20You%20Weren't%20On%20The%20Dancefloor]%20Dale%20Earnhardt%20Jr.%20Jr.
-COMMITTING: 9674, 2300, spotify:track:7r0Wirvj3lK3jK0I8UtRoB, kup9l8wm0R8, 126703
+COMMITTING: 9674, 2300, spotify:track:7r0Wirvj3lK3jK0I8UtRoB, kup9l8wm0R8, 128105
 
 NEXT TRACK:
 Track Name/ID: A Little More/10420
@@ -13517,21 +13611,21 @@ Artist Name/ID: Timeflies/2615
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Tuesday (feat. Drake)/7014
-Artist Name/ID: I LOVE MAKONNEN/1502
-Searchable Query: Tuesday%20(feat.%20Drake)%20I%20LOVE%20MAKONNEN
-COMMITTING: 7014, 1502, spotify:track:2znzyzlAUc8Z1Ikq9aFOcx, avFq9errZCk, 17535043
-
-NEXT TRACK:
 Track Name/ID: I Choose U - Fedde Le Grand Remix/10463
 Artist Name/ID: Timeflies/2615
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Monsters/10451
+Artist Name/ID: Timeflies/2615
+Searchable Query: Monsters%20Timeflies
+COMMITTING: 10451, 2615, spotify:track:7CpXx4aPvWrIhOieXWZM0j, FPyDLV-4XtI, 2133370
+
+NEXT TRACK:
 Track Name/ID: All We Got Is Time/10441
 Artist Name/ID: Timeflies/2615
 Searchable Query: All%20We%20Got%20Is%20Time%20Timeflies
-COMMITTING: 10441, 2615, spotify:track:0xDOi3nAYYaKy79XKXbC1i, Rk8CgxUp-hY, 13003
+COMMITTING: 10441, 2615, spotify:track:0xDOi3nAYYaKy79XKXbC1i, Rk8CgxUp-hY, 13592
 
 NEXT TRACK:
 Track Name/ID: Utopia - Radio Edit/10499
@@ -13677,7 +13771,7 @@ NEXT TRACK:
 Track Name/ID: Tonight I Can't Say No/10480
 Artist Name/ID: Timeflies/2615
 Searchable Query: Tonight%20I%20Can't%20Say%20No%20Timeflies
-COMMITTING: 10480, 2615, spotify:track:7qaCQNffBmhV9CymKFJT2S, WzKdMB7mFzc, 375191
+COMMITTING: 10480, 2615, spotify:track:7qaCQNffBmhV9CymKFJT2S, WzKdMB7mFzc, 377854
 
 NEXT TRACK:
 Track Name/ID: Warriors/10484
@@ -13778,25 +13872,25 @@ NEXT TRACK:
 Track Name/ID: Utopia/10486
 Artist Name/ID: Daughtry/1822
 Searchable Query: Utopia%20Daughtry
-COMMITTING: 10486, 1822, spotify:track:5dUR0lnyDsbN5TZF64tqWC, KER0YnAa9kI, 135078
+COMMITTING: 10486, 1822, spotify:track:5dUR0lnyDsbN5TZF64tqWC, KER0YnAa9kI, 143678
 
 NEXT TRACK:
-Track Name/ID: Kansas City/11526
-Artist Name/ID: The New Basement Tapes/3037
-Searchable Query: Kansas%20City%20The%20New%20Basement%20Tapes
-COMMITTING: 11526, 3037, spotify:track:5Xtq6KzsEtTghzxmkz9yii, 7MwOarNpBcw, 243987
+Track Name/ID: Final Masquerade/6407
+Artist Name/ID: Linkin Park/1410
+Searchable Query: Final%20Masquerade%20Linkin%20Park
+COMMITTING: 6407, 1410, spotify:track:3aYBjxTMvrEOP0A0UXg9ER, i8q8fFs3kTM, 8730737
 
 NEXT TRACK:
-Track Name/ID: I Choose U/10462
-Artist Name/ID: Timeflies/2615
-Searchable Query: I%20Choose%20U%20Timeflies
-COMMITTING: 10462, 2615, spotify:track:48PrKXP5P7ZHUMIDGPrWwe, 68jvPefuDxE, 5679280
+Track Name/ID: Say My Name (feat. Zyra)/7121
+Artist Name/ID: ODESZA/1526
+Searchable Query: Say%20My%20Name%20(feat.%20Zyra)%20ODESZA
+COMMITTING: 7121, 1526, spotify:track:4XADaL6Bbz8TZt3w3kbb0I, HdzI-191xhU, 1054513
 
 NEXT TRACK:
 Track Name/ID: Let the Rhythm Just/6946
 Artist Name/ID: The Polish Ambassador/1493
 Searchable Query: Let%20the%20Rhythm%20Just%20The%20Polish%20Ambassador
-COMMITTING: 6946, 1493, spotify:track:3fYF9nA8UKZeMc1d80dtc9, B7-0ULhk4w0, 69218
+COMMITTING: 6946, 1493, spotify:track:3fYF9nA8UKZeMc1d80dtc9, B7-0ULhk4w0, 74650
 
 NEXT TRACK:
 Track Name/ID: House Party/10545
@@ -13807,7 +13901,7 @@ NEXT TRACK:
 Track Name/ID: Dead Man's Tetris (feat. Captain Murphy & Snoop Dogg)/6817
 Artist Name/ID: Flying Lotus/1482
 Searchable Query: Dead%20Man's%20Tetris%20(feat.%20Captain%20Murphy%20&%20Snoop%20Dogg)%20Flying%20Lotus
-COMMITTING: 6817, 1482, spotify:track:1BIbmMh56vFd0lktWfbooJ, e1xKBJLH_EE, 14054
+COMMITTING: 6817, 1482, spotify:track:1BIbmMh56vFd0lktWfbooJ, e1xKBJLH_EE, 14275
 
 NEXT TRACK:
 Track Name/ID: Saturday Night/10546
@@ -13980,16 +14074,16 @@ Artist Name/ID: Twisted Sister/3128
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Shot At The Night/10506
-Artist Name/ID: The Killers/2636
-Searchable Query: Shot%20At%20The%20Night%20The%20Killers
-COMMITTING: 10506, 2636, spotify:track:4Uo6ZjJKYKDCcJ1RtBrfrc, X4YK-DEkvcw, 21633928
+Track Name/ID: Unaware/5618
+Artist Name/ID: Allen Stone/1255
+Searchable Query: Unaware%20Allen%20Stone
+COMMITTING: 5618, 1255, spotify:track:4TquGV6cM3UHmv1QzHZ1T9, z4Hy6kp5kIs, 3613578
 
 NEXT TRACK:
-Track Name/ID: Raised On It/10556
-Artist Name/ID: Sam Hunt/2647
-Searchable Query: Raised%20On%20It%20Sam%20Hunt
-COMMITTING: 10556, 2647, spotify:track:3BuPop8SzLG2Q88TJcFAjp, Y9j5G-FdSpk, 1340402
+Track Name/ID: Kansas City/11526
+Artist Name/ID: The New Basement Tapes/3037
+Searchable Query: Kansas%20City%20The%20New%20Basement%20Tapes
+COMMITTING: 11526, 3037, spotify:track:5Xtq6KzsEtTghzxmkz9yii, 7MwOarNpBcw, 357478
 
 NEXT TRACK:
 Track Name/ID: Gorgeous/11874
@@ -13997,28 +14091,28 @@ Artist Name/ID: Kanye West/2474
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: I Choose U/10462
+Artist Name/ID: Timeflies/2615
+Searchable Query: I%20Choose%20U%20Timeflies
+COMMITTING: 10462, 2615, spotify:track:48PrKXP5P7ZHUMIDGPrWwe, 68jvPefuDxE, 5720787
+
+NEXT TRACK:
+Track Name/ID: Shot At The Night/10506
+Artist Name/ID: The Killers/2636
+Searchable Query: Shot%20At%20The%20Night%20The%20Killers
+COMMITTING: 10506, 2636, spotify:track:4Uo6ZjJKYKDCcJ1RtBrfrc, X4YK-DEkvcw, 21944471
+
+NEXT TRACK:
+Track Name/ID: Raised On It/10556
+Artist Name/ID: Sam Hunt/2647
+Searchable Query: Raised%20On%20It%20Sam%20Hunt
+COMMITTING: 10556, 2647, spotify:track:3BuPop8SzLG2Q88TJcFAjp, Y9j5G-FdSpk, 1395830
+
+NEXT TRACK:
 Track Name/ID: Single For The Summer/10553
 Artist Name/ID: Sam Hunt/2647
 Searchable Query: Single%20For%20The%20Summer%20Sam%20Hunt
-COMMITTING: 10553, 2647, spotify:track:4nrtux8xl5lYegU8II5rAQ, Wf88DbYkJsY, 22472
-
-NEXT TRACK:
-Track Name/ID: Final Masquerade/6407
-Artist Name/ID: Linkin Park/1410
-Searchable Query: Final%20Masquerade%20Linkin%20Park
-COMMITTING: 6407, 1410, spotify:track:3aYBjxTMvrEOP0A0UXg9ER, i8q8fFs3kTM, 8082295
-
-NEXT TRACK:
-Track Name/ID: Say My Name (feat. Zyra)/7121
-Artist Name/ID: ODESZA/1526
-Searchable Query: Say%20My%20Name%20(feat.%20Zyra)%20ODESZA
-COMMITTING: 7121, 1526, spotify:track:4XADaL6Bbz8TZt3w3kbb0I, HdzI-191xhU, 909835
-
-NEXT TRACK:
-Track Name/ID: Unaware/5618
-Artist Name/ID: Allen Stone/1255
-Searchable Query: Unaware%20Allen%20Stone
-COMMITTING: 5618, 1255, spotify:track:4TquGV6cM3UHmv1QzHZ1T9, z4Hy6kp5kIs, 3589150
+COMMITTING: 10553, 2647, spotify:track:4nrtux8xl5lYegU8II5rAQ, gIA2kewNru4, 1185
 
 NEXT TRACK:
 Track Name/ID: Blame Game/11875
@@ -14044,7 +14138,7 @@ NEXT TRACK:
 Track Name/ID: Hello My Old Heart/7193
 Artist Name/ID: The Oh Hellos/1534
 Searchable Query: Hello%20My%20Old%20Heart%20The%20Oh%20Hellos
-COMMITTING: 7193, 1534, spotify:track:5wLBkpEwHIlNZJaeh0s7bR, AObC5VKMdEc, 147857
+COMMITTING: 7193, 1534, spotify:track:5wLBkpEwHIlNZJaeh0s7bR, AObC5VKMdEc, 151841
 
 NEXT TRACK:
 Track Name/ID: ShadyXV/11886
@@ -14055,13 +14149,13 @@ NEXT TRACK:
 Track Name/ID: Twisted/11882
 Artist Name/ID: Skylar Grey/3134
 Searchable Query: Twisted%20Skylar%20Grey
-COMMITTING: 11882, 3134, spotify:track:1FJYqedfrSGitGHMvwRGBg, nJSUBlN_r_o, 449963
+COMMITTING: 11882, 3134, spotify:track:1FJYqedfrSGitGHMvwRGBg, pZ-C002sCZE, 64468
 
 NEXT TRACK:
 Track Name/ID: Make You Miss Me/10525
 Artist Name/ID: Sam Hunt/2647
 Searchable Query: Make%20You%20Miss%20Me%20Sam%20Hunt
-COMMITTING: 10525, 2647, spotify:track:0xwPzLmBAYro8BUz7MrtAo, HUAUsbbhRmc, 165846
+COMMITTING: 10525, 2647, spotify:track:0xwPzLmBAYro8BUz7MrtAo, HUAUsbbhRmc, 273754
 
 NEXT TRACK:
 Track Name/ID: Tell Her This/11878
@@ -14254,12 +14348,6 @@ Artist Name/ID: Slaughterhouse/2281
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Ugly Boy/9609
-Artist Name/ID: Die Antwoord/2274
-Searchable Query: Ugly%20Boy%20Die%20Antwoord
-COMMITTING: 9609, 2274, spotify:track:0zSGK8ZpVuo0XdIY21Vyrh, uMK0prafzw0, 7591685
-
-NEXT TRACK:
 Track Name/ID: Vegas/11890
 Artist Name/ID: Bad Meets Evil/3135
 Not IPO'd Yet!
@@ -14293,6 +14381,12 @@ NEXT TRACK:
 Track Name/ID: Right For Me/11896
 Artist Name/ID: Eminem/2282
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ugly Boy/9609
+Artist Name/ID: Die Antwoord/2274
+Searchable Query: Ugly%20Boy%20Die%20Antwoord
+COMMITTING: 9609, 2274, spotify:track:0zSGK8ZpVuo0XdIY21Vyrh, uMK0prafzw0, 8815641
 
 NEXT TRACK:
 Track Name/ID: You've Got The Love - Tom Middleton Remix/10600
@@ -14330,10 +14424,10 @@ Artist Name/ID: Brad Paisley/2688
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Take Your Time/10574
-Artist Name/ID: Sam Hunt/2647
-Searchable Query: Take%20Your%20Time%20Sam%20Hunt
-COMMITTING: 10574, 2647, spotify:track:7vWGeYZJUzBXKGPro05UXS, Evqvefc4fqM, 128519
+Track Name/ID: Do I Wanna Know?/7222
+Artist Name/ID: Arctic Monkeys/1540
+Searchable Query: Do%20I%20Wanna%20Know?%20Arctic%20Monkeys
+COMMITTING: 7222, 1540, spotify:track:3jfr0TF6DQcOLat8gGn7E2, bpOSxM0rNPM, 122830581
 
 NEXT TRACK:
 Track Name/ID: Sirens Call (feat. Jessie Antonick & Sam Doores)/10564
@@ -14526,46 +14620,46 @@ Artist Name/ID: Dierks Bentley/2687
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Do I Wanna Know?/7222
-Artist Name/ID: Arctic Monkeys/1540
-Searchable Query: Do%20I%20Wanna%20Know?%20Arctic%20Monkeys
-COMMITTING: 7222, 1540, spotify:track:3jfr0TF6DQcOLat8gGn7E2, bpOSxM0rNPM, 119140986
-
-NEXT TRACK:
-Track Name/ID: Stay Closer/7283
-Artist Name/ID: Zhu/814
-Searchable Query: Stay%20Closer%20Zhu
-COMMITTING: 7283, 814, spotify:track:3tTwat3tZU26aN7vPxbOWo, OSY5SwKvDss, 335844
-
-NEXT TRACK:
-Track Name/ID: Yellow Flicker Beat - From The Hunger Games: Mockingjay Part 1/9624
-Artist Name/ID: Lorde/2278
-Searchable Query: Yellow%20Flicker%20Beat%20-%20From%20The%20Hunger%20Games:%20Mockingjay%20Part%201%20Lorde
-COMMITTING: 9624, 2278, spotify:track:0GZoB8h0kqXn7XFm4Sj06k, e1S9HUNoI4k, 8862003
-
-NEXT TRACK:
-Track Name/ID: Freaks Have More Fun/10085
-Artist Name/ID: Dada Life/2476
-Searchable Query: Freaks%20Have%20More%20Fun%20Dada%20Life
-COMMITTING: 10085, 2476, spotify:track:38j7Rds37bYz5FZLTt5Ouf, OgEzqBB3EWo, 147411
-
-NEXT TRACK:
-Track Name/ID: Say You Do/10606
-Artist Name/ID: Dierks Bentley/2687
-Searchable Query: Say%20You%20Do%20Dierks%20Bentley
-COMMITTING: 10606, 2687, spotify:track:4Y6CT1zpgRqLtZ4uZV8vnd, 4xpr1fLqEj4, 1077389
+Track Name/ID: Take Your Time/10574
+Artist Name/ID: Sam Hunt/2647
+Searchable Query: Take%20Your%20Time%20Sam%20Hunt
+COMMITTING: 10574, 2647, spotify:track:7vWGeYZJUzBXKGPro05UXS, Evqvefc4fqM, 255600
 
 NEXT TRACK:
 Track Name/ID: Get Away/11548
 Artist Name/ID: CHVRCHES/1987
 Searchable Query: Get%20Away%20CHVRCHES
-COMMITTING: 11548, 1987, spotify:track:1mjUIsb3adFuE6IVK2VE2w, zM0O1Pqjvuw, 167491
+COMMITTING: 11548, 1987, spotify:track:1mjUIsb3adFuE6IVK2VE2w, zM0O1Pqjvuw, 245143
+
+NEXT TRACK:
+Track Name/ID: Yellow Flicker Beat - From The Hunger Games: Mockingjay Part 1/9624
+Artist Name/ID: Lorde/2278
+Searchable Query: Yellow%20Flicker%20Beat%20-%20From%20The%20Hunger%20Games:%20Mockingjay%20Part%201%20Lorde
+COMMITTING: 9624, 2278, spotify:track:0GZoB8h0kqXn7XFm4Sj06k, psOmeRcbLBU, 98249
+
+NEXT TRACK:
+Track Name/ID: Say You Do/10606
+Artist Name/ID: Dierks Bentley/2687
+Searchable Query: Say%20You%20Do%20Dierks%20Bentley
+COMMITTING: 10606, 2687, spotify:track:4Y6CT1zpgRqLtZ4uZV8vnd, 4xpr1fLqEj4, 1212615
+
+NEXT TRACK:
+Track Name/ID: Freaks Have More Fun/10085
+Artist Name/ID: Dada Life/2476
+Searchable Query: Freaks%20Have%20More%20Fun%20Dada%20Life
+COMMITTING: 10085, 2476, spotify:track:38j7Rds37bYz5FZLTt5Ouf, OgEzqBB3EWo, 182261
+
+NEXT TRACK:
+Track Name/ID: Movin' Bass/11905
+Artist Name/ID: Rick Ross/2353
+Searchable Query: Movin'%20Bass%20Rick%20Ross
+COMMITTING: 11905, 2353, spotify:track:40nQEnFjWFDjMF1E7Zlzzk, p4zDKVJmGhY, 862003
 
 NEXT TRACK:
 Track Name/ID: I Hold On/10604
 Artist Name/ID: Dierks Bentley/2687
 Searchable Query: I%20Hold%20On%20Dierks%20Bentley
-COMMITTING: 10604, 2687, spotify:track:50k7vTnFBQGyWzvTmo6WEu, zV40NzkqJrw, 6399401
+COMMITTING: 10604, 2687, spotify:track:50k7vTnFBQGyWzvTmo6WEu, zV40NzkqJrw, 6572352
 
 NEXT TRACK:
 Track Name/ID: Detroit Vs. Everybody/11897
@@ -14653,10 +14747,10 @@ Artist Name/ID: Vanguard/3140
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Am Machine/10286
-Artist Name/ID: Three Days Grace/1817
-Searchable Query: I%20Am%20Machine%20Three%20Days%20Grace
-COMMITTING: 10286, 1817, spotify:track:6LvQRDyjrsnmFVjfZPdUy4, 8Zx6RXGNISk, 2012036
+Track Name/ID: The Heart Wants What It Wants/9882
+Artist Name/ID: Selena Gomez/2372
+Searchable Query: The%20Heart%20Wants%20What%20It%20Wants%20Selena%20Gomez
+COMMITTING: 9882, 2372, spotify:track:2jcPoPin36hyNRSi4ZsqeB, ij_0p_6qTss, 67929433
 
 NEXT TRACK:
 Track Name/ID: Movin - Original Mix/11913
@@ -14704,22 +14798,36 @@ Artist Name/ID: Strange Rollers/3151
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Dead Air - From The Hunger Games: Mockingjay Part 1 Soundtrack/11099
-Artist Name/ID: CHVRCHES/1987
-Searchable Query: Dead%20Air%20-%20From%20The%20Hunger%20Games:%20Mockingjay%20Part%201%20Soundtrack%20CHVRCHES
-COMMITTING: 11099, 1987, spotify:track:7GBGXDmYOTHuBtPfRZc6Vu, RWhEUR0I9fo, 919144
+Track Name/ID: Divine Sorrow/12046
+Artist Name/ID: Wyclef Jean/3157
+Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: The Heart Wants What It Wants/9882
-Artist Name/ID: Selena Gomez/2372
-Searchable Query: The%20Heart%20Wants%20What%20It%20Wants%20Selena%20Gomez
-COMMITTING: 9882, 2372, spotify:track:2jcPoPin36hyNRSi4ZsqeB, ij_0p_6qTss, 49687730
+Track Name/ID: Surface/12048
+Artist Name/ID: Divine Sorrow/3204
+Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Movin' Bass/11905
-Artist Name/ID: Rick Ross/2353
-Searchable Query: Movin'%20Bass%20Rick%20Ross
-COMMITTING: 11905, 2353, spotify:track:40nQEnFjWFDjMF1E7Zlzzk, p4zDKVJmGhY, 648001
+Track Name/ID: Death Captivity and the Pursuit of Sorrow/12049
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Stay Closer/7283
+Artist Name/ID: Zhu/814
+Searchable Query: Stay%20Closer%20Zhu
+COMMITTING: 7283, 814, spotify:track:3tTwat3tZU26aN7vPxbOWo, OSY5SwKvDss, 370257
+
+NEXT TRACK:
+Track Name/ID: Creeping/Shadows and Sorrow/12050
+Artist Name/ID: Divine Sorrow/3204
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Move Into Light - Koven Remix/2995
+Artist Name/ID: Juventa feat. Erica Curran/790
+Searchable Query: Move%20Into%20Light%20-%20Koven%20Remix%20Juventa%20feat.%20Erica%20Curran
+COMMITTING: 2995, 790, spotify:track:1pwIIEFRGnlHOsySG0Rh3v, 32HT9LRq6D0, 1352023
 
 NEXT TRACK:
 Track Name/ID: Bass Jazz/11922
@@ -14734,6 +14842,36 @@ Not IPO'd Yet!
 NEXT TRACK:
 Track Name/ID: Movin Groovin/11924
 Artist Name/ID: Pillijah/3154
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sorrow's Sacrifice/12051
+Artist Name/ID: Divine Ascension/3205
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sorrow/12047
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ascension/12052
+Artist Name/ID: Divine Sorrow/3204
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sorrow/12053
+Artist Name/ID: Zahra Hashemian/3206
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sorrow & Promise: Overture/12054
+Artist Name/ID: Divine In Sight/3207
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sorrow & Promise: Sleep/12055
+Artist Name/ID: Divine In Sight/3207
 Not IPO'd Yet!
 
 NEXT TRACK:
@@ -14910,12 +15048,18 @@ NEXT TRACK:
 Track Name/ID: Good Girls/11550
 Artist Name/ID: 5 Seconds Of Summer/3039
 Searchable Query: Good%20Girls%205%20Seconds%20Of%20Summer
-COMMITTING: 11550, 3039, spotify:track:0BO6iWcPj20UGEl224pHWA, 0FfG_5JBVBQ, 11450553
+COMMITTING: 11550, 3039, spotify:track:0BO6iWcPj20UGEl224pHWA, 0FfG_5JBVBQ, 12522015
 
 NEXT TRACK:
 Track Name/ID: Barbie Girl/11573
 Artist Name/ID: Aqua/3047
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Riser/10622
+Artist Name/ID: Dierks Bentley/2687
+Searchable Query: Riser%20Dierks%20Bentley
+COMMITTING: 10622, 2687, spotify:track:3PsxABpyIdg1JPTbbAGjJz, wLrWwltSyIM, 125989
 
 NEXT TRACK:
 Track Name/ID: Good Girls - Acoustic/11551
@@ -14981,12 +15125,6 @@ NEXT TRACK:
 Track Name/ID: Doctor Jones/11578
 Artist Name/ID: Aqua/3047
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: Riser/10622
-Artist Name/ID: Dierks Bentley/2687
-Searchable Query: Riser%20Dierks%20Bentley
-COMMITTING: 10622, 2687, spotify:track:3PsxABpyIdg1JPTbbAGjJz, wLrWwltSyIM, 119131
 
 NEXT TRACK:
 Track Name/ID: Black Skinhead/10635
@@ -15102,7 +15240,7 @@ NEXT TRACK:
 Track Name/ID: Run This Town [Jay-Z + Rihanna + Kanye West]/10634
 Artist Name/ID: JAY Z/2359
 Searchable Query: Run%20This%20Town%20[Jay-Z%20+%20Rihanna%20+%20Kanye%20West]%20JAY%20Z
-COMMITTING: 10634, 2359, spotify:track:5M8nEsWqUkwUwCp58ydE4W, ZkuOXgxiKHA, 2887215
+COMMITTING: 10634, 2359, spotify:track:5M8nEsWqUkwUwCp58ydE4W, ZkuOXgxiKHA, 3040649
 
 NEXT TRACK:
 Track Name/ID: Beg For It/11590
@@ -15150,10 +15288,10 @@ Artist Name/ID: Karaoke Galaxy/2044
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Cartoon Heroes - Radio Edit/11589
-Artist Name/ID: Aqua/3047
-Searchable Query: Cartoon%20Heroes%20-%20Radio%20Edit%20Aqua
-COMMITTING: 11589, 3047, spotify:track:75BZldp3EaWo2drFrpgFHG, xKJa2ykcIxA, 318326
+Track Name/ID: Die Alone/11889
+Artist Name/ID: Eminem/2282
+Searchable Query: Die%20Alone%20Eminem
+COMMITTING: 11889, 2282, spotify:track:5tL7NDmnATs0b1vqh0N8nO, z5rd0EQvwig, 176235
 
 NEXT TRACK:
 Track Name/ID: Cartoon Heroes - Radio Edit/11579
@@ -15211,16 +15349,15 @@ Artist Name/ID: Arealliferebel/3057
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Burnin' Up/8707
-Artist Name/ID: Jessie J/1881
-Searchable Query: Burnin'%20Up%20Jessie%20J
-COMMITTING: 8707, 1881, spotify:track:5O9WkrcIngJ6l3il6WrfbG, H7iLIAD27Pk, 9508711
+Track Name/ID: Cartoon Heroes - Radio Edit/11589
+Artist Name/ID: Aqua/3047
+Searchable Query: Cartoon%20Heroes%20-%20Radio%20Edit%20Aqua
+COMMITTING: 11589, 3047, spotify:track:75BZldp3EaWo2drFrpgFHG, xKJa2ykcIxA, 320696
 
 NEXT TRACK:
-Track Name/ID: Die Alone/11889
-Artist Name/ID: Eminem/2282
-Searchable Query: Die%20Alone%20Eminem
-COMMITTING: 11889, 2282, spotify:track:5tL7NDmnATs0b1vqh0N8nO, sOAJXzcAWag, 108589
+Track Name/ID: Everything/12056
+Artist Name/ID: Divine Sorrow/3204
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: H.O.M.E. (Hating On Me) (feat. iLoveMakonnen)/10652
@@ -15263,16 +15400,10 @@ Artist Name/ID: K-Hitz!/2700
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Hot N*gga/10663
-Artist Name/ID: Bobby Shmurda/2494
-Searchable Query: Hot%20N*gga%20Bobby%20Shmurda
-COMMITTING: 10663, 2494, spotify:track:19gEmPjfqSZT0ulDRfjl0m, vJwKKKd2ZYE, 42181566
-
-NEXT TRACK:
-Track Name/ID: Look At Wrist (feat. Ilovemakonnen & Key)/10654
+Track Name/ID: Nokia (Remix) (Feat. Ilovemakonnen)/10657
 Artist Name/ID: Father/2696
-Searchable Query: Look%20At%20Wrist%20(feat.%20Ilovemakonnen%20&%20Key)%20Father
-COMMITTING: 10654, 2696, spotify:track:7hReoocHIBthympXeUN76y, mF9kOkRCnyo, 601795
+Searchable Query: Nokia%20(Remix)%20(Feat.%20Ilovemakonnen)%20Father
+COMMITTING: 10657, 2696, spotify:track:19wAbjx86d9foIaAPXo5Ad, mfhRMGlFUdo, 196580
 
 NEXT TRACK:
 Track Name/ID: New Theory/10683
@@ -15285,10 +15416,10 @@ Artist Name/ID: Small Black/2705
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Nokia (Remix) (Feat. Ilovemakonnen)/10657
-Artist Name/ID: Father/2696
-Searchable Query: Nokia%20(Remix)%20(Feat.%20Ilovemakonnen)%20Father
-COMMITTING: 10657, 2696, spotify:track:19wAbjx86d9foIaAPXo5Ad, mfhRMGlFUdo, 172786
+Track Name/ID: Hot N*gga/10663
+Artist Name/ID: Bobby Shmurda/2494
+Searchable Query: Hot%20N*gga%20Bobby%20Shmurda
+COMMITTING: 10663, 2494, spotify:track:19gEmPjfqSZT0ulDRfjl0m, vJwKKKd2ZYE, 45815030
 
 NEXT TRACK:
 Track Name/ID: Amor Fati/10685
@@ -15456,6 +15587,12 @@ Artist Name/ID: Washed Out/2704
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Look At Wrist (feat. Ilovemakonnen & Key)/10654
+Artist Name/ID: Father/2696
+Searchable Query: Look%20At%20Wrist%20(feat.%20Ilovemakonnen%20&%20Key)%20Father
+COMMITTING: 10654, 2696, spotify:track:7hReoocHIBthympXeUN76y, mF9kOkRCnyo, 679134
+
+NEXT TRACK:
 Track Name/ID: Color of My Soul/10734
 Artist Name/ID: Pretty Lights/2562
 Not IPO'd Yet!
@@ -15499,12 +15636,6 @@ NEXT TRACK:
 Track Name/ID: Gimme Twice/10742
 Artist Name/ID: The Royal Concept/2716
 Not IPO'd Yet!
-
-NEXT TRACK:
-Track Name/ID: New Flame/7431
-Artist Name/ID: Chris Brown/1137
-Searchable Query: New%20Flame%20Chris%20Brown
-COMMITTING: 7431, 1137, spotify:track:46xsmPKKb3zxHkXwRqxNVL, HwctEiWLe84, 53281946
 
 NEXT TRACK:
 Track Name/ID: All Over Now/10700
@@ -15697,40 +15828,248 @@ Artist Name/ID: The Royal Concept/2716
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Choose U/10461
-Artist Name/ID: Timeflies/2615
-Searchable Query: I%20Choose%20U%20Timeflies
-COMMITTING: 10461, 2615, spotify:track:2RLiTzKagKrEpDaeS6GuV8, 68jvPefuDxE, 5679280
+Track Name/ID: New Flame/7431
+Artist Name/ID: Chris Brown/1137
+Searchable Query: New%20Flame%20Chris%20Brown
+COMMITTING: 7431, 1137, spotify:track:46xsmPKKb3zxHkXwRqxNVL, HwctEiWLe84, 58423120
 
 NEXT TRACK:
-Track Name/ID: Celebrate (from the Original Motion Picture Penguins of Madagascar)/7441
-Artist Name/ID: Pitbull/564
-Searchable Query: Celebrate%20(from%20the%20Original%20Motion%20Picture%20Penguins%20of%20Madagascar)%20Pitbull
-COMMITTING: 7441, 564, spotify:track:65JeE5i2dGrL9ipfeuvSAE, QqLs0CBNoSA, 3033422
+Track Name/ID: Bigger Than Us - Walls Hold Me Remix/12068
+Artist Name/ID: White Lies/3208
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than You & Me - Original Mix/12069
+Artist Name/ID: Prima Volta/3209
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12070
+Artist Name/ID: Dominic Balli/3210
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12071
+Artist Name/ID: Bell X1/3211
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12072
+Artist Name/ID: Aselin Debison/3212
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12073
+Artist Name/ID: Kirk Gramcko/3213
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger than Me/12074
+Artist Name/ID: Anna Schulze/3214
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12075
+Artist Name/ID: Langdon Palmer/3215
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12076
+Artist Name/ID: Troy Noka/3216
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12077
+Artist Name/ID: The Game/1782
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12078
+Artist Name/ID: Heather Michele Cohen/3217
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Boston/12079
+Artist Name/ID: You Me & Iowa/3218
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Boston/12080
+Artist Name/ID: You Me & Iowa/3218
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Crazier Than Me/12081
+Artist Name/ID: Nate Butler/3219
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12082
+Artist Name/ID: Bell X1/3211
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12083
+Artist Name/ID: Young Bari/3220
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12084
+Artist Name/ID: Matt Papa/3221
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than You & Me - Rektchordz Remix/12085
+Artist Name/ID: Prima Volta/3209
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Can You Hear Me/12057
+Artist Name/ID: Divine Sorrow/3204
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Time/12058
+Artist Name/ID: Divine Sorrow/3204
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Swagger/12059
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Audry II/12060
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Who Shot Ya/12061
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: F$C/& Off/12062
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Divinus Infestus/12063
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Please Forgive Me (I Killed a Man)/12064
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Tight Ropes Burn/12065
+Artist Name/ID: Animus Divine/3203
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Barbie Girl/11570
 Artist Name/ID: Aqua/3047
 Searchable Query: Barbie%20Girl%20Aqua
-COMMITTING: 11570, 3047, spotify:track:7kz6GbFr2MCI7PgXJOdq8c, ZyhrYis509A, 154915539
+COMMITTING: 11570, 3047, spotify:track:7kz6GbFr2MCI7PgXJOdq8c, ZyhrYis509A, 156837205
 
 NEXT TRACK:
 Track Name/ID: Say You Love Me/11486
 Artist Name/ID: Jessie Ware/3023
 Searchable Query: Say%20You%20Love%20Me%20Jessie%20Ware
-COMMITTING: 11486, 3023, spotify:track:7fex2V7RzWl9nCKyILjibB, DAMM8JVbr8g, 7233901
-
-NEXT TRACK:
-Track Name/ID: Habits (Stay High) - Hippie Sabotage Remix - Bonus Track/2321
-Artist Name/ID: Tove Lo/586
-Searchable Query: Habits%20(Stay%20High)%20-%20Hippie%20Sabotage%20Remix%20-%20Bonus%20Track%20Tove%20Lo
-COMMITTING: 2321, 586, spotify:track:43aBKep8IGxMizKCSvKJcJ, DISnB52tPvs, 26771
+COMMITTING: 11486, 3023, spotify:track:7fex2V7RzWl9nCKyILjibB, DAMM8JVbr8g, 8104987
 
 NEXT TRACK:
 Track Name/ID: Feel It All Around/10682
 Artist Name/ID: Washed Out/2704
 Searchable Query: Feel%20It%20All%20Around%20Washed%20Out
-COMMITTING: 10682, 2704, spotify:track:79H5IKTwXdAbqypigoP832, -DkslcOhytU, 4341228
+COMMITTING: 10682, 2704, spotify:track:79H5IKTwXdAbqypigoP832, -DkslcOhytU, 4372581
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Originally Performed by Keith Urban) [Karaoke Version]/12194
+Artist Name/ID: Mega Tracks Karaoke Band/3247
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Originally Performed by Keith Urban) [Instrumental Version]/12195
+Artist Name/ID: Mega Tracks Karaoke Band/3247
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car/12196
+Artist Name/ID: 2014 Golden Cove/3248
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somewhere in My Car (Without Backing Vocals) [Karaoke Version] [Originally Performed By Keith Urban]/12197
+Artist Name/ID: Ameritz Entertainment/3246
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I Choose U/10461
+Artist Name/ID: Timeflies/2615
+Searchable Query: I%20Choose%20U%20Timeflies
+COMMITTING: 10461, 2615, spotify:track:2RLiTzKagKrEpDaeS6GuV8, 68jvPefuDxE, 5720787
+
+NEXT TRACK:
+Track Name/ID: Habits (Stay High) - Hippie Sabotage Remix - Bonus Track/2321
+Artist Name/ID: Tove Lo/586
+Searchable Query: Habits%20(Stay%20High)%20-%20Hippie%20Sabotage%20Remix%20-%20Bonus%20Track%20Tove%20Lo
+COMMITTING: 2321, 586, spotify:track:43aBKep8IGxMizKCSvKJcJ, DISnB52tPvs, 28161
+
+NEXT TRACK:
+Track Name/ID: Somewhere In My Car (Instrumental Version)/12198
+Artist Name/ID: 2014 Golden Cove/3248
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12066
+Artist Name/ID: The Game/1782
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bigger Than Me/12067
+Artist Name/ID: The Game/1782
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12199
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Being Beige/9028
+Artist Name/ID: The Smashing Pumpkins/1821
+Searchable Query: Being%20Beige%20The%20Smashing%20Pumpkins
+COMMITTING: 9028, 1821, spotify:track:2b4X1y2Y9uz0MLNcWF7zBk, aKjPEnVVwRk, 100324
+
+NEXT TRACK:
+Track Name/ID: Burnin' Up/8707
+Artist Name/ID: Jessie J/1881
+Searchable Query: Burnin'%20Up%20Jessie%20J
+COMMITTING: 8707, 1881, spotify:track:5O9WkrcIngJ6l3il6WrfbG, H7iLIAD27Pk, 11599521
+
+NEXT TRACK:
+Track Name/ID: Celebrate (from the Original Motion Picture Penguins of Madagascar)/7441
+Artist Name/ID: Pitbull/564
+Searchable Query: Celebrate%20(from%20the%20Original%20Motion%20Picture%20Penguins%20of%20Madagascar)%20Pitbull
+COMMITTING: 7441, 564, spotify:track:65JeE5i2dGrL9ipfeuvSAE, QqLs0CBNoSA, 3462950
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12200
+Artist Name/ID: Matchbox Twenty/2479
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12201
+Artist Name/ID: Matchbox Twenty/2479
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12204
+Artist Name/ID: Kellie Rucker/3249
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Sorry, Blame It On Me - Main/11933
@@ -15808,22 +16147,35 @@ Artist Name/ID: Boyce Avenue/1752
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Feels Like Forever/7464
-Artist Name/ID: Of Mice & Men/1573
-Searchable Query: Feels%20Like%20Forever%20Of%20Mice%20&%20Men
-COMMITTING: 7464, 1573, spotify:track:3iPMVDlzpkXuYkvsa1PRQj, xCGR9wEcqZs, 785898
-
-NEXT TRACK:
 Track Name/ID: Iggy SZN/7518
 Artist Name/ID: Iggy Azalea/528
 Searchable Query: Iggy%20SZN%20Iggy%20Azalea
-COMMITTING: 7518, 528, spotify:track:5mQuoUruo18S4KcXRiTwos, IrUIYW57SEo, 1108889
+COMMITTING: 7518, 528, spotify:track:5mQuoUruo18S4KcXRiTwos, IrUIYW57SEo, 1193588
 
 NEXT TRACK:
-Track Name/ID: Burnin' Up/8702
-Artist Name/ID: Jessie J/1881
-Searchable Query: Burnin'%20Up%20Jessie%20J
-COMMITTING: 8702, 1881, spotify:track:4C94AHau3ZBPupeL4NR8Ny, H7iLIAD27Pk, 9508711
+Track Name/ID: We Share Our Mother's Health - Trentemoeller Remix/12086
+Artist Name/ID: The Knife/3222
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share - We Were Promised Jetpacks Remix / Bonus Track/12087
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12088
+Artist Name/ID: Cairn String Quartet/3224
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12091
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12089
+Artist Name/ID: Alex Cornell/2874
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Radio/10748
@@ -15891,6 +16243,16 @@ Artist Name/ID: Taylor/2717
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: The Mother We Share/12090
+Artist Name/ID: Buffetlibre/3225
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12092
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
 Track Name/ID: Little Drummer Boy / Hot Hot Hot/11925
 Artist Name/ID: Wyclef Jean/3157
 Not IPO'd Yet!
@@ -15916,6 +16278,17 @@ Artist Name/ID: 8 Bit Universe/1732
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Burnin' Up/8702
+Artist Name/ID: Jessie J/1881
+Searchable Query: Burnin'%20Up%20Jessie%20J
+COMMITTING: 8702, 1881, spotify:track:4C94AHau3ZBPupeL4NR8Ny, H7iLIAD27Pk, 11599521
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12093
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
 Track Name/ID: No Type/11930
 Artist Name/ID: Luigi Golino/3161
 Not IPO'd Yet!
@@ -15931,6 +16304,21 @@ Artist Name/ID: Alcazar/2330
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: The Mother We Share/12094
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12095
+Artist Name/ID: WALLA/3226
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share - Blood Diamonds Remix/12096
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
 Track Name/ID: Carmen Suite No. 1: V. Les Dragons d'Alcala/11621
 Artist Name/ID: Georges Bizet/3058
 Not IPO'd Yet!
@@ -15941,28 +16329,102 @@ Artist Name/ID: Georges Bizet/3058
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: World On Fire/10743
-Artist Name/ID: The Royal Concept/2716
-Searchable Query: World%20On%20Fire%20The%20Royal%20Concept
-COMMITTING: 10743, 2716, spotify:track:45IThYyl2Le9L3XP4k1tgb, E0VWi-v1GLw, 128154
+Track Name/ID: From the Top/12109
+Artist Name/ID: Edgard Jaude/3230
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Custer/7550
 Artist Name/ID: Slipknot/838
 Searchable Query: Custer%20Slipknot
-COMMITTING: 7550, 838, spotify:track:3GiJq4AQK7324mfIQbpiTf, FdBqOCS8LmM, 2252122
+COMMITTING: 7550, 838, spotify:track:3GiJq4AQK7324mfIQbpiTf, FdBqOCS8LmM, 2445276
 
 NEXT TRACK:
 Track Name/ID: Roundtable Rival/7519
 Artist Name/ID: Lindsey Stirling/1579
 Searchable Query: Roundtable%20Rival%20Lindsey%20Stirling
-COMMITTING: 7519, 1579, spotify:track:1qrlRNWrxVCwyyFaDVRbaL, jvipPYFebWc, 6231642
+COMMITTING: 7519, 1579, spotify:track:1qrlRNWrxVCwyyFaDVRbaL, jvipPYFebWc, 7265970
 
 NEXT TRACK:
-Track Name/ID: Blame/9403
-Artist Name/ID: Calvin Harris/1934
-Searchable Query: Blame%20Calvin%20Harris
-COMMITTING: 9403, 1934, spotify:track:07nH4ifBxUB4lZcsf44Brn, 6ACl8s_tBzE, 48734183
+Track Name/ID: World On Fire/10743
+Artist Name/ID: The Royal Concept/2716
+Searchable Query: World%20On%20Fire%20The%20Royal%20Concept
+COMMITTING: 10743, 2716, spotify:track:45IThYyl2Le9L3XP4k1tgb, E0VWi-v1GLw, 129523
+
+NEXT TRACK:
+Track Name/ID: Mockingbird/12111
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rap God/12112
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love The Way You Lie/12113
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: We Share Our Mother's Health - Trentemoeller Remix/12097
+Artist Name/ID: The Knife/3222
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12098
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12099
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12100
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12101
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12102
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12103
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Mother We Share/12104
+Artist Name/ID: CHVRCHES/1987
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Coloring/12105
+Artist Name/ID: Kevin Garrett/3228
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: So Come Take Over/12106
+Artist Name/ID: Kevin Garrett/3228
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Weapons Down (feat. Kevin Simon, Lee Hurtado, Carl Lindner, Kendra Cork, Tanganyika Carr & Darris Hinson)/12107
+Artist Name/ID: Carla Fleming & Garrett Perkins/3229
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Boy Meets Girl/12108
+Artist Name/ID: Edgard Jaude/3230
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Carmen Suite No. 1: V. Les Dragons d'Alcala/11605
@@ -16045,6 +16507,42 @@ Artist Name/ID: Georges Bizet/3058
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: The Monster/12110
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Not Afraid/12114
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Lose Yourself - Soundtrack Version/12115
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: When I'm Gone/12116
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Lose Yourself - Soundtrack Version/12117
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Superman/12118
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Blame/9403
+Artist Name/ID: Calvin Harris/1934
+Searchable Query: Blame%20Calvin%20Harris
+COMMITTING: 9403, 1934, spotify:track:07nH4ifBxUB4lZcsf44Brn, 6ACl8s_tBzE, 54674063
+
+NEXT TRACK:
 Track Name/ID: Side 3, Pt. 6: Allons-y (2)/10793
 Artist Name/ID: Pink Floyd/2720
 Not IPO'd Yet!
@@ -16095,10 +16593,10 @@ Artist Name/ID: The Decemberists/2721
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Make You Better/10802
-Artist Name/ID: The Decemberists/2721
-Searchable Query: Make%20You%20Better%20The%20Decemberists
-COMMITTING: 10802, 2721, spotify:track:5kU4S2MnbVFycJtlBbnxzk, Yb8oUbMrydk, 132091
+Track Name/ID: Drown/11623
+Artist Name/ID: Bring Me The Horizon/3063
+Searchable Query: Drown%20Bring%20Me%20The%20Horizon
+COMMITTING: 11623, 3063, spotify:track:5DoGCnGoFglf9FBCfq5mVb, TkV5709EG5M, 8286986
 
 NEXT TRACK:
 Track Name/ID: Daddy's Lambo/10761
@@ -16196,12 +16694,6 @@ Artist Name/ID: Yelawolf/2490
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Side 3, Pt. 4: Allons-y (1)/10782
-Artist Name/ID: Pink Floyd/2720
-Searchable Query: Side%203,%20Pt.%204:%20Allons-y%20(1)%20Pink%20Floyd
-COMMITTING: 10782, 2720, spotify:track:3KkFMBMsHG9lLUqpplTHi7, RFXBlS0KsHU, 686276
-
-NEXT TRACK:
 Track Name/ID: Congregation/10781
 Artist Name/ID: Foo Fighters/2212
 Not IPO'd Yet!
@@ -16210,13 +16702,7 @@ NEXT TRACK:
 Track Name/ID: Ink/7584
 Artist Name/ID: Coldplay/681
 Searchable Query: Ink%20Coldplay
-COMMITTING: 7584, 681, spotify:track:6c6W25YoDGjTq3qSPOga5t, cbixLt0WBQs, 1675508
-
-NEXT TRACK:
-Track Name/ID: Drown/11623
-Artist Name/ID: Bring Me The Horizon/3063
-Searchable Query: Drown%20Bring%20Me%20The%20Horizon
-COMMITTING: 11623, 3063, spotify:track:5DoGCnGoFglf9FBCfq5mVb, TkV5709EG5M, 7102643
+COMMITTING: 7584, 681, spotify:track:6c6W25YoDGjTq3qSPOga5t, cbixLt0WBQs, 2011882
 
 NEXT TRACK:
 Track Name/ID: Side 3, Pt. 4: Allons-y (1)/10783
@@ -16289,10 +16775,14 @@ Artist Name/ID: We Love Avicii/3173
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Congregation/10780
-Artist Name/ID: Foo Fighters/2212
-Searchable Query: Congregation%20Foo%20Fighters
-COMMITTING: 10780, 2212, spotify:track:0DSxvnW4ElCd1I5fIVTeQr, AZHtZrfFuhU, 1047805
+Track Name/ID: Bed of Lies/12205
+Artist Name/ID: Orcus/3250
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12206
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: How You Love Me Now/10817
@@ -16425,22 +16915,22 @@ Artist Name/ID: Richard Clayderman/2738
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Tragedy + Time/7614
-Artist Name/ID: Rise Against/549
-Searchable Query: Tragedy%20+%20Time%20Rise%20Against
-COMMITTING: 7614, 549, spotify:track:4ExLmQ4fkm68CapBscxkYK, L_veE_yBZ6M, 324502
-
-NEXT TRACK:
 Track Name/ID: Hey Now/10804
 Artist Name/ID: London Grammar/2722
 Searchable Query: Hey%20Now%20London%20Grammar
-COMMITTING: 10804, 2722, spotify:track:0vhmDFxgZQGq2EG3SvDMKG, nMEHJPuggHQ, 4436942
+COMMITTING: 10804, 2722, spotify:track:0vhmDFxgZQGq2EG3SvDMKG, nMEHJPuggHQ, 4631087
 
 NEXT TRACK:
 Track Name/ID: Five Hours (Don't Hold Me Back) - Original Vocal Mix/10826
 Artist Name/ID: Deorro/2728
 Searchable Query: Five%20Hours%20(Don't%20Hold%20Me%20Back)%20-%20Original%20Vocal%20Mix%20Deorro
-COMMITTING: 10826, 2728, spotify:track:0jtCIqAntmE9CpgkEV6Snp, o7V8dQqB6qk, 1335410
+COMMITTING: 10826, 2728, spotify:track:0jtCIqAntmE9CpgkEV6Snp, NdCyyFpAIPY, 69121
+
+NEXT TRACK:
+Track Name/ID: III. telegraph ave. ("Oakland" by Lloyd)/7598
+Artist Name/ID: Childish Gambino/1582
+Searchable Query: III.%20telegraph%20ave.%20("Oakland"%20by%20Lloyd)%20Childish%20Gambino
+COMMITTING: 7598, 1582, spotify:track:1VWRcdvlTztNh2FHwKujUG, NPQCra8FEew, 813017
 
 NEXT TRACK:
 Track Name/ID: Hey Now - Single Mix/10805
@@ -16503,12 +16993,6 @@ Artist Name/ID: Augustana/2725
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: III. telegraph ave. ("Oakland" by Lloyd)/7598
-Artist Name/ID: Childish Gambino/1582
-Searchable Query: III.%20telegraph%20ave.%20("Oakland"%20by%20Lloyd)%20Childish%20Gambino
-COMMITTING: 7598, 1582, spotify:track:1VWRcdvlTztNh2FHwKujUG, p3f-eDzkxcw, 4791251
-
-NEXT TRACK:
 Track Name/ID: The Funk/10845
 Artist Name/ID: Alex Kenji/2743
 Not IPO'd Yet!
@@ -16527,6 +17011,12 @@ NEXT TRACK:
 Track Name/ID: What the Funk/10848
 Artist Name/ID: Futuristic Polar Bears/2746
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tragedy + Time/7614
+Artist Name/ID: Rise Against/549
+Searchable Query: Tragedy%20+%20Time%20Rise%20Against
+COMMITTING: 7614, 549, spotify:track:4ExLmQ4fkm68CapBscxkYK, L_veE_yBZ6M, 405642
 
 NEXT TRACK:
 Track Name/ID: Funk Freak/10849
@@ -16812,7 +17302,7 @@ NEXT TRACK:
 Track Name/ID: Rollup - Baauer Remix/8860
 Artist Name/ID: Flosstradamus/1959
 Searchable Query: Rollup%20-%20Baauer%20Remix%20Flosstradamus
-COMMITTING: 8860, 1959, spotify:track:2OeWuXE76CouxtnTwOPFym, M5USD-Smthk, 6936986
+COMMITTING: 8860, 1959, spotify:track:2OeWuXE76CouxtnTwOPFym, M5USD-Smthk, 7019646
 
 NEXT TRACK:
 Track Name/ID: Get Away/11629
@@ -17075,10 +17565,10 @@ Artist Name/ID: Morten Breum/2786
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Far Away/10903
-Artist Name/ID: Kill The Noise/2789
-Searchable Query: Far%20Away%20Kill%20The%20Noise
-COMMITTING: 10903, 2789, spotify:track:0TwsfroKu7M2aCSGOKfnoK, KTvfwd3JZTE, 172657
+Track Name/ID: Gotti/11139
+Artist Name/ID: Lil Wayne/2910
+Searchable Query: Gotti%20Lil%20Wayne
+COMMITTING: 11139, 2910, spotify:track:26i8eyzdTjQnuOBbYI8ctD, L2-mDyNb_Ho, 2084721
 
 NEXT TRACK:
 Track Name/ID: Spaz Out (feat. Apathy, King Magnetic, Esoteric & Celph Titled)/10910
@@ -17186,10 +17676,20 @@ Artist Name/ID: Lana Del Rey/2801
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Unholy - Original Mix/10913
-Artist Name/ID: Wolfgang Gartner/2796
-Searchable Query: Unholy%20-%20Original%20Mix%20Wolfgang%20Gartner
-COMMITTING: 10913, 2796, spotify:track:3tMQmKxPAFgX97kv8c5Qn3, z2mUyssHMu8, 16292
+Track Name/ID: Flashlight/12240
+Artist Name/ID: Bonobo/2038
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Far Alone/2040
+Artist Name/ID: G-Eazy/520
+Searchable Query: Far%20Alone%20G-Eazy
+COMMITTING: 2040, 520, spotify:track:7f1M8ElwbsDozUiWkoAN3I, sxV1_Lr1yf0, 3578968
+
+NEXT TRACK:
+Track Name/ID: Highway To Hell/12241
+Artist Name/ID: AC/DC JAM/3264
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Once Upon A Dream - From "Maleficent"/10934
@@ -17367,16 +17867,16 @@ Artist Name/ID: Baby Bash/3077
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Run/10951
-Artist Name/ID: Nicole Scherzinger/2808
-Searchable Query: Run%20Nicole%20Scherzinger
-COMMITTING: 10951, 2808, spotify:track:5zADFMwzqhUjWNKSHWO8gD, L0Vh8Bgicao, 2807029
-
-NEXT TRACK:
 Track Name/ID: Sue (Or In A Season Of Crime)/10957
 Artist Name/ID: David Bowie/2809
 Searchable Query: Sue%20(Or%20In%20A%20Season%20Of%20Crime)%20David%20Bowie
-COMMITTING: 10957, 2809, spotify:track:1FPtsI7Z8fAYhuxpFt9VtA, nFX1y62l9C4, 76529
+COMMITTING: 10957, 2809, spotify:track:1FPtsI7Z8fAYhuxpFt9VtA, nFX1y62l9C4, 99230
+
+NEXT TRACK:
+Track Name/ID: Run/10951
+Artist Name/ID: Nicole Scherzinger/2808
+Searchable Query: Run%20Nicole%20Scherzinger
+COMMITTING: 10951, 2808, spotify:track:5zADFMwzqhUjWNKSHWO8gD, L0Vh8Bgicao, 3300829
 
 NEXT TRACK:
 Track Name/ID: Light Up Light Up/11645
@@ -17489,6 +17989,40 @@ Artist Name/ID: Piano Bar/2246
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: Shake That/12123
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You Don't Know/12124
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Once Upon a Dream/10930
+Artist Name/ID: Lana Del Rey/2801
+Searchable Query: Once%20Upon%20a%20Dream%20Lana%20Del%20Rey
+COMMITTING: 10930, 2801, spotify:track:6swBtLlqbXVbtVFeHZnI5X, 8waJ7W3QcJc, 11061889
+
+NEXT TRACK:
+Track Name/ID: Uptown Funk/11665
+Artist Name/ID: Mark Ronson/3078
+Searchable Query: Uptown%20Funk%20Mark%20Ronson
+COMMITTING: 11665, 3078, spotify:track:4rmPQGwcLQjCoFq5NrTA0D, OPf0YbXqDm0, 21754776
+
+NEXT TRACK:
+Track Name/ID: Once Upon a Dream - From "Maleficent"/Young Ruffian Remix/10931
+Artist Name/ID: Lana Del Rey/2801
+Searchable Query: Once%20Upon%20a%20Dream%20-%20From%20"Maleficent"/Young%20Ruffian%20Remix%20Lana%20Del%20Rey
+COMMITTING: 10931, 2801, spotify:track:0YNJrxyZXfHstBF1Hshk6l, 0Dt8KR0xU1s, 1340767
+
+NEXT TRACK:
+Track Name/ID: The Party Line/10950
+Artist Name/ID: Belle & Sebastian/2807
+Searchable Query: The%20Party%20Line%20Belle%20&%20Sebastian
+COMMITTING: 10950, 2807, spotify:track:57Z6ewsDdS8nsAUu0ROERc, 3vS1Hf3CVGs, 108879
+
+NEXT TRACK:
 Track Name/ID: Ronnie Rey All Day...Choppin' It Up (Interview)/11660
 Artist Name/ID: Baby Bash/3077
 Not IPO'd Yet!
@@ -17524,40 +18058,85 @@ Artist Name/ID: Maceo Parker/3080
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: The Party Line/10950
-Artist Name/ID: Belle & Sebastian/2807
-Searchable Query: The%20Party%20Line%20Belle%20&%20Sebastian
-COMMITTING: 10950, 2807, spotify:track:57Z6ewsDdS8nsAUu0ROERc, o7CP2zxS4zo, 173895
-
-NEXT TRACK:
-Track Name/ID: Once Upon a Dream/10930
-Artist Name/ID: Lana Del Rey/2801
-Searchable Query: Once%20Upon%20a%20Dream%20Lana%20Del%20Rey
-COMMITTING: 10930, 2801, spotify:track:6swBtLlqbXVbtVFeHZnI5X, 8waJ7W3QcJc, 10845002
-
-NEXT TRACK:
-Track Name/ID: Once Upon a Dream - From "Maleficent"/Young Ruffian Remix/10931
-Artist Name/ID: Lana Del Rey/2801
-Searchable Query: Once%20Upon%20a%20Dream%20-%20From%20"Maleficent"/Young%20Ruffian%20Remix%20Lana%20Del%20Rey
-COMMITTING: 10931, 2801, spotify:track:0YNJrxyZXfHstBF1Hshk6l, 0Dt8KR0xU1s, 1238670
-
-NEXT TRACK:
 Track Name/ID: The Days/11948
 Artist Name/ID: Avicii/3172
 Searchable Query: The%20Days%20Avicii
-COMMITTING: 11948, 3172, spotify:track:4th1RQAelzqgY7wL53UGQt, JDglMK9sgIQ, 14733036
+COMMITTING: 11948, 3172, spotify:track:4th1RQAelzqgY7wL53UGQt, JDglMK9sgIQ, 16938823
 
 NEXT TRACK:
-Track Name/ID: Uptown Funk/11665
-Artist Name/ID: Mark Ronson/3078
-Searchable Query: Uptown%20Funk%20Mark%20Ronson
-COMMITTING: 11665, 3078, spotify:track:4rmPQGwcLQjCoFq5NrTA0D, OPf0YbXqDm0, 9089180
+Track Name/ID: Hailie's Song/12125
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Don't Sell Molly No More/10883
-Artist Name/ID: I LOVE MAKONNEN/2409
-Searchable Query: I%20Don't%20Sell%20Molly%20No%20More%20I%20LOVE%20MAKONNEN
-COMMITTING: 10883, 2409, spotify:track:1LayrJMG1oeSz3SliFhalc, Ljd7h8ovEow, 2677696
+Track Name/ID: Headlights/12126
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Stan/12127
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Pop The Trunk/12128
+Artist Name/ID: Yelawolf/2490
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Real Slim Shady/12119
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Beautiful Pain/12120
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Berzerk/12121
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let's Go/12129
+Artist Name/ID: Travis Barker/2718
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Survival/12122
+Artist Name/ID: Eminem/2282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Together/12130
+Artist Name/ID: Calvin Harris/1934
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hollaback Girl/12131
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: My Heart Is Open/12132
+Artist Name/ID: Maroon 5/1831
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Me Blow Ya Mind/12133
+Artist Name/ID: Eve/3231
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Sweet Escape/12134
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: What You Waiting For?/12135
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Ain't No Mountain High Enough - Stereo Version/10962
@@ -17668,19 +18247,19 @@ NEXT TRACK:
 Track Name/ID: Ah Leke/11699
 Artist Name/ID: Pitbull/3082
 Searchable Query: Ah%20Leke%20Pitbull
-COMMITTING: 11699, 3082, spotify:track:0lVfeRbZMnTmgfaMAkGQjx, KCeqqdlzdo4, 40427
+COMMITTING: 11699, 3082, spotify:track:0lVfeRbZMnTmgfaMAkGQjx, 2rmjhTPBsCM, 18886
 
 NEXT TRACK:
-Track Name/ID: Fireball/11689
+Track Name/ID: Day Drinking/11691
 Artist Name/ID: Pitbull/3082
-Searchable Query: Fireball%20Pitbull
-COMMITTING: 11689, 3082, spotify:track:2IMBQYyicwvHhhzsX7T4qm, HMqgVXSvwGo, 27891995
+Searchable Query: Day%20Drinking%20Pitbull
+COMMITTING: 11691, 3082, spotify:track:1O05oJTMgQiiyC1gOFsfYI, 5TeuEOE-ppA, 1603
 
 NEXT TRACK:
 Track Name/ID: St. Patrick/7083
 Artist Name/ID: Pvris/1513
 Searchable Query: St.%20Patrick%20Pvris
-COMMITTING: 7083, 1513, spotify:track:5MEbGW7zV6QI4LX2zAv2XM, j2SWk859CEU, 581488
+COMMITTING: 7083, 1513, spotify:track:5MEbGW7zV6QI4LX2zAv2XM, j2SWk859CEU, 626165
 
 NEXT TRACK:
 Track Name/ID: Celebrate (from the Original Motion Picture Penguins of Madagascar)/11685
@@ -17778,10 +18357,10 @@ Artist Name/ID: Bonobo/2038
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Day Drinking/11691
+Track Name/ID: Fireball/11689
 Artist Name/ID: Pitbull/3082
-Searchable Query: Day%20Drinking%20Pitbull
-COMMITTING: 11691, 3082, spotify:track:1O05oJTMgQiiyC1gOFsfYI, 3lv6uXF0jjg, 6516
+Searchable Query: Fireball%20Pitbull
+COMMITTING: 11689, 3082, spotify:track:2IMBQYyicwvHhhzsX7T4qm, HMqgVXSvwGo, 32190463
 
 NEXT TRACK:
 Track Name/ID: Eyesdown/11985
@@ -18169,10 +18748,49 @@ Artist Name/ID: The Veronicas/3083
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: I Don't Fuck With You/10071
-Artist Name/ID: Big Sean/2472
-Searchable Query: I%20Don't%20Fuck%20With%20You%20Big%20Sean
-COMMITTING: 10071, 2472, spotify:track:3KT41h3L0xjFbMhMOob2HU, cZaJYDPY-YQ, 7431904
+Track Name/ID: Spark The Fire/12141
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Spark The Fire/12142
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wind It Up - Robots To Mars Remix/12136
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rich Girl/12137
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Can I Have It Like That - feat. Gwen Stefani/12138
+Artist Name/ID: Pharrell Williams/1926
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: 4 In The Morning/12139
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cool/12143
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Spark The Fire/12140
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cool/12144
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Tumblr Girls - 8-Bit Version/11991
@@ -18190,16 +18808,30 @@ Artist Name/ID: G-Eazy/2360
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Something Big/11023
-Artist Name/ID: Shawn Mendes/2834
-Searchable Query: Something%20Big%20Shawn%20Mendes
-COMMITTING: 11023, 2834, spotify:track:5f0WLQquCf955JPSnt7JvR, mytLRy32Viw, 1886220
+Track Name/ID: Hollaback Girl/12145
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wind It Up/12146
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hollaback Girl/12147
+Artist Name/ID: Gwen Stefani/2046
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Move Bitch/12148
+Artist Name/ID: Disturbing Tha Peace/3232
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Prayer Of The Refugee/8033
 Artist Name/ID: Rise Against/549
 Searchable Query: Prayer%20Of%20The%20Refugee%20Rise%20Against
-COMMITTING: 8033, 549, spotify:track:2GTBnTnkvaNhVg7ADGnVzN, 9-SQGOYOjxs, 31451415
+COMMITTING: 8033, 549, spotify:track:2GTBnTnkvaNhVg7ADGnVzN, 9-SQGOYOjxs, 31691313
 
 NEXT TRACK:
 Track Name/ID: Iggy SZN/11725
@@ -18367,34 +18999,74 @@ Artist Name/ID: Iggy Azalea/2111
 Not IPO'd Yet!
 
 NEXT TRACK:
-Track Name/ID: Something Big/11021
-Artist Name/ID: Shawn Mendes/2834
-Searchable Query: Something%20Big%20Shawn%20Mendes
-COMMITTING: 11021, 2834, spotify:track:135OGEwLzbg5UE3gOH5SdW, mytLRy32Viw, 1886220
+Track Name/ID: Feel Right/12149
+Artist Name/ID: Mark Ronson/3078
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Tuesday (In the Style of Drake, Ilovemakonnen) [Instrumental Version]/10659
 Artist Name/ID: Vybe Beatz/2698
 Searchable Query: Tuesday%20(In%20the%20Style%20of%20Drake,%20Ilovemakonnen)%20[Instrumental%20Version]%20Vybe%20Beatz
-COMMITTING: 10659, 2698, spotify:track:1fkjUjDZs2BO3SDZrey2gT, M6gHeXVOfJc, 171
+COMMITTING: 10659, 2698, spotify:track:1fkjUjDZs2BO3SDZrey2gT, a_DkfAZFRyw, 56518
 
 NEXT TRACK:
 Track Name/ID: NEW DORP. NEW YORK/9073
 Artist Name/ID: SBTRKT/1736
 Searchable Query: NEW%20DORP.%20NEW%20YORK%20SBTRKT
-COMMITTING: 9073, 1736, spotify:track:1POGnQmq4GcPCTzQB26JMn, gs0xe9DQEPc, 513290
+COMMITTING: 9073, 1736, spotify:track:1POGnQmq4GcPCTzQB26JMn, gs0xe9DQEPc, 553741
 
 NEXT TRACK:
-Track Name/ID: Fancy/11741
-Artist Name/ID: Iggy Azalea/2111
-Searchable Query: Fancy%20Iggy%20Azalea
-COMMITTING: 11741, 2111, spotify:track:29l9kMr8pFN3Fk2NpvGOb2, O-zpOMYRi0w, 375562127
+Track Name/ID: Shake Ya Ass/12150
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Something Big/11021
+Artist Name/ID: Shawn Mendes/2834
+Searchable Query: Something%20Big%20Shawn%20Mendes
+COMMITTING: 11021, 2834, spotify:track:135OGEwLzbg5UE3gOH5SdW, mytLRy32Viw, 2540201
+
+NEXT TRACK:
+Track Name/ID: Stutter - Double Take Remix/12151
+Artist Name/ID: Joe/3044
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Tumblr Girls/2033
 Artist Name/ID: G-Eazy/520
 Searchable Query: Tumblr%20Girls%20G-Eazy
-COMMITTING: 2033, 520, spotify:track:4Fv6wNYUixnYkj3Dgfrls8, fu7NR1qe_Mk, 1839231
+COMMITTING: 2033, 520, spotify:track:4Fv6wNYUixnYkj3Dgfrls8, fu7NR1qe_Mk, 1959240
+
+NEXT TRACK:
+Track Name/ID: Fancy/11741
+Artist Name/ID: Iggy Azalea/2111
+Searchable Query: Fancy%20Iggy%20Azalea
+COMMITTING: 11741, 2111, spotify:track:29l9kMr8pFN3Fk2NpvGOb2, O-zpOMYRi0w, 388630105
+
+NEXT TRACK:
+Track Name/ID: Shake Ya Ass/12152
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Danger (Been So Long) featuring Nivea/12153
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mystikal Fever/12154
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Woof! - Feat. Mystikal And Fiend/12155
+Artist Name/ID: Snoop Dogg/2302
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Miss Mystikal/12156
+Artist Name/ID: Fibes, Oh Fibes!/3235
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Latch - Acoustic/11061
@@ -18485,7 +19157,7 @@ NEXT TRACK:
 Track Name/ID: Latch/11060
 Artist Name/ID: Disclosure/1960
 Searchable Query: Latch%20Disclosure
-COMMITTING: 11060, 1960, spotify:track:51ODNNDZm21HU7wI7cccRr, 93ASUImTedo, 100523443
+COMMITTING: 11060, 1960, spotify:track:51ODNNDZm21HU7wI7cccRr, 93ASUImTedo, 102911064
 
 NEXT TRACK:
 Track Name/ID: St. Patrick (Empty Room Session)/11039
@@ -18596,13 +19268,13 @@ NEXT TRACK:
 Track Name/ID: La La Latch/11063
 Artist Name/ID: Pentatonix/1780
 Searchable Query: La%20La%20Latch%20Pentatonix
-COMMITTING: 11063, 1780, spotify:track:1SUSCblyaoNRxoLF6VxCI2, TsVeQnBmp70, 9402545
+COMMITTING: 11063, 1780, spotify:track:1SUSCblyaoNRxoLF6VxCI2, TsVeQnBmp70, 10192482
 
 NEXT TRACK:
 Track Name/ID: The Driver/11040
 Artist Name/ID: Bastille/1794
 Searchable Query: The%20Driver%20Bastille
-COMMITTING: 11040, 1794, spotify:track:1r9jBpQBDNjPKb8072TnFF, foXqHUopCJU, 426299
+COMMITTING: 11040, 1794, spotify:track:1r9jBpQBDNjPKb8072TnFF, foXqHUopCJU, 486625
 
 NEXT TRACK:
 Track Name/ID: Uptown Funk - Instrumental Version/11743
@@ -18905,34 +19577,53 @@ Artist Name/ID: August Alsina/2710
 Not IPO'd Yet!
 
 NEXT TRACK:
+Track Name/ID: I Don't Give A.../12160
+Artist Name/ID: Lil Jon/3236
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Reggae Skanking/12161
+Artist Name/ID: Mystikal Revolution Band/3237
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: R.G./12162
+Artist Name/ID: Rich Gang/2521
+Not IPO'd Yet!
+
+NEXT TRACK:
 Track Name/ID: Wasted Love (feat. Dougy)/8143
 Artist Name/ID: Steve Angello/1655
 Searchable Query: Wasted%20Love%20(feat.%20Dougy)%20Steve%20Angello
-COMMITTING: 8143, 1655, spotify:track:7KiyqgeZ0gn8e79IzGjZ08, qAODa-4S2B0, 704056
-
-NEXT TRACK:
-Track Name/ID: Gotti/11139
-Artist Name/ID: Lil Wayne/2910
-Searchable Query: Gotti%20Lil%20Wayne
-COMMITTING: 11139, 2910, spotify:track:26i8eyzdTjQnuOBbYI8ctD, L2-mDyNb_Ho, 1820020
+COMMITTING: 8143, 1655, spotify:track:7KiyqgeZ0gn8e79IzGjZ08, Rvphz5BD5go, 1649269
 
 NEXT TRACK:
 Track Name/ID: Set Me Free/4274
 Artist Name/ID: Dillon Francis/1004
 Searchable Query: Set%20Me%20Free%20Dillon%20Francis
-COMMITTING: 4274, 1004, spotify:track:0r5EDdtVbAhXW988ZsLQnd, jkJkrl_T1jk, 435763
+COMMITTING: 4274, 1004, spotify:track:0r5EDdtVbAhXW988ZsLQnd, jkJkrl_T1jk, 535125
 
 NEXT TRACK:
 Track Name/ID: Wild Wild Love/11686
 Artist Name/ID: Pitbull/3082
 Searchable Query: Wild%20Wild%20Love%20Pitbull
-COMMITTING: 11686, 3082, spotify:track:3D0hRgy1CmjGu8R0VyXXHd, EAyzpLGBI1E, 33502498
+COMMITTING: 11686, 3082, spotify:track:3D0hRgy1CmjGu8R0VyXXHd, EAyzpLGBI1E, 33994521
+
+NEXT TRACK:
+Track Name/ID: Shake Ya Ass/12163
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: My House/11128
 Artist Name/ID: Pvris/2846
 Searchable Query: My%20House%20Pvris
-COMMITTING: 11128, 2846, spotify:track:0H7uRp4w4GP9fhAvh9Jih0, 8aQz-aKvyQU, 591161
+COMMITTING: 11128, 2846, spotify:track:0H7uRp4w4GP9fhAvh9Jih0, 8aQz-aKvyQU, 662958
+
+NEXT TRACK:
+Track Name/ID: Here I Go (feat. Young Dro, Shad Da God, T.I., Spodee, Mystikal)/12164
+Artist Name/ID: Hustle Gang/3240
+Not IPO'd Yet!
 
 NEXT TRACK:
 Track Name/ID: Trap House/11129
@@ -18987,6 +19678,16 @@ Not IPO'd Yet!
 NEXT TRACK:
 Track Name/ID: Breathe into Me/11750
 Artist Name/ID: Marian Hill/3085
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Move Bitch/12165
+Artist Name/ID: Disturbing Tha Peace/3232
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shake Ya Ass/12157
+Artist Name/ID: Mystikal/3233
 Not IPO'd Yet!
 
 NEXT TRACK:
@@ -19053,3 +19754,2159 @@ NEXT TRACK:
 Track Name/ID: Lovit/11752
 Artist Name/ID: Marian Hill/3085
 Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bouncin' Back (Bumpin' Me Against The Wall) - Extended Version/12158
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Stutter/12159
+Artist Name/ID: Joe/3044
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Here I Go - Dirty/12166
+Artist Name/ID: Mystikal/3233
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Uptown Funk - Ukulele Version/12167
+Artist Name/ID: The Ukulele Boys/2245
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I Am a Manchild/12168
+Artist Name/ID: Uptown Funk Empire/3079
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies - Piano Version/12202
+Artist Name/ID: Piano Bar/2246
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12207
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12208
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12209
+Artist Name/ID: Penelope Houston/3251
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12210
+Artist Name/ID: Cruzados/3252
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12211
+Artist Name/ID: Chase King/3253
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12212
+Artist Name/ID: DJ Drama Free/3159
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shadow of a Man/12213
+Artist Name/ID: Orcus/3250
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12214
+Artist Name/ID: Jaime Harris/3254
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12215
+Artist Name/ID: Idle Kings/3255
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12216
+Artist Name/ID: Nathan Finfrock/3256
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed Of Lies/12217
+Artist Name/ID: Diva Destruction/3257
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bed of Lies/12218
+Artist Name/ID: She Made Me Do It/3258
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: No Type/12219
+Artist Name/ID: DJ Montage/3188
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rumtum Tugger/12220
+Artist Name/ID: Cats/3259
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Maze - RumTum Remix/12221
+Artist Name/ID: Audiotreats/3261
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Dream Path/12222
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Birdeyes/12223
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chicks/12224
+Artist Name/ID: Monster Rally & RUMTUM/3263
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: New Lands / Sea Gypsies/12225
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: New Lands (Catamaran's Vocal Mix)/12226
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: When/12227
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: WorldVibz/12228
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: GoodLove/12229
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Midlate Patterns/12230
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: My Lady/12231
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Makin Magic/12232
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ritz Bitz/12233
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Real Ghost/12234
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Get It/12235
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tropic Trails/12236
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Spirit Flow/12237
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Zon River/12238
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All Over The Map/12239
+Artist Name/ID: RUMTUM/3262
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Close Your Eyes (And Count to Fuck) [feat. Zack De La Rocha]/11298
+Artist Name/ID: Run The Jewels/2983
+Searchable Query: Close%20Your%20Eyes%20(And%20Count%20to%20Fuck)%20[feat.%20Zack%20De%20La%20Rocha]%20Run%20The%20Jewels
+COMMITTING: 11298, 2983, spotify:track:76QLGx0NleOYqkDtL7HKIA, rghRRD4mCn4, 158418
+
+NEXT TRACK:
+Track Name/ID: Make You Better/10802
+Artist Name/ID: The Decemberists/2721
+Searchable Query: Make%20You%20Better%20The%20Decemberists
+COMMITTING: 10802, 2721, spotify:track:5kU4S2MnbVFycJtlBbnxzk, Xq76aQRmbQA, 236415
+
+NEXT TRACK:
+Track Name/ID: Something in the Water/10015
+Artist Name/ID: Carrie Underwood/2437
+Searchable Query: Something%20in%20the%20Water%20Carrie%20Underwood
+COMMITTING: 10015, 2437, spotify:track:4r23g3XYLDoNTwgTodatzT, mH9kYn4L8TI, 3742512
+
+NEXT TRACK:
+Track Name/ID: Don't/3255
+Artist Name/ID: Ed Sheeran/821
+Searchable Query: Don't%20Ed%20Sheeran
+COMMITTING: 3255, 821, spotify:track:1huvTbEYtgltjQRXzrNKGi, iD2rhdFRehU, 35201596
+
+NEXT TRACK:
+Track Name/ID: Congregation/10780
+Artist Name/ID: Foo Fighters/2212
+Searchable Query: Congregation%20Foo%20Fighters
+COMMITTING: 10780, 2212, spotify:track:0DSxvnW4ElCd1I5fIVTeQr, AZHtZrfFuhU, 1105933
+
+NEXT TRACK:
+Track Name/ID: I Am Machine/10286
+Artist Name/ID: Three Days Grace/1817
+Searchable Query: I%20Am%20Machine%20Three%20Days%20Grace
+COMMITTING: 10286, 1817, spotify:track:6LvQRDyjrsnmFVjfZPdUy4, 8Zx6RXGNISk, 2294901
+
+NEXT TRACK:
+Track Name/ID: Dead Air - From The Hunger Games: Mockingjay Part 1 Soundtrack/11099
+Artist Name/ID: CHVRCHES/1987
+Searchable Query: Dead%20Air%20-%20From%20The%20Hunger%20Games:%20Mockingjay%20Part%201%20Soundtrack%20CHVRCHES
+COMMITTING: 11099, 1987, spotify:track:7GBGXDmYOTHuBtPfRZc6Vu, RWhEUR0I9fo, 1034428
+
+NEXT TRACK:
+Track Name/ID: Thunderstruck/12242
+Artist Name/ID: AC-DC Tribute Band/3265
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ac/Dc/12243
+Artist Name/ID: Vince Neil/3267
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You Shook Me All Night Long/12244
+Artist Name/ID: AC-DC Tribute Band/3265
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: It's a Long Way to the Top (If You Want to Rock And Roll)/12245
+Artist Name/ID: The Ultimate AC/DC Cover Band/3269
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: AC/DC: TNT/12246
+Artist Name/ID: Sing Sing/3270
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let There Be Rock/12247
+Artist Name/ID: AC/DC JAM/3264
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tnt/12248
+Artist Name/ID: AC/DC JAM/3264
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shoot To Thrill/12249
+Artist Name/ID: AC/DC JAM/3264
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Thunderstruck (Made Famous by AC/DC) (Rock Version)/12250
+Artist Name/ID: The Rock Heroes/3271
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: AC/DC/12251
+Artist Name/ID: Jim Breuer/3273
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Back In Black/12252
+Artist Name/ID: Simon Wright (Of AC/DC)/3274
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Highway To Hell/12253
+Artist Name/ID: AC-DC Tribute Band/3265
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Highway To Hell/12254
+Artist Name/ID: Wing/3277
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hell Ain't a Bad Place to Be/12255
+Artist Name/ID: CC/DC/3278
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ac-Dc/12256
+Artist Name/ID: Sweet/3279
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: It s a Long Way to the Top/12257
+Artist Name/ID: CC/DC/3278
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Go Down/12258
+Artist Name/ID: AC/DC JAM/3264
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sin City/12259
+Artist Name/ID: AC/DC JAM/3264
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Girls Got Rhythm/12260
+Artist Name/ID: The Ultimate AC/DC Cover Band/3269
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: A Better Tomorrow/12261
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: A Better Tomorrow/12262
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wu-Tang Reunion/12263
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wu-Tang Reunion/12264
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ruckus In B Minor/12265
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Felt/12266
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: 40th Street Black / We Will Fight/12267
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mistaken Identity/12268
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hold The Heater/12269
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Crushed Egos/12270
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Keep Watch/12271
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Miracle/12272
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Preacher's Daughter/12273
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Pioneer The Frontier/12274
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Necklace/12275
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ron O'Neal/12276
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Never Let Go/12277
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ruckus In B Minor/12278
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Felt/12279
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: 40th Street Black / We Will Fight/12280
+Artist Name/ID: Wu-Tang Clan/2362
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: When the Train Comes/12281
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: And the Sun Goes Down/12282
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Scattered into Light/12283
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Soft Breeze/12284
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I, You, We... Know/12285
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Only You/12286
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Closer to the Sun/12287
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Three, Four Days/12288
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Lonely Trip/12289
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Feeling Young/12290
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Too Much to Lose (Acoustic Version)/12291
+Artist Name/ID: Sun Glitters/3280
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast/12292
+Artist Name/ID: Rammstein/3281
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast - Rammstein Cover/12293
+Artist Name/ID: Kanatran/3282
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (English Version)/12294
+Artist Name/ID: The Karaoke Channel/3283
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (English Version) [In the Style of Rammstein] [Karaoke Version]/12295
+Artist Name/ID: The Karaoke Channel/3283
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast/12296
+Artist Name/ID: Rammstein/3281
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast/12297
+Artist Name/ID: Rammstein/3281
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast - Live (August 1998 Parkbuhne Wuhlheide, Berlin)/12298
+Artist Name/ID: Rammstein/3281
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast - A Tribute to Rammstein/12299
+Artist Name/ID: Volkerball/3285
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (German Version) [In the Style of Rammstein] {Performance Track with Demonstration Vocals}/12300
+Artist Name/ID: Done Again/3286
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast/12301
+Artist Name/ID: Volkerball/3285
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast/12302
+Artist Name/ID: Volkerball/3285
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (English Version) [In the Style of "Rammstein"]/12303
+Artist Name/ID: Done Again/3286
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast/12304
+Artist Name/ID: J.P. Melen, P. Durst, C. Meyer, D.O./3287
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (English Version) [In the Style of "Rammstein"]/12305
+Artist Name/ID: Stingray Music/3288
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (English Version) [In the Style of "Rammstein"] {Performance Track with Demonstration Vocals}/12306
+Artist Name/ID: Done Again/3286
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast (Karaoke Version) - Originally Performed By Rammstein/12307
+Artist Name/ID: Amazing Karaoke/3289
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast - Karaoke Version With Backings In the Art of Rammstein/12308
+Artist Name/ID: A-Type Player/2803
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du Hast (German Version) [In the Style of Rammstein] {Karaoke Lead Vocal Version}/12309
+Artist Name/ID: The Karaoke Channel/3283
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast - Karaoke Version Without Backings In the Art of Rammstein/12310
+Artist Name/ID: A-Type Player/2803
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Du hast (Premium Karaoke Version) - Originally Performed By Rammstein/12311
+Artist Name/ID: Amazing Karaoke Premium/3290
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Unholy - Original Mix/10913
+Artist Name/ID: Wolfgang Gartner/2796
+Searchable Query: Unholy%20-%20Original%20Mix%20Wolfgang%20Gartner
+COMMITTING: 10913, 2796, spotify:track:3tMQmKxPAFgX97kv8c5Qn3, z2mUyssHMu8, 17870
+
+NEXT TRACK:
+Track Name/ID: Day of the Dead/12313
+Artist Name/ID: Sonic Syndicate/3291
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: First Day of My Life/12314
+Artist Name/ID: The Rasmus/3292
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wild Woman/12315
+Artist Name/ID: Dead Silent Film Stars/3293
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Low Down Dirty Shame/12316
+Artist Name/ID: Dead Silent Film Stars/3293
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Call My Name/12317
+Artist Name/ID: Dead Silent Film Stars/3293
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day Of The Dead/12318
+Artist Name/ID: Misfits/3294
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Nice Day For A Resurrection/12319
+Artist Name/ID: Nekromantix/3295
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day of the Dead/12320
+Artist Name/ID: Voltaire/3296
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Better off Dead/12321
+Artist Name/ID: Bill Withers/3297
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day of the Dead (AdventureQuest Worlds version)/12322
+Artist Name/ID: Voltaire/3296
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day of the Dead (Kid's version)/12323
+Artist Name/ID: Voltaire/3296
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day of the Dead/12324
+Artist Name/ID: Gutter Demons/3298
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day Of The Dead/12325
+Artist Name/ID: Degradead/3299
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Forever The Desperado/12326
+Artist Name/ID: Los Bastardos Finlandeses/3300
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day of the Dead/12327
+Artist Name/ID: Misery Index/3301
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: End Of The World/12328
+Artist Name/ID: Los Bastardos Finlandeses/3300
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Day Of The Dead - Ballad Of The Undertaker/12329
+Artist Name/ID: Los Bastardos Finlandeses/3300
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smokin' Dynamite/12330
+Artist Name/ID: Los Bastardos Finlandeses/3300
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Goddess Of The Valley/12331
+Artist Name/ID: Los Bastardos Finlandeses/3300
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Far Away/10903
+Artist Name/ID: Kill The Noise/2789
+Searchable Query: Far%20Away%20Kill%20The%20Noise
+COMMITTING: 10903, 2789, spotify:track:0TwsfroKu7M2aCSGOKfnoK, KTvfwd3JZTE, 199671
+
+NEXT TRACK:
+Track Name/ID: Houdini/12332
+Artist Name/ID: Foster The People/3302
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Houdini (RAC Mix)/12333
+Artist Name/ID: Foster The People/3302
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Houdini/12334
+Artist Name/ID: Foster The People/3302
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Houdini (RAC Mix)/12335
+Artist Name/ID: Foster The People/3302
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Houdini/12336
+Artist Name/ID: Piano Tribute Players/2204
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Houdini/12337
+Artist Name/ID: Piano Tribute Players/2204
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Day Of The Dead/12312
+Artist Name/ID: Hollywood Undead/2175
+Searchable Query: Day%20Of%20The%20Dead%20Hollywood%20Undead
+COMMITTING: 12312, 2175, spotify:track:4oNqYAnBUQ7PugmpR88dj8, 5mOn1k4M2mU, 231485
+
+NEXT TRACK:
+Track Name/ID: Let Go/12338
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Krystal Klear Remix/12339
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Sir Sly Remix/12340
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Holy Ghost! Remix/12341
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let You Go Rac Mix/12342
+Artist Name/ID: Leif & The Future/3304
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Cherry Cherry Boom Boom Remix/12343
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Robert DeLong Remix/12344
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go/12345
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go/12346
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Krystal Klear Remix/12347
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Holy Ghost! Remix/12348
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Robert DeLong Remix/12349
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Sir Sly Remix/12350
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go - Cherry Cherry Boom Boom Remix/12351
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go/12352
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go/12353
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go/12354
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let Go/12355
+Artist Name/ID: RAC/3303
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cut Your Teeth - Kygo Remix/12356
+Artist Name/ID: Kyla La Grange/3305
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shine - Kygo Remix / Single Edit/12357
+Artist Name/ID: Benjamin Francis Leftwich/1839
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Midnight - Kygo Remix/12358
+Artist Name/ID: Coldplay/1717
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Miami 82 - Kygo Remix/12359
+Artist Name/ID: Syn Cole/3306
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Epsilon - Original Mix/12360
+Artist Name/ID: Kygo/3307
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cut Your Teeth - Kygo Radio Edit/12361
+Artist Name/ID: Kyla La Grange/3305
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shine - Kygo Remix/12362
+Artist Name/ID: Benjamin Francis Leftwich/1839
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Dancer (Kygo Remix)/12363
+Artist Name/ID: Didrik Thulin/3308
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shine - Kygo Remix/12364
+Artist Name/ID: Benjamin Francis Leftwich/1839
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shine/12365
+Artist Name/ID: Benjamin Francis Leftwich/1839
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cut Your Teeth - Kygo Radio Edit/12366
+Artist Name/ID: Kyla La Grange/3305
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cut Your Teeth - Kygo Remix/12367
+Artist Name/ID: Kyla La Grange/3305
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Epsilon - Original Mix/12368
+Artist Name/ID: Kygo/3307
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shine - Axmod Remix/12369
+Artist Name/ID: Benjamin Francis Leftwich/1839
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Firestone/12370
+Artist Name/ID: Kygo/3307
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shine (Kygo Remix)/12371
+Artist Name/ID: Benjamin Francis Leftwich/1839
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Younger - Kygo Remix/12372
+Artist Name/ID: Seinabo Sey/1835
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cut Your Teeth - Kygo Radio Edit/12373
+Artist Name/ID: Kyla La Grange/3305
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cut Your Teeth - Kygo Remix/12374
+Artist Name/ID: Kyla La Grange/3305
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Runaway (U & I)/12375
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You - Tiesto vs. Twoloud Radio Edit/12376
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You/12377
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Runaway (U & I) - Kaskade Remix/12378
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smile/12379
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You/12380
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Revolution/12381
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smile/12382
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You - Brillz Remix/12383
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Friend (Hard Times)/12384
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Help/12385
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Help - Elephante Remix/12386
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Friend (Hard Times)/12387
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Help/12388
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Galantis Megamix/12389
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smile - Max Elto Rewind Version/12390
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smile/12391
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Revolution/12392
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smile - Years Remix/12393
+Artist Name/ID: Galantis/2119
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All Things Go/12416
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All Things Go/12417
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All Things Go/12418
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Flawless Remix/12419
+Artist Name/ID: Beyonce/2121
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: OctaHate/11375
+Artist Name/ID: Ryn Weaver/3004
+Searchable Query: OctaHate%20Ryn%20Weaver
+COMMITTING: 11375, 3004, spotify:track:66EfRY39lNvuhWLgYc0np4, hTVZdW8pTEM, 423276
+
+NEXT TRACK:
+Track Name/ID: Flawless Remix/12420
+Artist Name/ID: Beyonce/2121
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love Again (Akinyele Back) [feat. Gangsta Boo]/11305
+Artist Name/ID: Run The Jewels/2983
+Searchable Query: Love%20Again%20(Akinyele%20Back)%20[feat.%20Gangsta%20Boo]%20Run%20The%20Jewels
+COMMITTING: 11305, 2983, spotify:track:7I6YpuvNg6mEzUmvpxY5ro, UBY1GtnUWEQ, 10434
+
+NEXT TRACK:
+Track Name/ID: Somebody To You/12394
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wild Heart/12395
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Last Night/12396
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Can We Dance/12397
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Oh Cecilia (Breaking My Heart)/12398
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Girls On TV/12399
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shout About It/12400
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Somebody To You/12401
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Risk It All/12402
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Dangerous/12403
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Move My Way/12404
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Another World/12405
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Can We Dance/12406
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: High Hopes/12407
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Lovestruck/12408
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: She Was The One/12409
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Smile/12410
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hurricane/12411
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sleighing In The Snow/12412
+Artist Name/ID: The Vamps/3309
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hey Mama (feat. Nicki Minaj & Afrojack)/12413
+Artist Name/ID: David Guetta/1791
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hey Mama (feat. Nicki Minaj & Afrojack)/12414
+Artist Name/ID: David Guetta/1791
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: All Things Go/12415
+Artist Name/ID: Nicki Minaj/2346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Blood, Sweat & Hardcore (Part 2)/12421
+Artist Name/ID: Dj Paul Elstak/3310
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Blood, Sweat & Hardcore - Original Mix/12422
+Artist Name/ID: Paul Elstak/3312
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Megalomania/12423
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Code to Destroy/12424
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Planet Remover/12425
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: High Ride/12426
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let the Sky Fall/12427
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Firestone/12428
+Artist Name/ID: King George/3315
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Firestone - Original/12429
+Artist Name/ID: Othonomix/3316
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Firestone - Original Mix/12430
+Artist Name/ID: Desknights/3317
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Firestone - Alex Trouble Remix/12431
+Artist Name/ID: Desknights/3317
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: A Hardcore State of Mind - 2010 Refix/12432
+Artist Name/ID: Paul Elstak/3312
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Grand Prix/12433
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mexicon/12434
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Nigel Mansel/12435
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Kaleidoscope Eyes/12436
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Experience 79/12437
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Inside Out/12438
+Artist Name/ID: Firestone/3313
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Firestone Tyres/12439
+Artist Name/ID: The Wake/3318
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Pink Print/12440
+Artist Name/ID: Antillectual/3319
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Pink Print/12441
+Artist Name/ID: Antillectual/3319
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Monuments/12442
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Monuments/12443
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Monuments/12444
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Monuments/12445
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Run 2 Me/12446
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Run 2 Me/12447
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tiberius/12448
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Being Beige/12449
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Anaise!/12450
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One and All/12451
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Run2me/12452
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Drum + Fife/12453
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Dorian/12454
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Anti-Hero/12455
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tiberius/12456
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Being Beige/12457
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Anaise!/12458
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One and All/12459
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Drum + Fife/12460
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Dorian/12461
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Here Comes Your Man/12462
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Debaser/12463
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hey/12464
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wave Of Mutilation/12465
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Monkey Gone To Heaven/12466
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Gouge Away/12467
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tame/12468
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I Bleed/12469
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mr. Grieves/12470
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Dead/12471
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: No 13 Baby/12472
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Crackity Jones/12473
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: There Goes My Gun/12474
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Silver/12475
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wave Of Mutilation (Peel Session)/12476
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Down To The Well (Peel Session)/12477
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Debaser (Demo 2)/12478
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Tame (Demo 2)/12479
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wave Of Mutilation (Demo 1)/12480
+Artist Name/ID: Pixies/1852
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rock City/12481
+Artist Name/ID: Dumpy's Rusty Nuts (DRN)/3321
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rock or Bust (Instrumental Karaoke) [Originally Performed by Acdc]/12482
+Artist Name/ID: Cover da' Famous/2210
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: California or Bust/12483
+Artist Name/ID: Tami Mulcahy/3322
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rock-n-Roll Radio/12484
+Artist Name/ID: 3 Finger Demon/3323
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Waffle House Rock/12485
+Artist Name/ID: The Cooters/3324
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rock & Roll Heaven (Or Bust)/12486
+Artist Name/ID: Ben Jackson Group/3325
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Let's Rock!/12487
+Artist Name/ID: The Cooters/3324
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Sull Against the World - it's all or bust/12488
+Artist Name/ID: Sull Against the World/3326
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Filthy Rich/12489
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rock 'N' Roll Or Bust/12490
+Artist Name/ID: Dave Evans/3328
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chance of a Lifetime/12491
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Meu Doce Amor/12492
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Send Me Your Love/12493
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Running Out of Time/12494
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Rock 'N' Roll Or Bust/12495
+Artist Name/ID: Dave Evans/3328
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Too Late For Sorrow/12496
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: No Doubt About It/12497
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Pain & Pleasure/12498
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wait a Moment/12499
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: For Cryin' Out Loud/12500
+Artist Name/ID: Kenny Texeira/3327
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Anti-Hero/12501
+Artist Name/ID: The Smashing Pumpkins/1821
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12502
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12503
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12504
+Artist Name/ID: Boyce Avenue/1752
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12505
+Artist Name/ID: Casanovas/3330
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12506
+Artist Name/ID: Boyce Avenue/1752
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Like A Dog Chasing Cars/12507
+Artist Name/ID: Hans Zimmer & James Newton Howard/3331
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12508
+Artist Name/ID: The Baseballs/3332
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12509
+Artist Name/ID: The Baseballs/3332
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12510
+Artist Name/ID: Nick Pitera/3333
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12511
+Artist Name/ID: The Baseballs/3332
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12512
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Play Me Like Your Own Hand - Non-album track/12513
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: It Doesn't Matter Where, Just Drive - Non-album track/12514
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12515
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12516
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars/12517
+Artist Name/ID: The Baseballs/3332
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars - Live In Toronto/12518
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Snow Patrol - Chasing Cars/12519
+Artist Name/ID: Salvador Seixas/3334
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars - MENCAP Little Noise Sessions, Live at The Union Chapel/12520
+Artist Name/ID: Snow Patrol/3329
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chasing Cars - Live/12521
+Artist Name/ID: The Baseballs/3332
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night/12523
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Dave Aude Club Remix/12524
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Betablock3r Remix/12525
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Wideboys Remix/12526
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night/12527
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cecilia And The Satellite/9860
+Artist Name/ID: Andrew McMahon in the Wilderness/2369
+Searchable Query: Cecilia%20And%20The%20Satellite%20Andrew%20McMahon%20in%20the%20Wilderness
+COMMITTING: 9860, 2369, spotify:track:2Kgjd9G808FhUDRhS2gidG, G_zY_jSVXSU, 80563
+
+NEXT TRACK:
+Track Name/ID: 'Till I Collapse/3315
+Artist Name/ID: Eminem/522
+Searchable Query: 'Till%20I%20Collapse%20Eminem
+COMMITTING: 3315, 522, spotify:track:6yr8GiTHWvFfi4o6Q5ebdT, _1xXYeNrW9k, 23724877
+
+NEXT TRACK:
+Track Name/ID: One Night - Wideboys Remix/12528
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Vicetone Remix/12529
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Betablock3r Remix/12530
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Dave Aude Club Remix/12531
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Dave Aude Club Remix/12532
+Artist Name/ID: Matthew Koma/3335
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bull Ride/12533
+Artist Name/ID: Robby Hunter Band/3336
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bull Ride - Dooqu Remix/12534
+Artist Name/ID: Robby Hunter Band/3336
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: One Night - Vicetone Remix/12522
+Artist Name/ID: Matthew Koma/3335
+Searchable Query: One%20Night%20-%20Vicetone%20Remix%20Matthew%20Koma
+COMMITTING: 12522, 3335, spotify:track:4ybTZJnEYtkmhYVctaNzRH, sJMBd5z9Ki4, 2340057
+
+NEXT TRACK:
+Track Name/ID: Bullride/12535
+Artist Name/ID: The Secondhands/3337
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bullride/12536
+Artist Name/ID: Electric Tiger/3338
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bullride/12537
+Artist Name/ID: Electric Outlet/3339
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Feeling The Blues/12538
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Malandro/12539
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Crazy For a Lazy Day/12540
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Reaggaezinho/12541
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Nao Sei Nao/12542
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Love/12543
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Voce Vai Me Estragar/12544
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Colchao/12545
+Artist Name/ID: Bianca Chami/3340
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Digging Chami/12546
+Artist Name/ID: Alexis Avakian/3341
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Peliculeo (feat. Jockey Y Chami)/12547
+Artist Name/ID: M.A.F.U Crew/3342
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Chami Wa Sudani/12548
+Artist Name/ID: Sulaiman El Jibilane/3343
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cha Cha Cha/12549
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Ojos Negros/12550
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: A Nadie Quero Mas Que a Ti/12551
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Cafe Turco y Cigarrillos Arabes/12552
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Una Palabra Tuya/12553
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Madre (Madrecita Querida)/12554
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Adelita/12555
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Laila/12556
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Aloma Aloma/12557
+Artist Name/ID: Azur Chami/3344
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue - Original Mix/12558
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: MYB - Tchami Remix/12559
+Artist Name/ID: Oliver/3346
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue/12560
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wizard - Tchami Remix/12561
+Artist Name/ID: Martin Garrix/2013
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue - Original Mix/12562
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shot Caller/12563
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Wizard - Tchami Edit/12564
+Artist Name/ID: Martin Garrix/2013
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Turn it up - Tchami Remix/12565
+Artist Name/ID: Mercer/3349
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Not Coming Down - Tchami Remix/12566
+Artist Name/ID: Candyland/3350
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Pushing On - Tchami Remix/12567
+Artist Name/ID: Oliver/3351
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue - Original Mix/12568
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Turn It Up - Tchami Remix/12569
+Artist Name/ID: Mercer/3349
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: MYB - Tchami Remix/12570
+Artist Name/ID: Oliver/3353
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Promesses/12571
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Shot Caller/12572
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Turn It Up - Tchami Remix/12573
+Artist Name/ID: Mercer/3349
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue/12574
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue - Extended Mix/12575
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue/12576
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Untrue - Extended Mix/12577
+Artist Name/ID: Tchami/3345
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I Am Not A Robot/12578
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Froot/12579
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: How To Be A Heartbreaker/12580
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Primadonna/12581
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: How To Be A Heartbreaker/12582
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Oh No!/12583
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Lies/12584
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Bubblegum Bitch/12585
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Power & Control/12586
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Are You Satisfied?/12587
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Obsessions/12588
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Primadonna/12589
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Teen Idle/12590
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Numb/12591
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hermit The Frog/12592
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Buy The Stars/12593
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: The Outsider/12594
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Girls/12595
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Hollywood/12596
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mowgli's Road/12597
+Artist Name/ID: Marina and The Diamonds/3355
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You Need Me, I Don't Need You/12598
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Everything You Are/12599
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Friends/12600
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't - Don Diablo Remix/12601
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't - Rick Ross Remix/12602
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Be My Husband - Live From Glastonbury/12603
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: You Need Me, I Don't Need You - Live and in Session/12604
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't - Xambassadors Remix/12605
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mama's Don't Let Your Babies Grow Up To Be Cowboys/12606
+Artist Name/ID: Ed Bruce/3356
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't (Extended Mix)/12607
+Artist Name/ID: GMPresents/3357
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't/12608
+Artist Name/ID: Ed Sheeran/1746
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: When the Lost Don't Want to Be Found/12609
+Artist Name/ID: Ed Harcourt/3358
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mama's Don't Let Your Babies Grow up to Be Cowboys/12610
+Artist Name/ID: Ed Bruce/3356
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mama's Don't Let Your Babies Grow Up to Be Cowboys/12611
+Artist Name/ID: Ed Bruce/3356
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Mama's Don't Let Your Babies Grow Up to Be Cowboys/12612
+Artist Name/ID: Ed Bruce/3356
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't Bring Me Down/12613
+Artist Name/ID: Axxis/2628
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't/12614
+Artist Name/ID: Baby Rockstar/1982
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Don't Get Around Much Anymore/12615
+Artist Name/ID: Ed Sperber-Bigband/3359
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: I Don't Wanna Change/12616
+Artist Name/ID: Ed Napoli/3360
+Not IPO'd Yet!
+
+NEXT TRACK:
+Track Name/ID: Side 3, Pt. 4: Allons-y (1)/10782
+Artist Name/ID: Pink Floyd/2720
+Searchable Query: Side%203,%20Pt.%204:%20Allons-y%20(1)%20Pink%20Floyd
+COMMITTING: 10782, 2720, spotify:track:3KkFMBMsHG9lLUqpplTHi7, RFXBlS0KsHU, 714020
