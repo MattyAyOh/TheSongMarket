@@ -8,7 +8,6 @@
 from TSMSpotify import *
 from TSMCommon import *
 import requests
-import urllib2
 import sys
 import sqlite3
 
@@ -83,7 +82,7 @@ def generateIPO(songURI, trackID):
     mydict = p.json()
     artistID = mydict["results"]["artist_id"]
 
-    db = sqlite3.connect('records.sqlite')
+    db = sqlite3.connect('/home/deploy/thesongmarket_python_scripts/records.sqlite')
     c = db.cursor()
 
     c.execute('SELECT average FROM artistaverages WHERE artistid=(?)', (artistID,))
@@ -91,14 +90,13 @@ def generateIPO(songURI, trackID):
     artistAvgPrice = 0
     if(row != None):
         artistAvgPrice = row[0]
-
     if finalIPOPrice < artistAvgPrice:
         finalIPOPrice = (artistAvgPrice+finalIPOPrice)/2
 
     if finalIPOPrice < 10:
         finalIPOPrice = 10
 
-    # db.execute('INSERT OR REPLACE INTO iporecords VALUES (?,?,?,?,?,?,?)', (trackID, viewcount, youtubeRating, numraters, popularity, artistAvgPrice,finalIPOPrice))
+    # c.execute('INSERT OR REPLACE INTO iporecords VALUES (?,?,?,?,?,?,?)', (trackID, viewcount, youtubeRating, numraters, popularity, artistAvgPrice,finalIPOPrice))
     # db.commit()
     # db.close()
 
@@ -111,12 +109,9 @@ def publishIPO(songID, ipo):
 
     # print body
     apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
-
-    opener = urllib2.build_opener(urllib2.HTTPHandler)
-    request = urllib2.Request(apiUPDATEURL, data=body)
-    request.add_header('content-type': 'application/x-www-form-urlencoded')
-    request.get_method = lambda: 'PUT'
-    url = opener.open(request)
+    p = requests.put(apiUPDATEURL, data=body, headers=headers)
+    print p.status_code
+    print p.text
 
 
 
