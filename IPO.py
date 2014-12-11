@@ -8,6 +8,7 @@
 from TSMSpotify import *
 from TSMCommon import *
 import requests
+import urllib2
 import sys
 import sqlite3
 
@@ -110,9 +111,12 @@ def publishIPO(songID, ipo):
 
     # print body
     apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
-    p = requests.put(apiUPDATEURL, data=body, headers=headers)
-    print p.status_code
-    print p.text
+
+    opener = urllib2.build_opener(urllib2.HTTPHandler)
+    request = urllib2.Request(apiUPDATEURL, data=body)
+    request.add_header('content-type': 'application/x-www-form-urlencoded')
+    request.get_method = lambda: 'PUT'
+    url = opener.open(request)
 
 
 
