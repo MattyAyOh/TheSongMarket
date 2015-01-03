@@ -18,6 +18,7 @@ rawArtist = ""
 
 
 def generateIPO(songURI, trackID):
+    # w = open('logs/ipoLog.txt','a')
     songData = requestResponse(getSpotifyLookupURL(songURI))
 
     global rawTitle
@@ -32,7 +33,8 @@ def generateIPO(songURI, trackID):
 
     searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
 
-    youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&orderby=viewCount&max-results=1"
+    youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&max-results=1"
+    # w.write("\nYoutube Search URL: {0}".format(youtubeSURL))
     youtubeData = requestResponse(youtubeSURL)
 
     published = youtubeData.split("<published>")[1].split("</published>")[0]
@@ -40,20 +42,39 @@ def generateIPO(songURI, trackID):
 
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
+    # w.write("\nAge of Song: {0}".format(differenceInDate))
 
     scale = 1
 
     if(differenceInDate < 14):
         scale += (5*((14-differenceInDate)/14))
 
+    # w.write("\nScale: {0}".format(scale))
     youtubeRating = float(youtubeData.split("rating average='")[1].split("'", 1)[0])/5
 
     numraters = int(youtubeData.split("numRaters='")[1].split("'",1)[0])
     viewcount = int(youtubeData.split("viewCount='")[1].split("'",1)[0])
-
+    # w.write("\nViewcount: {0}".format(viewcount))
     totalYTPoints = numraters + viewcount
 
     totalYTPoints *= scale
+    # w.write("\nTotal Points: {0}".format(totalYTPoints))
+
+    apiGETSONGURL = "http://api.thesongmarket.com/v1/songs/"+str(trackID)+"?user_email="+email+"&user_token="+token
+    p = requests.get(apiGETSONGURL)
+    mydict = p.json()
+    artistID = mydict["results"]["artist_id"]
+
+    db = sqlite3.connect('/home/deploy/thesongmarket_python_scripts/records.sqlite')
+    c = db.cursor()
+
+    c.execute('SELECT average FROM artistaverages WHERE artistid=(?)', (artistID,))
+    row = c.fetchone()
+    artistAvgPoints = 0
+    if(row != None):
+        artistAvgPoints = row[0]
+    if totalYTPoints < artistAvgPoints:
+        totalYTPoints = (artistAvgPoints+totalYTPoints)/2
 
     price = 0
     if totalYTPoints <= 1000: #1K Bracket
@@ -77,29 +98,12 @@ def generateIPO(songURI, trackID):
     overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
 
-    apiGETSONGURL = "http://api.thesongmarket.com/v1/songs/"+str(trackID)+"?user_email="+email+"&user_token="+token
-    p = requests.get(apiGETSONGURL)
-    mydict = p.json()
-    artistID = mydict["results"]["artist_id"]
-
-    db = sqlite3.connect('/home/deploy/thesongmarket_python_scripts/records.sqlite')
-    c = db.cursor()
-
-    c.execute('SELECT average FROM artistaverages WHERE artistid=(?)', (artistID,))
-    row = c.fetchone()
-    artistAvgPrice = 0
-    if(row != None):
-        artistAvgPrice = row[0]
-    if finalIPOPrice < artistAvgPrice:
-        finalIPOPrice = (artistAvgPrice+finalIPOPrice)/2
-
-    if finalIPOPrice < 10:
-        finalIPOPrice = 10
+    # w.write("\nIPO Price: {0}".format(finalIPOPrice))
 
     # c.execute('INSERT OR REPLACE INTO iporecords VALUES (?,?,?,?,?,?,?)', (trackID, viewcount, youtubeRating, numraters, popularity, artistAvgPrice,finalIPOPrice))
     # db.commit()
     # db.close()
-
+    # w.close()
     return finalIPOPrice
 
 def publishIPO(songID, ipo):
@@ -117,9 +121,15 @@ def publishIPO(songID, ipo):
 
 def createIPO(songURI, TSMTrackID=-1):
     #TODO: Check if song is 3 days old on youtube
-    print songURI
-    print TSMTrackID
-    if(checkTrackIDExists(TSMTrackID)):
+    trackExists = checkTrackIDExists(TSMTrackID)
+
+    # w = open('logs/ipoLog.txt','a')
+    # w.write("\nSong URI: {0}".format(songURI))
+    # w.write("\nTrack ID: {0}".format(TSMTrackID))
+    # w.write("\nTrack Exists: {0}".format(trackExists))
+    # w.close()
+
+    if(trackExists):
         finalIPOPrice = generateIPO(songURI,TSMTrackID)
         publishIPO(TSMTrackID, finalIPOPrice)
 
