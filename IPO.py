@@ -10,12 +10,15 @@ from TSMCommon import *
 import requests
 import sys
 import sqlite3
+import os
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
+tsmApiUrl = 'http://api.thesongmarket.com'
+
 rawTitle = ""
 rawArtist = ""
-
+dir = os.path.dirname(__file__)
 
 def generateIPO(songURI, trackID):
     # w = open('logs/ipoLog.txt','a')
@@ -60,12 +63,12 @@ def generateIPO(songURI, trackID):
     totalYTPoints *= scale
     # w.write("\nTotal Points: {0}".format(totalYTPoints))
 
-    apiGETSONGURL = "http://api.thesongmarket.com/v1/songs/"+str(trackID)+"?user_email="+email+"&user_token="+token
+    apiGETSONGURL = tsmApiUrl+"/v1/songs/"+str(trackID)+"?user_email="+email+"&user_token="+token
     p = requests.get(apiGETSONGURL)
     mydict = p.json()
     artistID = mydict["results"]["artist_id"]
 
-    db = sqlite3.connect('/home/deploy/thesongmarket_python_scripts/records.sqlite')
+    db = sqlite3.connect(os.path.join(dir, '/records.sqlite'))
     c = db.cursor()
 
     c.execute('SELECT average FROM artistaverages WHERE artistid=(?)', (artistID,))
@@ -112,7 +115,7 @@ def publishIPO(songID, ipo):
     headers = {'content-type': 'application/x-www-form-urlencoded'}
 
     # print body
-    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/' + str(songID)
+    apiUPDATEURL = tsmApiUrl + '/v1/songs/' + str(songID)
     p = requests.put(apiUPDATEURL, data=body, headers=headers)
     print p.status_code
     print p.text
@@ -143,4 +146,8 @@ for arg in listofArgs:
         id = int(argsSplit[1])
     except ValueError:
         id = -1
+    try:
+        tsmApiUrl = argsSplit[2]
+    except ValueError:
+        pass
     createIPO(uri, id)
