@@ -68,7 +68,7 @@ def generateIPO(songURI, trackID):
     mydict = p.json()
     artistID = mydict["results"]["artist_id"]
 
-    db = sqlite3.connect(os.path.join(dir, '/records.sqlite'))
+    db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
     c = db.cursor()
 
     c.execute('SELECT average FROM artistaverages WHERE artistid=(?)', (artistID,))
