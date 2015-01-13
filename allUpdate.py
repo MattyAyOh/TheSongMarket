@@ -19,7 +19,7 @@ apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_tok
 
 currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 
-db = sqlite3.connect('records.sqlite')
+db = sqlite3.connect('/home/ubuntu/scripts/records.sqlite')
 c = db.cursor()
 
 for song in currentListOfDictOfSongs:
@@ -72,15 +72,14 @@ for song in currentListOfDictOfSongs:
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
 
-    expectedPercent = .01
+    expectedPercent = .002
     if( differenceInDate > 90 ):
         daysExpired = differenceInDate - 90
         monthsExpired = int(daysExpired/30)
-        if monthsExpired >= 45:
-            expectedPercent = .001
+        if monthsExpired >= 40:
+            expectedPercent = .0002
         else:
-            expectedPercent -= float(monthsExpired*.0002)
-
+            expectedPercent -= float(monthsExpired*.000045)
 
     currentTotalVC = int(numraters) + int(viewcount)
     print "CurrentVC: %d" % (currentTotalVC)
@@ -102,10 +101,9 @@ for song in currentListOfDictOfSongs:
 
     intChange = 2*int(round(change))
     print "Change: %d" % intChange
-
     if(intChange > 10000 or intChange < -10000):
         intChange /= 10000
-        intChange *= 4
+        intChange *= 5
     elif(intChange > 1000 or intChange < -1000):
         intChange /= 1000
         intChange *= 3
@@ -113,7 +111,7 @@ for song in currentListOfDictOfSongs:
         intChange /= 100
         intChange *= 2
     elif(intChange > 10 or intChange < -10):
-        intChange /= 10
+        intChange /= 5
         print "Reducing Change!"
     print currentPrice
 
