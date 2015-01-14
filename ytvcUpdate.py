@@ -13,6 +13,8 @@ import HTMLParser
 from unidecode import unidecode
 import sqlite3
 import createDB
+from TSMSpotify import *
+from TSMCommon import *
 
 email = 'mattyayoh@gmail.com'
 token = 'PQBTwrEmyRJrR8GMs6ij'
@@ -39,17 +41,26 @@ def createVCPriceDict():
 
     for song in currentListOfDictOfSongs:
         spotifyURI = song['spotify_uri']
+        # print "SpotifyURI: {0}".format(spotifyURI)
+        songData = requestResponse(getSpotifyLookupURL(spotifyURI))
+        artistID = getArtistURIFromSpotifyData(songData)
+        # artistID = ""
         trackID = int(song['id'])
-        artistID = int(song['artist_id'])
+
+        # c.execute('SELECT artistid FROM ytviewcount WHERE trackid=(?)', (trackID,))
+        # row = c.fetchone()
+        # if(row != None):
+        #     w.write("\nA Row for the Track Exists Already!")
+        #     artistID = row[0]
+        # else:
+        #     songData = requestResponse(getSpotifyLookupURL(songURI))
+        #     artistID = getArtistURIFromSpotifyData(songData)
 
         w.write("\n\nNEXT TRACK:")
         w.write("\nTrack Name/ID: {0}/{1}".format(unidecode(song['name']),trackID))
         w.write("\nArtist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID))
 
-        c.execute('SELECT trackid FROM ytviewcount WHERE trackid=(?)', (trackID,))
-        # if(c.fetchone() != None):
-        #     w.write("\nA Row for the Track Exists Already!")
-        #     continue
+
         if song['price']==None:
             w.write("\nNot IPO'd Yet!")
             continue

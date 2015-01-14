@@ -19,6 +19,14 @@ def getListofSongsFromSpotifyData():
 def getTitleFromSpotifyData(songData):
     return songData.split('<name>')[1].split('</name>')[0].split(" - ")[0].split(" (From")[0].split(" [")[0].split(" (")[0].replace("'", "")
 
+def getArtistURIFromSpotifyData(songData):
+    artistURI = ""
+    try:
+        artistURI = songData.split('<artist href="')[1].split('">')[0]
+    except IndexError:
+        artistURI = getArtistFromSpotifyData(songData)
+    return artistURI
+
 def getArtistFromSpotifyData(songData):
     return songData.split('<name>')[2].split('</name>')[0].split(" Featuring")[0]
 
