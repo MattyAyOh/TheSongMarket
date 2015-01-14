@@ -41,7 +41,8 @@ def createVCPriceDict():
 
     for song in currentListOfDictOfSongs:
         spotifyURI = song['spotify_uri']
-        songData = requestResponse(getSpotifyLookupURL(songURI))
+        # print "SpotifyURI: {0}".format(spotifyURI)
+        songData = requestResponse(getSpotifyLookupURL(spotifyURI))
         artistID = getArtistURIFromSpotifyData(songData)
         # artistID = ""
         trackID = int(song['id'])
