@@ -1,0 +1,23 @@
+
+Song URI: spotify:track:7vV53asgC42Q2F2MTvhnuL
+Track ID: 12534
+Track Exists: True
+Youtube Search URL: http://gdata.youtube.com/feeds/api/videos?q=Bull%20Ride%20Robby%20Hunter%20Band&max-results=1
+Age of Song: 129
+Scale: 1
+Viewcount: 11371
+Total Points: 11619
+IPO Price: 32.3293573026
+Artist Average: 0
+Final IPO Price: 32.3293573026
+Song URI: spotify:track:7pJgjBf82BrUQ3z7HdQvW1
+Track ID: 14704
+Track Exists: True
+Youtube Search URL: http://gdata.youtube.com/feeds/api/videos?q=The%20Heart%20Wants%20What%20It%20Wants%20Selena%20Gomez&max-results=1
+Age of Song: 57
+Scale: 1
+Viewcount: 98927835
+Total Points: 99990611
+IPO Price: 4330.74913513
+Artist Average: 101043018
+Final IPO Price: 50523674.3746
