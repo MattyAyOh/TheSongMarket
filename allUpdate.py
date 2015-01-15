@@ -7,18 +7,15 @@
 
 import json
 import sqlite3
+from TSMApiRequest import tsmApiRequest
 from IPO import *
 from ytvcUpdate import *
-
-apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
-apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
 
 #################################################
 # Main Script
 #################################################
 
-currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-
+currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
 db = sqlite3.connect('/home/ubuntu/scripts/records.sqlite')
 c = db.cursor()
 
@@ -123,11 +120,7 @@ for song in currentListOfDictOfSongs:
     # Populate database
     #################################################
     body = {'user_email': email, 'user_token': token, 'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
-
-    headers = {'content-type': 'application/x-www-form-urlencoded'}
-
-    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
-    p = requests.post(apiUPDATEURL, data=body, headers=headers)
+    p = tsmApiRequest('/v1/songs/'+str(songID)+'/song_changes', body, {'content-type': 'application/x-www-form-urlencoded'}, 'post')
     print p.status_code
     print p.text
 

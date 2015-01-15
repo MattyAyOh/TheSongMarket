@@ -5,27 +5,17 @@
 # Sept 28th, 2014
 #################################################
 
+from TSMApiRequest import tsmApiRequest
 from TSMSpotify import *
 from TSMCommon import *
 from IPOCalculate import generateIPO
 import requests
 import sys
 import os
-
-email = 'mattyayoh@gmail.com'
-token = 'PQBTwrEmyRJrR8GMs6ij'
-tsmApiUrl = 'http://api.thesongmarket.com'
-
 dir = os.path.dirname(__file__)
 
 def publishIPO(songID, ipo):
-    # market = "Mainstream"
-    body = {'user_email': email, 'user_token': token, 'song[ipo_value]': ipo}
-    headers = {'content-type': 'application/x-www-form-urlencoded'}
-
-    # print body
-    apiUPDATEURL = tsmApiUrl + '/v1/songs/' + str(songID)
-    p = requests.put(apiUPDATEURL, data=body, headers=headers)
+    p = tsmApiRequest('/v1/songs/' + str(songID), {'song[ipo_value]': ipo}, {'content-type': 'application/x-www-form-urlencoded'}, 'put')
     print p.status_code
     print p.text
 

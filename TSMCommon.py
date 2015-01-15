@@ -9,11 +9,7 @@ import HTMLParser
 import csv
 import urllib2
 import datetime
-
-
-email = 'mattyayoh@gmail.com'
-token = 'PQBTwrEmyRJrR8GMs6ij'
-apiCREATEURL = 'http://api.thesongmarket.com/v1/songs'
+from TSMApiRequest import tsmApiRequest
 
 def cleanstring(dirtystr):
     return str(HTMLParser.HTMLParser().unescape(dirtystr))
@@ -26,11 +22,9 @@ def getDateUtilFromString(dateString):
     return dateUtil
 
 def checkTrackIDExists(TSMTrackID):
-    apiCHECKURL = "http://api.thesongmarket.com/v1/songs/"+str(TSMTrackID)+"?user_email="+email+"&user_token="+token
     try:
-        request = urllib2.Request(apiCHECKURL)
-        urllib2.urlopen(request)
-    except urllib2.HTTPError:
+        song_req = tsmApiRequest('/v1/songs/lookup?spotify_uri='+str(TSMTrackID))
+    except:
         return False
     return True
 
