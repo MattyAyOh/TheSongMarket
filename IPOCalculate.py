@@ -27,7 +27,7 @@ def generateIPO(songURI):
     differenceInDate = (currentDate - publishedDate).days
 
     scale = 1
-
+    averageArtistVC = 0
     if(differenceInDate < 14):
         scale += (5*((14-differenceInDate)/14))
 
@@ -78,7 +78,8 @@ def generateIPO(songURI):
     numraters = int(youtubeData.split("numRaters='")[1].split("'",1)[0])
     viewcount = int(youtubeData.split("viewCount='")[1].split("'",1)[0])
     totalYTPoints = numraters + viewcount
-    totalYTPoints = (totalYTPoints+averageArtistVC)/2
+    if(averageArtistVC > 0):
+        totalYTPoints = (totalYTPoints+averageArtistVC)/2
     totalYTPoints *= scale
 
     artistURI = getArtistURIFromSpotifyData(songData)
