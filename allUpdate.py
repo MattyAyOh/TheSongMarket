@@ -69,9 +69,9 @@ for song in currentListOfDictOfSongs:
         print "Failed to Find!"
         continue
 
-    if viewcount == 0:
-      print "No Views!"
-      continue
+    if(viewcount == 0):
+        print "No Views!"
+        continue
 
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
