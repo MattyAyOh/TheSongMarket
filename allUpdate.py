@@ -126,7 +126,7 @@ for song in currentListOfDictOfSongs:
     #################################################
     # Populate database
     #################################################
-    body = {'user_email': email, 'user_token': token, 'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
+    body = {'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
     p = tsmApiRequest('/v1/songs/'+str(songID)+'/song_changes', body, {'content-type': 'application/x-www-form-urlencoded'}, 'post')
     print p.status_code
     print p.text

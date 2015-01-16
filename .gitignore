@@ -5,3 +5,4 @@ data/*
 averages.csv
 *.csv
 apiCredentials.py
+records.sqlite
