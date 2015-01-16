@@ -117,12 +117,13 @@ for song in currentListOfDictOfSongs:
     elif(intChange > 10 or intChange < -10):
         intChange /= 5
 
-    scale = 1000
+    if intChange > 20:
+      scale = 1000
 
-    if(differenceInDate < 14):
-        scale /= pow(1.1,differenceInDate)
+      if(differenceInDate < 14):
+          scale /= pow(1.1,differenceInDate)
 
-    intChange /= scale
+      intChange /= scale
 
     print currentPrice
 
