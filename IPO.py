@@ -11,8 +11,6 @@ from TSMCommon import *
 from IPOCalculate import generateIPO
 import requests
 import sys
-import os
-dir = os.path.dirname(__file__)
 
 def publishIPO(songID, ipo):
     p = tsmApiRequest('/v1/songs/' + str(songID), {'song[ipo_value]': ipo}, {'content-type': 'application/x-www-form-urlencoded'}, 'put')

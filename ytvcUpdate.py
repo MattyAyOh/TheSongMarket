@@ -13,9 +13,12 @@ import HTMLParser
 from unidecode import unidecode
 import sqlite3
 import createDB
+import sys
+import os
 from TSMApiRequest import tsmApiRequest
 from TSMSpotify import *
 from TSMCommon import *
+dir = os.path.dirname(__file__)
 
 def cleanstring(dirtystr):
     try:
@@ -31,9 +34,9 @@ def createVCPriceDict():
 
     currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
 
-    w = open('logs/vcLog.txt','w')
+    w = open(os.path.join(dir, 'logs', 'vcLog.txt'),'w')
 
-    db = sqlite3.connect('records.sqlite')
+    db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
     c = db.cursor()
 
     for song in currentListOfDictOfSongs:

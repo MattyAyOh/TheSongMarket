@@ -7,16 +7,19 @@
 
 import json
 import sqlite3
+import sys
+import os
 from TSMApiRequest import tsmApiRequest
 from IPO import *
 from ytvcUpdate import *
+dir = os.path.dirname(__file__)
 
 #################################################
 # Main Script
 #################################################
 
 currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
-db = sqlite3.connect('/home/ubuntu/scripts/records.sqlite')
+db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
 c = db.cursor()
 
 for song in currentListOfDictOfSongs:

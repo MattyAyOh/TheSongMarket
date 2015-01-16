@@ -9,7 +9,10 @@ import HTMLParser
 import csv
 import urllib2
 import datetime
+import sys
+import os
 from TSMApiRequest import tsmApiRequest
+dir = os.path.dirname(__file__)
 
 def cleanstring(dirtystr):
     return str(HTMLParser.HTMLParser().unescape(dirtystr))
@@ -47,19 +50,19 @@ def getTotalAveragePrice():
 
 def getAverageDictionary():
     tempDict = {}
-    for key, val in csv.reader(open("averages.csv")):
+    for key, val in csv.reader(open(os.path.join(dir, "averages.csv"))):
         tempDict[key] = val
     return tempDict
 
 def getLastPricesDictionary():
     tempDict = {}
-    for key, val in csv.reader(open("lastPrices.csv")):
+    for key, val in csv.reader(open(os.path.join(dir, "lastPrices.csv"))):
         tempDict[key] = val
     return tempDict
 
 def getLastVCDictionary():
     tempDict = {}
-    for key, val in csv.reader(open("lastVC.csv")):
+    for key, val in csv.reader(open(os.path.join(dir, "lastVC.csv"))):
         vallist = val.replace('(', '').replace(')','').split(',')
         valtuple = tuple(vallist)
         tempDict[key] = valtuple
@@ -68,7 +71,7 @@ def getLastVCDictionary():
 def getTempVCDictionary():
     tempDict = {}
     try:
-        for key, val in csv.reader(open("tempVC.csv")):
+        for key, val in csv.reader(open(os.path.join(dir, "tempVC.csv"))):
             vallist = val.replace('(', '').replace(')','').split(',')
             valtuple = tuple(vallist)
             tempDict[key] = valtuple
