@@ -69,6 +69,10 @@ for song in currentListOfDictOfSongs:
         print "Failed to Find!"
         continue
 
+    if viewcount == 0:
+      print "No Views!"
+      continue
+
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
 
@@ -112,7 +116,15 @@ for song in currentListOfDictOfSongs:
         intChange *= 2
     elif(intChange > 10 or intChange < -10):
         intChange /= 5
-        print "Reducing Change!"
+
+    if intChange > 20:
+      scale = 1000
+
+      if(differenceInDate < 14):
+          scale /= pow(1.1,differenceInDate)
+
+      intChange /= scale
+
     print currentPrice
 
     if((currentPrice + intChange)<= 0):

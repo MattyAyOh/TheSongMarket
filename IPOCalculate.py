@@ -27,16 +27,59 @@ def generateIPO(songURI):
     differenceInDate = (currentDate - publishedDate).days
 
     scale = 1
-
+    averageArtistVC = 0
     if(differenceInDate < 14):
         scale += (5*((14-differenceInDate)/14))
+
+        ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=10&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableArtist
+        while True:
+            try:
+                youtubeJSON = json.load(urllib2.urlopen(ytAPI))
+            except urllib2.HTTPError:
+                print "Connection to YT Search API Failed!"
+                w.write("\nConnection to YT Search API Failed!")
+                continue
+            break
+        totalViewCount = 0
+        count = 0
+        for i in range(0,10):
+            try:
+                ytURI = youtubeJSON["items"][i]["id"]["videoId"]
+                ytURI = ytURI.encode('ascii','ignore')
+            except IndexError:
+                print "Item Doesn't Exist"
+                w.write("\nItem Doesn't Exist")
+                break
+            count += 1
+            while True:
+                try:
+                    youtubeSURL = "https://www.googleapis.com/youtube/v3/videos?id=" + ytURI + "&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&part=snippet,statistics"
+                    youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
+                except urllib2.HTTPError:
+                    print "Connection to YT Video API Failed!"
+                    w.write("\nConnection to YT Video API Failed!")
+                    continue
+                break
+            try:
+                viewcount = int(youtubeSJSON["items"][0]["statistics"]["viewCount"])
+                numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
+            except IndexError:
+                print "YT Video API Failed to Find!"
+                w.write("\nYT Video API Failed to Find!")
+                continue
+
+            totalVC = viewcount + numraters
+            totalViewCount += totalVC
+
+        averageArtistVC = totalViewCount/count
 
     youtubeRating = float(youtubeData.split("rating average='")[1].split("'", 1)[0])/5
 
     numraters = int(youtubeData.split("numRaters='")[1].split("'",1)[0])
     viewcount = int(youtubeData.split("viewCount='")[1].split("'",1)[0])
     totalYTPoints = numraters + viewcount
-
+    if(averageArtistVC > 0):
+        totalYTPoints = (totalYTPoints+averageArtistVC)/2
     totalYTPoints *= scale
 
     artistURI = getArtistURIFromSpotifyData(songData)
