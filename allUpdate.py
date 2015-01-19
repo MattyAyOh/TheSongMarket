@@ -91,7 +91,11 @@ for song in currentListOfDictOfSongs:
 
 
     differenceVC = currentTotalVC - lastVC
-    performancePercent = (float(differenceVC)/float(currentTotalVC))
+    try:
+        performancePercent = (float(differenceVC)/float(currentTotalVC))
+    except ZeroDivisionError:
+        print "0 Points, Skipping Song..."
+        continue
 
     #TODO: WHEN 1% away above or below, calculate accordingly
     print "Expected: %f" % (expectedPercent)
