@@ -8,9 +8,7 @@
 import json
 from IPO import *
 from ytvcUpdate import *
-
-apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
-apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
+from TSMApiRequest import tsmApiRequest
 
 #################################################
 # Main Script
@@ -19,7 +17,7 @@ apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_tok
 if(not(os.path.isfile('lastPrices.csv')) or not(os.path.isfile('lastVC.csv'))):
     createVCPriceDict()
 
-currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
+currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
 spotifyTopSongsList = getListofSongsFromSpotifyData()
 averagePrice = getTotalAveragePrice()
 averageDictionary = getAverageDictionary()
@@ -109,7 +107,7 @@ for song in spotifyTopSongsList:
     change = 0
     body = { 'user_email':email, 'user_token':token, 'song[name]':rawTitle, 'song[artist_name]':rawArtist, 'song[price]':price, 'song[ipo_value]':price, 'song[change]':change }
 
-    apiCHANGEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
+    # apiCHANGEURL = '/v1/songs/'+str(songID)+'/song_changes'
 
     if (not(foundFlag)):
         createIPO(spotifyURI)
