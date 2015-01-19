@@ -9,6 +9,7 @@ import json
 import sqlite3
 import sys
 import os
+import unidecode
 from TSMApiRequest import tsmApiRequest
 from IPO import *
 from ytvcUpdate import *
@@ -36,7 +37,7 @@ for song in currentListOfDictOfSongs:
         # print "No IPO Yet!"
         continue
     if currentPrice <= 0:
-        print song['name'] + " - " + song['artist_name'] + " - Bankrupt!"
+        print unidecode(song['name']) + " - " + unidecode(song['artist_name']) + " - Bankrupt!"
         continue
     try:
         lastVC = int(row[1])
