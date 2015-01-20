@@ -7,19 +7,19 @@
 
 import json
 import sqlite3
+import sys
+import os
+from TSMApiRequest import tsmApiRequest
 from IPO import *
 from ytvcUpdate import *
-
-apiPOSTURL = 'http://api.thesongmarket.com/v1/songs'
-apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
+dir = os.path.dirname(__file__)
 
 #################################################
 # Main Script
 #################################################
 
-currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
-
-db = sqlite3.connect('/home/ubuntu/scripts/records.sqlite')
+currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
+db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
 c = db.cursor()
 
 for song in currentListOfDictOfSongs:
@@ -91,7 +91,11 @@ for song in currentListOfDictOfSongs:
 
 
     differenceVC = currentTotalVC - lastVC
-    performancePercent = (float(differenceVC)/float(currentTotalVC))
+    try:
+        performancePercent = (float(differenceVC)/float(currentTotalVC))
+    except ZeroDivisionError:
+        print "0 Points, Skipping Song..."
+        continue
 
     #TODO: WHEN 1% away above or below, calculate accordingly
     print "Expected: %f" % (expectedPercent)
@@ -134,12 +138,8 @@ for song in currentListOfDictOfSongs:
     #################################################
     # Populate database
     #################################################
-    body = {'user_email': email, 'user_token': token, 'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
-
-    headers = {'content-type': 'application/x-www-form-urlencoded'}
-
-    apiUPDATEURL = 'http://api.thesongmarket.com/v1/songs/'+str(songID)+'/song_changes'
-    p = requests.post(apiUPDATEURL, data=body, headers=headers)
+    body = {'song_change[song_id]':songID, 'song_change[changed_value]':intChange}
+    p = tsmApiRequest('/v1/songs/'+str(songID)+'/song_changes', body, {'content-type': 'application/x-www-form-urlencoded'}, 'post')
     print p.status_code
     print p.text
 

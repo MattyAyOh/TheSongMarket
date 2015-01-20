@@ -13,13 +13,12 @@ import HTMLParser
 from unidecode import unidecode
 import sqlite3
 import createDB
+import sys
+import os
+from TSMApiRequest import tsmApiRequest
 from TSMSpotify import *
 from TSMCommon import *
-
-email = 'mattyayoh@gmail.com'
-token = 'PQBTwrEmyRJrR8GMs6ij'
-
-apiGETURL = "http://api.thesongmarket.com/v1/songs?user_email="+email+"&user_token="+token
+dir = os.path.dirname(__file__)
 
 def cleanstring(dirtystr):
     try:
@@ -32,11 +31,12 @@ def createsearchablestring(oldstr):
 
 
 def createVCPriceDict():
-    currentListOfDictOfSongs = json.load(urllib2.urlopen(apiGETURL))['results']
 
-    w = open('logs/vcLog.txt','w')
+    currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
 
-    db = sqlite3.connect('records.sqlite')
+    w = open(os.path.join(dir, 'logs', 'vcLog.txt'),'w')
+
+    db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
     c = db.cursor()
 
     for song in currentListOfDictOfSongs:
