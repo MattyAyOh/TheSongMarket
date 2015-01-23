@@ -97,7 +97,7 @@ def generateIPO(songURI):
 
     price = 0
     if totalYTPoints <= 1000: #1K Bracket
-        price = 10
+        price = 100
 
     elif totalYTPoints > 1000 and totalYTPoints <= 10000: #10K Bracket
         price = (((totalYTPoints-1000.0)/9000.0)*40)+10
@@ -116,6 +116,8 @@ def generateIPO(songURI):
 
     overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
+    if finalIPOPrice < 100:
+        finalIPOPrice = 100
 
     return finalIPOPrice
 
