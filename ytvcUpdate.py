@@ -34,7 +34,7 @@ def createVCPriceDict():
 
     currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results']
 
-    w = open(os.path.join(dir, 'logs', 'vcLog.txt'),'w')
+    # w = open(os.path.join(dir, 'logs', 'vcLog.txt'),'w')
 
     db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
     c = db.cursor()
@@ -56,13 +56,13 @@ def createVCPriceDict():
         #     songData = requestResponse(getSpotifyLookupURL(songURI))
         #     artistID = getArtistURIFromSpotifyData(songData)
 
-        w.write("\n\nNEXT TRACK:")
-        w.write("\nTrack Name/ID: {0}/{1}".format(unidecode(song['name']),trackID))
-        w.write("\nArtist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID))
+        # w.write("\n\nNEXT TRACK:")
+        # w.write("\nTrack Name/ID: {0}/{1}".format(unidecode(song['name']),trackID))
+        # w.write("\nArtist Name/ID: {0}/{1}".format(unidecode(song['artist_name']),artistID))
 
 
         if song['price']==None:
-            w.write("\nNot IPO'd Yet!")
+            # w.write("\nNot IPO'd Yet!")
             continue
 
         print "Price: {0}".format(song['price'])
@@ -71,16 +71,16 @@ def createVCPriceDict():
             searchableQuery = unidecode(song['name'] + " " + song['artist_name']).replace(" ", "%20")
         except IndexError:
             print "TODO: IndexError"
-            w.write("\nTODO: IndexError")
+            # w.write("\nTODO: IndexError")
             continue
-        w.write("\nSearchable Query: {0}".format(searchableQuery))
+        # w.write("\nSearchable Query: {0}".format(searchableQuery))
         ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableQuery
         while True:
             try:
                 youtubeJSON = json.load(urllib2.urlopen(ytAPI))
             except urllib2.HTTPError:
                 print "Connection to YT Search API Failed!"
-                w.write("\nConnection to YT Search API Failed!")
+                # w.write("\nConnection to YT Search API Failed!")
                 continue
             break
         try:
@@ -88,7 +88,7 @@ def createVCPriceDict():
             ytURI = ytURI.encode('ascii','ignore')
         except IndexError:
             print "YT Search API Failed to Find!"
-            w.write("\nYT Search API Failed to Find!")
+            # w.write("\nYT Search API Failed to Find!")
             continue
 
 
@@ -98,7 +98,7 @@ def createVCPriceDict():
                 youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
             except urllib2.HTTPError:
                 print "Connection to YT Video API Failed!"
-                w.write("\nConnection to YT Video API Failed!")
+                # w.write("\nConnection to YT Video API Failed!")
                 continue
             break
         try:
@@ -106,13 +106,13 @@ def createVCPriceDict():
             numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
         except IndexError:
             print "YT Video API Failed to Find!"
-            w.write("\nYT Video API Failed to Find!")
+            # w.write("\nYT Video API Failed to Find!")
             continue
 
         totalVC = viewcount + numraters
 
         print "COMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC)
-        w.write("\nCOMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC))
+        # w.write("\nCOMMITTING: {0}, {1}, {2}, {3}, {4}".format(trackID, artistID, spotifyURI, ytURI, totalVC))
         db.execute('INSERT OR REPLACE INTO ytviewcount VALUES (?,?,?,?,?)', (trackID, artistID, spotifyURI, ytURI, totalVC))
         db.commit()
 
@@ -120,7 +120,7 @@ def createVCPriceDict():
     db.execute('INSERT or REPLACE INTO artistaverages(artistid,average) SELECT artistid, AVG(viewcount) FROM ytviewcount GROUP BY artistid')
     db.commit()
     db.close()
-    w.close()
+    # w.close()
 
 
 if __name__ == "__main__":
