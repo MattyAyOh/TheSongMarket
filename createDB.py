@@ -29,10 +29,11 @@ def create_database():
     db.execute('CREATE TABLE IF NOT EXISTS `priceupdatedates` ( \
     `updateid`  INTEGER NOT NULL, \
     `date` TEXT NOT NULL, \
-    PRIMARY KEY(udpateid))')
+    PRIMARY KEY(updateid))')
     db.commit()
     db.close()
 
+create_database()
 def check_database():
     # if not os.path.exists('records.sqlite'):
     create_database()

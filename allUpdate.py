@@ -23,6 +23,19 @@ currentListOfDictOfSongs = json.loads(tsmApiRequest('/v1/songs').text)['results'
 db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
 c = db.cursor()
 
+c.execute('SELECT date FROM priceupdatedates ORDER BY updateid DESC LIMIT 1')
+lastUpdateDate = datetime.strptime(c.fetchone()[0], "%Y-%m-%d %H:%M:%S")
+
+nowString = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
+nowDate = datetime.strptime(nowString,"%Y-%m-%d %H:%M:%S")
+
+nowts = time.mktime(nowDate.timetuple())
+lastts = time.mktime(lastUpdateDate.timetuple())
+
+minutesSinceLastUpdate = int(nowts-lastts)/60
+
+print "Minutes Since Last Update: %d" % (minutesSinceLastUpdate)
+
 for song in currentListOfDictOfSongs:
     spotifyURI = song['spotify_uri']
     trackID = int(song['id'])
@@ -77,14 +90,17 @@ for song in currentListOfDictOfSongs:
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
 
-    expectedPercent = .002
+    twelveHours = 12*60
+    timePassedRatio = minutesSinceLastUpdate/twelveHours
+
+    expectedPercent = .002*timePassedRatio
     if( differenceInDate > 90 ):
         daysExpired = differenceInDate - 90
         monthsExpired = int(daysExpired/30)
         if monthsExpired >= 40:
-            expectedPercent = .0002
+            expectedPercent = .0002*timePassedRatio
         else:
-            expectedPercent -= float(monthsExpired*.000045)
+            expectedPercent -= (float(monthsExpired*.000045)*timePassedRatio)
 
     currentTotalVC = int(numraters) + int(viewcount)
     print "CurrentVC: %d" % (currentTotalVC)
@@ -108,7 +124,7 @@ for song in currentListOfDictOfSongs:
         change = -(float(pow((.02-performancePercent),2)/pow(expectedPercent,2)*10))
 
 
-    intChange = 2*int(round(change))
+    intChange = int(round(change))
     print "Change: %d" % intChange
     if(intChange > 10000 or intChange < -10000):
         intChange /= 10000

@@ -15,6 +15,7 @@ import sqlite3
 import createDB
 import sys
 import os
+from datetime import datetime
 from TSMApiRequest import tsmApiRequest
 from TSMSpotify import *
 from TSMCommon import *
@@ -118,6 +119,12 @@ def createVCPriceDict():
 
     print "\n\nSaving Artist Averages..."
     db.execute('INSERT or REPLACE INTO artistaverages(artistid,average) SELECT artistid, AVG(viewcount) FROM ytviewcount GROUP BY artistid')
+    db.commit()
+    print "\n\nUpdating Time..."
+    now = datetime.today()
+    nowString = now.strftime("%Y-%m-%d %H:%M:%S")
+
+    db.execute('INSERT INTO priceupdatedates VALUES (?,?)', (None, nowString))
     db.commit()
     db.close()
     # w.close()
