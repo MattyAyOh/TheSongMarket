@@ -33,7 +33,6 @@ def create_database():
     db.commit()
     db.close()
 
-create_database()
 def check_database():
     # if not os.path.exists('records.sqlite'):
     create_database()
