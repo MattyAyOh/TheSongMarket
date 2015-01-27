@@ -24,10 +24,10 @@ db = sqlite3.connect(os.path.join(dir, 'records.sqlite'))
 c = db.cursor()
 
 c.execute('SELECT date FROM priceupdatedates ORDER BY updateid DESC LIMIT 1')
-lastUpdateDate = datetime.strptime(c.fetchone()[0], "%Y-%m-%d %H:%M:%S")
+lastUpdateDate = datetime.datetime.strptime(c.fetchone()[0], "%Y-%m-%d %H:%M:%S")
 
-nowString = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
-nowDate = datetime.strptime(nowString,"%Y-%m-%d %H:%M:%S")
+nowString = datetime.datetime.today().strftime("%Y-%m-%d %H:%M:%S")
+nowDate = datetime.datetime.strptime(nowString,"%Y-%m-%d %H:%M:%S")
 
 nowts = time.mktime(nowDate.timetuple())
 lastts = time.mktime(lastUpdateDate.timetuple())
