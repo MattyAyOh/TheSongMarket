@@ -1,5 +1,6 @@
 aws/*
 reference/*
+Presentations/*
 data/*
 *.pyc
 averages.csv
