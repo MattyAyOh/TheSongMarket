@@ -3,6 +3,7 @@ from TSMCommon import *
 import sys
 import os
 import sqlite3
+import json
 
 def generateIPO(songURI):
     songData = requestResponse(getSpotifyLookupURL(songURI))
@@ -32,12 +33,12 @@ def generateIPO(songURI):
         scale += (5*((14-differenceInDate)/14))
 
         ytAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=10&key=AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q&q="+searchableArtist
+        ytAPI = ytAPI.replace(" ", "%20")
         while True:
             try:
                 youtubeJSON = json.load(urllib2.urlopen(ytAPI))
             except urllib2.HTTPError:
                 print "Connection to YT Search API Failed!"
-                w.write("\nConnection to YT Search API Failed!")
                 continue
             break
         totalViewCount = 0
@@ -48,7 +49,6 @@ def generateIPO(songURI):
                 ytURI = ytURI.encode('ascii','ignore')
             except IndexError:
                 print "Item Doesn't Exist"
-                w.write("\nItem Doesn't Exist")
                 break
             count += 1
             while True:
@@ -57,7 +57,6 @@ def generateIPO(songURI):
                     youtubeSJSON = json.load(urllib2.urlopen(youtubeSURL))
                 except urllib2.HTTPError:
                     print "Connection to YT Video API Failed!"
-                    w.write("\nConnection to YT Video API Failed!")
                     continue
                 break
             try:
@@ -65,7 +64,6 @@ def generateIPO(songURI):
                 numraters = int(youtubeSJSON["items"][0]["statistics"]["likeCount"])
             except IndexError:
                 print "YT Video API Failed to Find!"
-                w.write("\nYT Video API Failed to Find!")
                 continue
 
             totalVC = viewcount + numraters
@@ -116,10 +114,12 @@ def generateIPO(songURI):
 
     overallPerformance = (popularity + youtubeRating)/2
     finalIPOPrice = price*overallPerformance
+    while finalIPOPrice < 0:
+        finalIPOPrice += 100
     if finalIPOPrice < 100:
-        finalIPOPrice = 100
+        finalIPOPrice += 100
 
-    return finalIPOPrice
+    return int(finalIPOPrice)
 
 
 if __name__ == '__main__':
