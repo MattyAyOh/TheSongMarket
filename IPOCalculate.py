@@ -1,9 +1,11 @@
 from TSMSpotify import *
+from TSMYoutube import *
 from TSMCommon import *
 import sys
 import os
 import sqlite3
 import json
+
 
 def generateIPO(songURI):
     songData = requestResponse(getSpotifyLookupURL(songURI))
@@ -78,7 +80,7 @@ def generateIPO(songURI):
     totalYTPoints = numraters + viewcount
     if(averageArtistVC > 0):
         totalYTPoints = (totalYTPoints+averageArtistVC)/2
-    totalYTPoints *= scale
+    totalYTPoints /= scale
 
     artistURI = getArtistURIFromSpotifyData(songData)
     dir = os.path.dirname(__file__)
