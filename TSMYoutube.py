@@ -40,7 +40,7 @@ def youtube_statistics(videoIDs):
 
   for search_result in search_response.get("items", []):
     if search_result["kind"] == "youtube#video":
-      videos.append("<views>%s</views> <date>%s</date> <id>%s</id>)" % (search_result["statistics"]["viewCount"],
+      videos.append("<views>%s</views> <likes>%s</likes> <dislikes>%s</dislikes>)" % (search_result["statistics"]["viewCount"],
         search_result["statistics"]["likeCount"], search_result["statistics"]["dislikeCount"]))
 
   return "\n".join(videos)

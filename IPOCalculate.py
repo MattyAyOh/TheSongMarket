@@ -20,12 +20,14 @@ def generateIPO(songURI):
 
     searchableQuery = searchableTitle.replace(" ", "%20") + "%20" + searchableArtist.replace(" ", "%20")
 
-    youtubeSURL = "http://gdata.youtube.com/feeds/api/videos?q=" + searchableQuery + "&max-results=1"
-    youtubeData = requestResponse(youtubeSURL)
+    youtubeSearchData = youtube_search({"q":searchableQuery, "max_results":1})
 
-    published = youtubeData.split("<published>")[1].split("</published>")[0]
+    published = youtubeSearchData.split("<date>")[1].split("</date>")[0]
     publishedDate = getDateUtilFromString(published)
 
+    youtubeID = youtubeSearchData.split("<id>")[1].split("</id>")[0]
+
+    youtubeVideoData = youtube_statistics(youtubeID)
     currentDate = datetime.datetime.now()
     differenceInDate = (currentDate - publishedDate).days
 
@@ -43,7 +45,7 @@ def generateIPO(songURI):
                 print "Connection to YT Search API Failed!"
                 continue
             break
-        totalViewCount = 0
+        totalArtistViewCount = 0
         count = 0
         for i in range(0,10):
             try:
@@ -68,16 +70,16 @@ def generateIPO(songURI):
                 print "YT Video API Failed to Find!"
                 continue
 
-            totalVC = viewcount + numraters
-            totalViewCount += totalVC
+            totalArtistViewCount += viewcount + numraters
 
-        averageArtistVC = totalViewCount/count
+        averageArtistVC = totalArtistViewCount/count
 
-    youtubeRating = float(youtubeData.split("rating average='")[1].split("'", 1)[0])/5
+    youtubeLikes = float(youtubeVideoData.split("<likes>")[1].split("</likes>")[0])
+    youtubeDislikes = float(youtubeVideoData.split("<dislikes>")[1].split("</dislikes>")[0])
+    youtubeRating = youtubeLikes / (youtubeLikes + youtubeDislikes)
 
-    numraters = int(youtubeData.split("numRaters='")[1].split("'",1)[0])
-    viewcount = int(youtubeData.split("viewCount='")[1].split("'",1)[0])
-    totalYTPoints = numraters + viewcount
+    viewcount = float(youtubeVideoData.split("<views>")[1].split("</views>")[0])
+    totalYTPoints = youtubeLikes + viewcount
     if(averageArtistVC > 0):
         totalYTPoints = (totalYTPoints+averageArtistVC)/2
     totalYTPoints /= scale
