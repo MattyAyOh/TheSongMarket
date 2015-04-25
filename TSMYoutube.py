@@ -2,6 +2,7 @@
 
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+import string
 
 DEVELOPER_KEY = "AIzaSyDEPD8BKY8vBN7HWF2mIkBVWLX3JwwuC2Q"
 YOUTUBE_API_SERVICE_NAME = "youtube"
@@ -11,8 +12,9 @@ def youtube_search(options):
   youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
     developerKey=DEVELOPER_KEY)
 
+  query = options["q"].replace("%20"," ").translate(string.maketrans("",""), string.punctuation)
   search_response = youtube.search().list(
-    q=options["q"],
+    q=query,
     part="id,snippet",
     maxResults=options["max_results"]
   ).execute()
